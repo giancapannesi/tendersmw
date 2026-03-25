@@ -1,0 +1,26 @@
+---
+interface Props {
+  name: string;
+  slug: string;
+  description: string;
+  icon: string;
+  count?: number;
+}
+
+const { name, slug, description, icon, count } = Astro.props;
+---
+
+<a href={`/category/${slug}/`} class="glass-card block p-5 group">
+  <div class="flex items-start gap-3">
+    <span class="text-2xl">{icon}</span>
+    <div class="flex-1 min-w-0">
+      <h3 class="text-base font-semibold text-text group-hover:text-primary transition-colors">
+        {name}
+      </h3>
+      <p class="mt-1 text-sm text-muted line-clamp-2">{description}</p>
+      {count !== undefined && count > 0 && (
+        <p class="mt-2 text-xs text-primary font-medium">{count} active tender{count !== 1 ? 's' : ''}</p>
+      )}
+    </div>
+  </div>
+</a>

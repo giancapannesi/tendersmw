@@ -1,0 +1,46 @@
+{
+  "title": "PROCUREMENT OF TRUCKS VANS",
+  "slug": "procurement-of-trucks-vans-malawi-posts-corpora-mpcmv20261",
+  "reference_number": "MPC/MV/2026/1",
+  "source": "ppda",
+  "source_url": "https://www.ppda.mw/tenders",
+  "procuring_entity": "Malawi Posts Corporation",
+  "procuring_entity_slug": "malawi-posts-corporation",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "PROCUREMENT OF TRUCKS VANS \u2014 Procurement notice from Malawi Posts Corporation",
+  "description_long": "Procurement notice for PROCUREMENT OF TRUCKS VANS. Published by Malawi Posts Corporation through the Public Procurement and Disposal of Assets Authority (PPDA).",
+  "country": "Malawi",
+  "region": "",
+  "city": "",
+  "published_date": "2026-03-25",
+  "closing_date": "2026-04-08",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government_budget",
+  "donor": null,
+  "document_urls": [
+    {
+      "name": "Document",
+      "url": "https://ppda.mw/storage/documents/opentenders/Advert for Procurement of Motor Vehicles.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "open",
+  "is_active": true,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-03-25",
+  "review_status": "published",
+  "quality_score": 4,
+  "has_been_enriched": false
+}

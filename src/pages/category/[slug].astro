@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TenderCard from '../../components/TenderCard.astro';
+import { getCategories, getTendersByCategory } from '../../utils/data';
+
+export function getStaticPaths() {
+  const categories = getCategories();
+  return categories.map(c => ({ params: { slug: c.slug }, props: { category: c } }));
+}
+
+const { category } = Astro.props;
+const tenders = getTendersByCategory(category.slug);
+const activeTenders = tenders.filter(t => t.is_active);
+---
+
+<BaseLayout
+  title={`${category.name} Tenders in Malawi | TendersMW`}
+  description={`Find ${category.name.toLowerCase()} procurement opportunities in Malawi. ${activeTenders.length} active tenders from PPDA, MANEPS, World Bank, and more.`}
+>
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/" class="hover:text-primary transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/category/" class="hover:text-primary transition-colors">Categories</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">{category.name}</span>
+    </nav>
+
+    <div class="flex items-center gap-3 mb-2">
+      <span class="text-3xl">{category.icon}</span>
+      <h1 class="text-3xl font-bold text-text">{category.name}</h1>
+    </div>
+    <p class="text-muted mb-8">{category.description}</p>
+
+    <div class="flex items-center gap-3 mb-6">
+      <span class="inline-flex items-center rounded-full bg-primary-light px-3 py-1 text-sm font-medium text-primary">
+        {activeTenders.length} active
+      </span>
+      <span class="inline-flex items-center rounded-full bg-bg-alt px-3 py-1 text-sm font-medium text-muted border border-border">
+        {tenders.length} total
+      </span>
+    </div>
+
+    {tenders.length > 0 ? (
+      <div class="grid gap-4">
+        {tenders.map(tender => (
+          <TenderCard tender={tender} />
+        ))}
+      </div>
+    ) : (
+      <div class="glass-card p-12 text-center">
+        <p class="text-muted">No tenders in this category yet. Check back soon.</p>
+      </div>
+    )}
+  </section>
+</BaseLayout>

@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TenderCard from '../components/TenderCard.astro';
+import CategoryCard from '../components/CategoryCard.astro';
+import { getAllTenders, getActiveTenders, getCategories, getSources, formatDate } from '../utils/data';
+
+const allTenders = getAllTenders();
+const activeTenders = getActiveTenders();
+const categories = getCategories();
+const sources = getSources();
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "TendersMW",
+  "url": "https://tendersmw.com",
+  "description": "Malawi's procurement intelligence platform. Find government and development tenders from PPDA, MANEPS, World Bank, and more.",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://tendersmw.com/search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+---
+
+<BaseLayout
+  title="TendersMW — Malawi Tenders & Procurement Intelligence"
+  description="Find government tenders, procurement notices, and contract opportunities in Malawi. Aggregating PPDA, MANEPS, World Bank, AfDB, EU, and UN tenders in one place."
+  jsonLd={jsonLd}
+>
+  <!-- Hero -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-primary/10 via-bg to-bg"></div>
+    <div class="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+      <div class="text-center">
+        <h1 class="text-4xl font-bold tracking-tight text-text sm:text-5xl lg:text-6xl">
+          Malawi Tenders
+          <span class="text-primary"> in One Place</span>
+        </h1>
+        <p class="mx-auto mt-4 max-w-2xl text-lg text-muted">
+          Government procurement, development projects, and contract opportunities from PPDA, MANEPS, World Bank, AfDB, EU, and United Nations — updated daily.
+        </p>
+        <div class="mt-8 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
+          <span class="inline-flex items-center rounded-full bg-primary-light px-4 py-1.5 text-sm font-medium text-primary">
+            {activeTenders.length} Active Tender{activeTenders.length !== 1 ? 's' : ''}
+          </span>
+          <span class="inline-flex items-center rounded-full bg-bg-alt px-4 py-1.5 text-sm font-medium text-muted border border-border">
+            {allTenders.length} Total Listed
+          </span>
+          <span class="inline-flex items-center rounded-full bg-bg-alt px-4 py-1.5 text-sm font-medium text-muted border border-border">
+            {sources.length} Data Sources
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Active Tenders -->
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between mb-6">
+      <h2 class="text-2xl font-bold text-text">Latest Tenders</h2>
+      {allTenders.length > 20 && (
+        <a href="/search/" class="text-sm font-medium text-primary hover:text-primary-hover transition-colors">
+          View all &rarr;
+        </a>
+      )}
+    </div>
+
+    {allTenders.length > 0 ? (
+      <div class="grid gap-4">
+        {allTenders.slice(0, 20).map(tender => (
+          <TenderCard tender={tender} />
+        ))}
+      </div>
+    ) : (
+      <div class="glass-card p-12 text-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-12 w-12 text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/>
+        </svg>
+        <h3 class="mt-4 text-lg font-semibold text-text">Tenders Coming Soon</h3>
+        <p class="mt-2 text-sm text-muted max-w-md mx-auto">
+          We're aggregating tenders from PPDA, MANEPS, World Bank, and other sources. Check back soon for the latest procurement opportunities in Malawi.
+        </p>
+      </div>
+    )}
+  </section>
+
+  <!-- Categories -->
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <h2 class="text-2xl font-bold text-text mb-6">Browse by Category</h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {categories.map(cat => (
+        <CategoryCard
+          name={cat.name}
+          slug={cat.slug}
+          description={cat.description}
+          icon={cat.icon}
+          count={cat.count}
+        />
+      ))}
+    </div>
+  </section>
+
+  <!-- Sources -->
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <h2 class="text-2xl font-bold text-text mb-6">Data Sources</h2>
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="glass-card p-5">
+        <h3 class="font-semibold text-text">PPDA</h3>
+        <p class="mt-1 text-sm text-muted">Public Procurement and Disposal of Assets Authority — Malawi's official procurement regulator</p>
+      </div>
+      <div class="glass-card p-5">
+        <h3 class="font-semibold text-text">MANEPS</h3>
+        <p class="mt-1 text-sm text-muted">Malawi National Electronic Procurement System — the new mandatory government e-procurement platform</p>
+      </div>
+      <div class="glass-card p-5">
+        <h3 class="font-semibold text-text">World Bank</h3>
+        <p class="mt-1 text-sm text-muted">International development projects funded by the World Bank Group in Malawi</p>
+      </div>
+      <div class="glass-card p-5">
+        <h3 class="font-semibold text-text">African Development Bank</h3>
+        <p class="mt-1 text-sm text-muted">AfDB-funded infrastructure and development procurement notices</p>
+      </div>
+      <div class="glass-card p-5">
+        <h3 class="font-semibold text-text">EU TED</h3>
+        <p class="mt-1 text-sm text-muted">European Union Tenders Electronic Daily — EU-funded development contracts</p>
+      </div>
+      <div class="glass-card p-5">
+        <h3 class="font-semibold text-text">UN Global Marketplace</h3>
+        <p class="mt-1 text-sm text-muted">United Nations procurement from UNDP, WFP, UNICEF, and WHO in Malawi</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <h2 class="text-2xl font-bold text-text mb-6">How It Works</h2>
+    <div class="grid gap-6 sm:grid-cols-3">
+      <div class="text-center">
+        <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary-light text-primary text-xl font-bold">1</div>
+        <h3 class="mt-3 font-semibold text-text">We Aggregate</h3>
+        <p class="mt-1 text-sm text-muted">Tenders from {sources.length}+ sources collected automatically every day</p>
+      </div>
+      <div class="text-center">
+        <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary-light text-primary text-xl font-bold">2</div>
+        <h3 class="mt-3 font-semibold text-text">You Browse</h3>
+        <p class="mt-1 text-sm text-muted">Filter by category, sector, region, or procuring entity</p>
+      </div>
+      <div class="text-center">
+        <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-primary-light text-primary text-xl font-bold">3</div>
+        <h3 class="mt-3 font-semibold text-text">You Bid</h3>
+        <p class="mt-1 text-sm text-muted">Access tender documents and submit your proposal directly to the procuring entity</p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,262 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAllTenders, getTenderBySlug, formatDate, formatCurrency } from '../../utils/data';
+
+export function getStaticPaths() {
+  const tenders = getAllTenders();
+  return tenders.map(t => ({ params: { slug: t.slug } }));
+}
+
+const { slug } = Astro.params;
+const tender = getTenderBySlug(slug!);
+
+if (!tender) {
+  return Astro.redirect('/404');
+}
+
+const statusClass = tender.status === 'open' ? 'status-open' :
+                    tender.status === 'closing_soon' ? 'status-closing' :
+                    'status-closed';
+
+const statusLabel = tender.status === 'open' ? 'Open' :
+                    tender.status === 'closing_soon' ? `Closing in ${tender.days_remaining} day${tender.days_remaining !== 1 ? 's' : ''}` :
+                    'Closed';
+
+const sourceNames: Record<string, string> = {
+  ppda: 'PPDA',
+  maneps: 'MANEPS',
+  eu_ted: 'EU TED',
+  world_bank: 'World Bank',
+  afdb: 'African Development Bank',
+  ungm: 'UN Global Marketplace',
+  escom: 'ESCOM',
+  mra: 'Malawi Revenue Authority',
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "GovernmentService",
+  "name": tender.title,
+  "description": tender.description_short,
+  "provider": {
+    "@type": "GovernmentOrganization",
+    "name": tender.procuring_entity,
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "Malawi",
+  },
+  "datePublished": tender.published_date,
+};
+
+// Get similar tenders
+const allTenders = getAllTenders();
+const similarTenders = tender.similar_tenders?.length
+  ? allTenders.filter(t => tender.similar_tenders.includes(t.slug)).slice(0, 5)
+  : allTenders.filter(t => t.category === tender.category && t.slug !== tender.slug && t.is_active).slice(0, 5);
+---
+
+<BaseLayout
+  title={`${tender.title} | TendersMW`}
+  description={tender.description_short || `${tender.title} - procurement opportunity from ${tender.procuring_entity} in Malawi`}
+  jsonLd={jsonLd}
+  noindex={tender.quality_score < 3}
+>
+  <article class="mx-auto max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/" class="hover:text-primary transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      {tender.category && (
+        <>
+          <a href={`/category/${tender.category}/`} class="hover:text-primary transition-colors capitalize">{tender.category}</a>
+          <span class="mx-2">/</span>
+        </>
+      )}
+      <span class="text-text">{tender.title.length > 60 ? tender.title.slice(0, 60) + '...' : tender.title}</span>
+    </nav>
+
+    <!-- Header -->
+    <div class="glass-card p-6 sm:p-8">
+      <div class="flex flex-wrap items-center gap-2 mb-4">
+        <span class:list={["inline-flex items-center rounded-full px-3 py-1 text-sm font-medium", statusClass]}>
+          {statusLabel}
+        </span>
+        <span class:list={["inline-flex items-center rounded-full px-3 py-1 text-sm font-medium", `source-${tender.source}`]}>
+          {sourceNames[tender.source] || tender.source}
+        </span>
+      </div>
+
+      <h1 class="text-2xl font-bold text-text sm:text-3xl">{tender.title}</h1>
+
+      <div class="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm text-muted">
+        <span class="flex items-center gap-1.5">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4z" clip-rule="evenodd"/>
+          </svg>
+          {tender.procuring_entity}
+        </span>
+        {tender.reference_number && (
+          <span>Ref: {tender.reference_number}</span>
+        )}
+        {tender.region && (
+          <span>{tender.city ? `${tender.city}, ${tender.region}` : tender.region}</span>
+        )}
+      </div>
+    </div>
+
+    <!-- Key Dates & Details -->
+    <div class="mt-6 grid gap-4 sm:grid-cols-2">
+      <div class="glass-card p-5">
+        <h3 class="text-xs font-semibold uppercase tracking-wider text-muted mb-3">Key Dates</h3>
+        <dl class="space-y-2 text-sm">
+          {tender.published_date && (
+            <div class="flex justify-between">
+              <dt class="text-muted">Published</dt>
+              <dd class="font-medium text-text">{formatDate(tender.published_date)}</dd>
+            </div>
+          )}
+          {tender.closing_date && (
+            <div class="flex justify-between">
+              <dt class="text-muted">Closing Date</dt>
+              <dd class="font-medium text-text">
+                {formatDate(tender.closing_date)}
+                {tender.closing_time && ` at ${tender.closing_time}`}
+              </dd>
+            </div>
+          )}
+          {tender.days_remaining > 0 && (
+            <div class="flex justify-between">
+              <dt class="text-muted">Days Remaining</dt>
+              <dd class:list={["font-bold", tender.days_remaining <= 3 ? 'text-negative' : tender.days_remaining <= 7 ? 'text-warning' : 'text-positive']}>
+                {tender.days_remaining} day{tender.days_remaining !== 1 ? 's' : ''}
+              </dd>
+            </div>
+          )}
+        </dl>
+      </div>
+
+      <div class="glass-card p-5">
+        <h3 class="text-xs font-semibold uppercase tracking-wider text-muted mb-3">Details</h3>
+        <dl class="space-y-2 text-sm">
+          {tender.tender_type && (
+            <div class="flex justify-between">
+              <dt class="text-muted">Type</dt>
+              <dd class="font-medium text-text capitalize">{tender.tender_type.replace(/_/g, ' ')}</dd>
+            </div>
+          )}
+          {tender.procurement_method && (
+            <div class="flex justify-between">
+              <dt class="text-muted">Method</dt>
+              <dd class="font-medium text-text capitalize">{tender.procurement_method.replace(/_/g, ' ')}</dd>
+            </div>
+          )}
+          <div class="flex justify-between">
+            <dt class="text-muted">Est. Value</dt>
+            <dd class="font-medium text-text">{formatCurrency(tender.estimated_value, tender.currency)}</dd>
+          </div>
+          {tender.funding_source && (
+            <div class="flex justify-between">
+              <dt class="text-muted">Funding</dt>
+              <dd class="font-medium text-text capitalize">{tender.funding_source.replace(/_/g, ' ')}</dd>
+            </div>
+          )}
+        </dl>
+      </div>
+    </div>
+
+    <!-- Description -->
+    {tender.description_long && (
+      <div class="mt-6 glass-card p-5 sm:p-6">
+        <h2 class="text-lg font-semibold text-text mb-3">Description</h2>
+        <div class="text-sm text-muted leading-relaxed whitespace-pre-line">
+          {tender.description_long}
+        </div>
+      </div>
+    )}
+
+    <!-- Documents -->
+    {tender.document_urls?.length > 0 && (
+      <div class="mt-6 glass-card p-5 sm:p-6">
+        <h2 class="text-lg font-semibold text-text mb-3">Documents</h2>
+        <ul class="space-y-2">
+          {tender.document_urls.map(doc => (
+            <li>
+              <a
+                href={doc.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-2 text-sm text-primary hover:text-primary-hover transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M10.75 2.75a.75.75 0 00-1.5 0v8.614L6.295 8.235a.75.75 0 10-1.09 1.03l4.25 4.5a.75.75 0 001.09 0l4.25-4.5a.75.75 0 00-1.09-1.03l-2.955 3.129V2.75z"/>
+                  <path d="M3.5 12.75a.75.75 0 00-1.5 0v2.5A2.75 2.75 0 004.75 18h10.5A2.75 2.75 0 0018 15.25v-2.5a.75.75 0 00-1.5 0v2.5c0 .69-.56 1.25-1.25 1.25H4.75c-.69 0-1.25-.56-1.25-1.25v-2.5z"/>
+                </svg>
+                {doc.name} ({doc.type?.toUpperCase() || 'PDF'})
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <!-- Contact -->
+    {(tender.contact_email || tender.contact_phone) && (
+      <div class="mt-6 glass-card p-5 sm:p-6">
+        <h2 class="text-lg font-semibold text-text mb-3">Contact</h2>
+        <dl class="space-y-2 text-sm">
+          {tender.contact_email && (
+            <div class="flex items-center gap-2">
+              <dt class="text-muted">Email:</dt>
+              <dd><a href={`mailto:${tender.contact_email}`} class="text-primary hover:text-primary-hover transition-colors">{tender.contact_email}</a></dd>
+            </div>
+          )}
+          {tender.contact_phone && (
+            <div class="flex items-center gap-2">
+              <dt class="text-muted">Phone:</dt>
+              <dd><a href={`tel:${tender.contact_phone}`} class="text-primary hover:text-primary-hover transition-colors">{tender.contact_phone}</a></dd>
+            </div>
+          )}
+        </dl>
+      </div>
+    )}
+
+    <!-- Source link -->
+    {tender.source_url && (
+      <div class="mt-6 text-center">
+        <a
+          href={tender.source_url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-bg hover:bg-primary-hover transition-colors"
+        >
+          View on {sourceNames[tender.source] || 'Source'}
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+      </div>
+    )}
+
+    <!-- Similar Tenders -->
+    {similarTenders.length > 0 && (
+      <div class="mt-10">
+        <h2 class="text-xl font-bold text-text mb-4">Similar Tenders</h2>
+        <div class="grid gap-3">
+          {similarTenders.map(t => (
+            <a href={`/tender/${t.slug}/`} class="glass-card p-4 flex items-center justify-between">
+              <div class="min-w-0 flex-1">
+                <p class="text-sm font-medium text-text truncate">{t.title}</p>
+                <p class="text-xs text-muted mt-0.5">{t.procuring_entity} &middot; Closes {formatDate(t.closing_date)}</p>
+              </div>
+              <span class:list={["ml-3 shrink-0 inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium",
+                t.status === 'open' ? 'status-open' : t.status === 'closing_soon' ? 'status-closing' : 'status-closed']}>
+                {t.status === 'open' ? 'Open' : t.status === 'closing_soon' ? `${t.days_remaining}d` : 'Closed'}
+              </span>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+  </article>
+</BaseLayout>
