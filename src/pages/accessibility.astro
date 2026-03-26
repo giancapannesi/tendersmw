@@ -1,0 +1,119 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Accessibility Statement",
+  "description": "TendersMW's commitment to digital accessibility and WCAG 2.1 AA compliance.",
+  "url": "https://tendersmw.com/accessibility/",
+  "datePublished": "2026-03-26",
+  "dateModified": "2026-03-26"
+};
+---
+
+<BaseLayout
+  title="Accessibility Statement | WCAG 2.1 AA Compliance - TendersMW"
+  description="TendersMW is committed to making our website accessible to all users, including people with disabilities. Learn about our WCAG 2.1 AA compliance efforts."
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+    <span class="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary uppercase tracking-wider mb-6">Accessibility</span>
+    <h1 class="text-3xl font-bold text-text mb-2">Accessibility Statement</h1>
+    <p class="text-muted mb-8">TendersMW is committed to ensuring digital accessibility for people with disabilities. We are continually improving the user experience for everyone.</p>
+
+    <div class="space-y-8">
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Our Commitment</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          TendersMW strives to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 at Level AA. These guidelines help make web content more accessible to people with a wide range of disabilities, including blindness and low vision, deafness and hearing loss, learning disabilities, cognitive limitations, limited movement, speech disabilities, and photosensitivity.
+        </p>
+        <p class="text-sm text-muted leading-relaxed">
+          We believe that access to procurement information is essential for all businesses and individuals in Malawi, regardless of ability. Making our site accessible is not just a legal obligation -- it's the right thing to do.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-text mb-4">Measures We Have Taken</h2>
+        <div class="grid gap-3 sm:grid-cols-2">
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Semantic HTML</h3>
+            <p class="text-xs text-muted leading-relaxed">All pages use proper heading hierarchy, landmark regions, and semantic elements to support screen readers and assistive technologies.</p>
+          </div>
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Keyboard Navigation</h3>
+            <p class="text-xs text-muted leading-relaxed">All interactive elements (links, buttons, navigation) are accessible via keyboard. Focus states are visible on all interactive elements.</p>
+          </div>
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Color Contrast</h3>
+            <p class="text-xs text-muted leading-relaxed">Text and interactive elements meet WCAG 2.1 AA minimum contrast ratios (4.5:1 for normal text, 3:1 for large text).</p>
+          </div>
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Alternative Text</h3>
+            <p class="text-xs text-muted leading-relaxed">Images include descriptive alt text. Decorative images are marked appropriately so screen readers can skip them.</p>
+          </div>
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Responsive Design</h3>
+            <p class="text-xs text-muted leading-relaxed">Our site is fully responsive and functions on all screen sizes, from mobile devices to desktop monitors, including text zoom up to 200%.</p>
+          </div>
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Readable Typography</h3>
+            <p class="text-xs text-muted leading-relaxed">We use clear, legible fonts with adequate spacing. Line lengths and line heights are optimized for readability.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Known Limitations</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">While we strive for full accessibility, some areas of our site may have limitations:</p>
+        <ul class="space-y-3 text-sm text-muted">
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5 shrink-0">&#9679;</span>
+            <span><strong class="text-text">PDF documents:</strong> Some tender documents linked from external sources (PPDA, World Bank) may not be fully accessible. We provide text summaries alongside all document links.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5 shrink-0">&#9679;</span>
+            <span><strong class="text-text">Third-party content:</strong> Some content loaded from external procurement portals may not meet our accessibility standards.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5 shrink-0">&#9679;</span>
+            <span><strong class="text-text">External links:</strong> Links to government procurement portals (ppda.mw, maneps.mw) are not under our control and may have their own accessibility limitations.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="glass-card p-6 border border-primary/20">
+        <h2 class="text-lg font-semibold text-text mb-4">Feedback & Assistance</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          We welcome your feedback on the accessibility of TendersMW. If you encounter any accessibility barriers or need assistance, please contact us:
+        </p>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          Email: <a href="mailto:contact@tendersmw.com" class="text-primary hover:underline">contact@tendersmw.com</a>
+        </p>
+        <p class="text-sm text-muted leading-relaxed">
+          Please include "Accessibility" in the subject line. We will try to respond within 5 business days and will work with you to provide the information or service you need in an accessible format.
+        </p>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Standards & Guidelines</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">This statement references the following standards:</p>
+        <ul class="space-y-2 text-sm text-muted">
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span><a href="https://www.w3.org/TR/WCAG21/" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Web Content Accessibility Guidelines (WCAG) 2.1</a> -- Level AA</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>W3C Web Accessibility Initiative (WAI) best practices</span>
+          </li>
+        </ul>
+      </div>
+
+      <p class="text-xs text-muted text-center">
+        Last updated: March 26, 2026 | TendersMW is a property of Cosmic Phoenix LLC.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

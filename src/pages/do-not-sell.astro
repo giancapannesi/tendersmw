@@ -1,0 +1,130 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Do Not Sell My Personal Information",
+  "description": "TendersMW's commitment to your privacy. Learn about your data rights.",
+  "url": "https://tendersmw.com/do-not-sell/",
+  "datePublished": "2026-03-26",
+  "dateModified": "2026-03-26"
+};
+---
+
+<BaseLayout
+  title="Do Not Sell My Personal Information | Privacy Rights - TendersMW"
+  description="TendersMW does not sell your personal information. Learn about your privacy rights and how we handle your data."
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+    <span class="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary uppercase tracking-wider mb-6">Your Privacy Rights</span>
+    <h1 class="text-3xl font-bold text-text mb-2">Do Not Sell My Personal Information</h1>
+    <p class="text-muted mb-8">Your privacy matters. This page explains your rights regarding your personal data.</p>
+
+    <div class="space-y-8">
+
+      <div class="glass-card p-6 border border-primary/20">
+        <h2 class="text-lg font-semibold text-text mb-4">TendersMW Does Not Sell Your Personal Information</h2>
+        <p class="text-sm text-muted leading-relaxed">
+          TendersMW, operated by Cosmic Phoenix LLC, does not sell, rent, or trade your personal information to third parties for monetary or other valuable consideration. This has been our practice since our founding, and we are committed to maintaining it.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold text-text mb-4">Your Rights</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">You have the following rights regarding your personal information:</p>
+        <div class="grid gap-3 sm:grid-cols-2">
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Right to Know</h3>
+            <p class="text-xs text-muted leading-relaxed">You can request that we disclose what personal information we collect, use, and share about you.</p>
+          </div>
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Right to Delete</h3>
+            <p class="text-xs text-muted leading-relaxed">You can request that we delete any personal information we have collected from you, subject to certain exceptions.</p>
+          </div>
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Right to Correct</h3>
+            <p class="text-xs text-muted leading-relaxed">You can request that we correct inaccurate personal information that we maintain about you.</p>
+          </div>
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Right to Non-Discrimination</h3>
+            <p class="text-xs text-muted leading-relaxed">We will not discriminate against you for exercising any of your privacy rights.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">What Information We Collect</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          TendersMW is a procurement information aggregation website. We collect minimal personal information:
+        </p>
+        <ul class="space-y-3 text-sm text-muted">
+          <li class="flex items-start gap-2">
+            <span class="text-primary font-bold mt-0.5">1.</span>
+            <span><strong class="text-text">Automatically collected:</strong> IP address, browser type, device information, pages visited, and referring URL via standard web analytics (Google Analytics).</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary font-bold mt-0.5">2.</span>
+            <span><strong class="text-text">Voluntarily provided:</strong> Email address if you sign up for tender alerts or contact us.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary font-bold mt-0.5">3.</span>
+            <span><strong class="text-text">Cookies:</strong> We use cookies for analytics and site functionality. See our <a href="/privacy/" class="text-primary hover:underline">Privacy Policy</a> for full details.</span>
+          </li>
+        </ul>
+        <p class="mt-4 text-sm text-muted leading-relaxed">
+          We do <strong class="text-text">not</strong> collect financial account numbers, tax identification numbers, or any other sensitive business or personal data.
+        </p>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Third-Party Sharing</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          When you click a link on TendersMW to visit an external procurement portal (such as ppda.mw or maneps.mw), that website may collect information about you under their own privacy policy. TendersMW does not control what those third parties do with your data.
+        </p>
+        <p class="text-sm text-muted leading-relaxed">
+          We share anonymized, aggregated analytics data with our analytics provider (Google Analytics). This data cannot be used to identify you personally.
+        </p>
+      </div>
+
+      <div class="glass-card p-6 border border-primary/20">
+        <h2 class="text-lg font-semibold text-text mb-4">How to Exercise Your Rights</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          To exercise any of the rights described above, please contact us:
+        </p>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          Email: <a href="mailto:privacy@tendersmw.com" class="text-primary hover:underline">privacy@tendersmw.com</a>
+        </p>
+        <p class="text-sm text-muted leading-relaxed">
+          Please include "Privacy Request" in the subject line. We will verify your identity and respond within 30 days.
+        </p>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Applicable Privacy Laws</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          TendersMW respects privacy rights under applicable laws, including:
+        </p>
+        <ul class="space-y-2 text-sm text-muted">
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span><strong class="text-text">Malawi</strong> -- Electronic Transactions and Cyber Security Act (2016)</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span><strong class="text-text">California, USA</strong> -- California Consumer Privacy Act (CCPA/CPRA)</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span><strong class="text-text">European Union</strong> -- General Data Protection Regulation (GDPR)</span>
+          </li>
+        </ul>
+      </div>
+
+      <p class="text-xs text-muted text-center">
+        Last updated: March 26, 2026 | TendersMW is a property of Cosmic Phoenix LLC, a Wyoming limited liability company.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,230 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Our Methodology",
+  "description": "How TendersMW collects, verifies, and categorizes procurement notices from Malawi and international sources.",
+  "url": "https://tendersmw.com/methodology/",
+  "datePublished": "2026-03-26",
+  "dateModified": "2026-03-26"
+};
+---
+
+<BaseLayout
+  title="Our Methodology | How We Collect & Verify Tenders - TendersMW"
+  description="Learn how TendersMW collects, verifies, categorizes, and presents procurement notices from PPDA, MANEPS, World Bank, and other sources."
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+    <span class="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary uppercase tracking-wider mb-6">Methodology</span>
+    <h1 class="text-3xl font-bold text-text mb-2">Our Methodology</h1>
+    <p class="text-muted mb-8">How we collect, verify, and present procurement opportunities from across Malawi and international development organizations.</p>
+
+    <div class="space-y-8">
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Data Collection Pipeline</h2>
+        <p class="text-sm text-muted leading-relaxed mb-6">
+          TendersMW uses automated scrapers to collect procurement notices from multiple official sources. Our pipeline runs multiple times daily to ensure timely coverage.
+        </p>
+        <div class="space-y-3">
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Government Portals</h3>
+            <p class="text-xs text-muted leading-relaxed">PPDA (ppda.mw) and MANEPS (maneps.mw) are scraped for all publicly posted procurement notices, including open tenders, restricted tenders, and procurement intentions.</p>
+          </div>
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">International Development</h3>
+            <p class="text-xs text-muted leading-relaxed">World Bank, African Development Bank, EU TED, and UNGM procurement portals are queried for Malawi-specific opportunities using their public APIs and search interfaces.</p>
+          </div>
+          <div class="glass-card p-4">
+            <h3 class="text-sm font-semibold text-text mb-2">Parastatal & Utility Tenders</h3>
+            <p class="text-xs text-muted leading-relaxed">Major Malawian entities like ESCOM, water boards, and city councils publish tenders on their own websites. We monitor these sources for new procurement notices.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Categorization System</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          Every tender is classified into one of 10 procurement categories based on the tender title, description, and procurement method:
+        </p>
+        <div class="overflow-hidden rounded-lg border border-border">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="bg-bg-alt">
+                <th class="px-4 py-3 text-left font-semibold text-text">Category</th>
+                <th class="px-4 py-3 text-left font-semibold text-text">Description</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-border">
+              <tr>
+                <td class="px-4 py-3 text-muted font-medium">Goods & Supplies</td>
+                <td class="px-4 py-3 text-muted text-xs">Equipment, materials, furniture, vehicles, office supplies</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted font-medium">Construction & Works</td>
+                <td class="px-4 py-3 text-muted text-xs">Building, road, bridge, renovation, infrastructure projects</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted font-medium">Consulting Services</td>
+                <td class="px-4 py-3 text-muted text-xs">Consultancy, advisory, assessments, evaluations, studies</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted font-medium">IT & Technology</td>
+                <td class="px-4 py-3 text-muted text-xs">Software, ICT, computers, networks, digital systems</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted font-medium">General Services</td>
+                <td class="px-4 py-3 text-muted text-xs">Cleaning, security, catering, maintenance, repair</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted font-medium">Health</td>
+                <td class="px-4 py-3 text-muted text-xs">Medical supplies, pharmaceuticals, hospital equipment, clinical services</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted font-medium">Agriculture</td>
+                <td class="px-4 py-3 text-muted text-xs">Farming, irrigation, fertilizer, seeds, crop management</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted font-medium">Education</td>
+                <td class="px-4 py-3 text-muted text-xs">Training, workshops, textbooks, learning materials, capacity building</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted font-medium">Energy & Water</td>
+                <td class="px-4 py-3 text-muted text-xs">Solar, electricity, power, water supply, boreholes</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted font-medium">Transport & Logistics</td>
+                <td class="px-4 py-3 text-muted text-xs">Vehicles, freight, shipping, logistics, distribution</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Quality Scoring</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          Each tender listing receives a quality score (1-5) based on data completeness:
+        </p>
+        <div class="space-y-3">
+          <div class="flex items-center gap-4">
+            <div class="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-green-500/20 text-green-400 font-bold text-sm">5</div>
+            <div>
+              <p class="text-sm font-semibold text-text">Complete</p>
+              <p class="text-xs text-muted">Title, entity, reference, dates, description, documents, contact information all present.</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-green-500/20 text-green-400 font-bold text-sm">4</div>
+            <div>
+              <p class="text-sm font-semibold text-text">Good</p>
+              <p class="text-xs text-muted">Most fields present. May be missing contact info or detailed description.</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary/20 text-primary font-bold text-sm">3</div>
+            <div>
+              <p class="text-sm font-semibold text-text">Adequate</p>
+              <p class="text-xs text-muted">Essential fields present (title, entity, closing date). Missing some details.</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-primary/20 text-primary font-bold text-sm">2</div>
+            <div>
+              <p class="text-sm font-semibold text-text">Minimal</p>
+              <p class="text-xs text-muted">Basic information only. Missing key fields like closing date or reference number.</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="flex-shrink-0 flex h-10 w-10 items-center justify-center rounded-lg bg-red-500/20 text-red-400 font-bold text-sm">1</div>
+            <div>
+              <p class="text-sm font-semibold text-text">Incomplete</p>
+              <p class="text-xs text-muted">Title only. Insufficient data for reliable use. Listed for completeness but may not be indexed.</p>
+            </div>
+          </div>
+        </div>
+        <p class="text-sm text-muted leading-relaxed mt-4">
+          Tenders with a quality score below 3 are marked as noindex to prevent search engines from displaying incomplete information.
+        </p>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Update Frequency</h2>
+        <div class="overflow-hidden rounded-lg border border-border">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="bg-bg-alt">
+                <th class="px-4 py-3 text-left font-semibold text-text">What We Check</th>
+                <th class="px-4 py-3 text-left font-semibold text-text">Frequency</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-border">
+              <tr>
+                <td class="px-4 py-3 text-muted">PPDA new tenders</td>
+                <td class="px-4 py-3 text-muted">Every 4 hours</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted">MANEPS new tenders</td>
+                <td class="px-4 py-3 text-muted">Every 4 hours</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted">International sources (World Bank, AfDB, EU TED)</td>
+                <td class="px-4 py-3 text-muted">Daily</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted">Tender status (open/closed)</td>
+                <td class="px-4 py-3 text-muted">Every build (closing date comparison)</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted">Category reclassification</td>
+                <td class="px-4 py-3 text-muted">As needed</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-3 text-muted">Expired tender cleanup</td>
+                <td class="px-4 py-3 text-muted">Weekly</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Source Attribution</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          Every tender listing on TendersMW includes:
+        </p>
+        <ul class="space-y-2 text-sm text-muted">
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>The original data source (PPDA, MANEPS, World Bank, etc.)</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>A "View on Source" link to the original listing on the source portal</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>Links to original tender documents when available</span>
+          </li>
+        </ul>
+        <p class="text-sm text-muted leading-relaxed mt-4">
+          We always encourage bidders to verify details on the official source portal before submitting any bid.
+        </p>
+      </div>
+
+      <div class="glass-card p-6 border border-primary/20">
+        <h2 class="text-lg font-semibold text-text mb-4">Questions About Our Methodology</h2>
+        <p class="text-sm text-muted leading-relaxed">
+          If you have questions about how we collect, verify, or present tender data, contact us at <a href="mailto:contact@tendersmw.com" class="text-primary hover:underline">contact@tendersmw.com</a>.
+        </p>
+      </div>
+
+      <p class="text-xs text-muted text-center">
+        Last updated: March 26, 2026 | TendersMW is a property of Cosmic Phoenix LLC.
+      </p>
+    </div>
+  </article>
+</BaseLayout>

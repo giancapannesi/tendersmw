@@ -1,0 +1,158 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Editorial Policy",
+  "description": "TendersMW's editorial standards, data verification process, and commitment to accurate procurement information.",
+  "url": "https://tendersmw.com/editorial-policy/",
+  "datePublished": "2026-03-26",
+  "dateModified": "2026-03-26"
+};
+---
+
+<BaseLayout
+  title="Editorial Policy | Data Standards & Verification - TendersMW"
+  description="Learn about TendersMW's editorial standards, how we verify tender data, our categorization process, and our commitment to accuracy and independence."
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+    <span class="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary uppercase tracking-wider mb-6">Editorial Standards</span>
+    <h1 class="text-3xl font-bold text-text mb-2">Editorial Policy</h1>
+    <p class="text-muted mb-8">Our commitment to accuracy, completeness, and timeliness guides every tender listing on TendersMW.</p>
+
+    <div class="space-y-8">
+
+      <div class="glass-card p-6 border border-primary/20">
+        <h2 class="text-lg font-semibold text-text mb-4">Editorial Independence</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          TendersMW operates independently from all procuring entities, government ministries, and development organizations. We are not affiliated with the PPDA, any government ministry, or any international development agency.
+        </p>
+        <p class="text-sm text-muted leading-relaxed">
+          No procuring entity can pay for preferential placement, the removal of tender listings, or any modification to how their procurement notices are displayed. All tender data is sourced directly from official public portals.
+        </p>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Data Verification Process</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          Every tender listing on TendersMW goes through a structured verification process:
+        </p>
+        <div class="space-y-4">
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-bg text-sm font-bold">1</div>
+            <div>
+              <h3 class="text-sm font-semibold text-text">Source Collection</h3>
+              <p class="text-xs text-muted mt-1">Tender notices are collected from official procurement portals (PPDA, MANEPS, World Bank, AfDB, EU TED, UNGM) using automated scrapers that run multiple times daily.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-bg text-sm font-bold">2</div>
+            <div>
+              <h3 class="text-sm font-semibold text-text">Data Extraction</h3>
+              <p class="text-xs text-muted mt-1">Key fields are extracted: title, procuring entity, reference number, closing date, category, and any attached documents. Data is normalized into a consistent format.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-bg text-sm font-bold">3</div>
+            <div>
+              <h3 class="text-sm font-semibold text-text">Categorization</h3>
+              <p class="text-xs text-muted mt-1">Tenders are automatically categorized (goods, works, consulting, technology, services, health, agriculture, education, energy, transport) based on title analysis and procurement method.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-bg text-sm font-bold">4</div>
+            <div>
+              <h3 class="text-sm font-semibold text-text">Quality Check</h3>
+              <p class="text-xs text-muted mt-1">Each listing is assigned a quality score based on data completeness (title, entity, reference, dates, documents). Low-quality listings are flagged for review.</p>
+            </div>
+          </div>
+          <div class="flex items-start gap-4">
+            <div class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-bg text-sm font-bold">5</div>
+            <div>
+              <h3 class="text-sm font-semibold text-text">Publication</h3>
+              <p class="text-xs text-muted mt-1">Verified tenders are published with source attribution, direct links to original documents, and a clear "View on Source" link back to the official portal.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">What We Display</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          For each tender, we aim to present:
+        </p>
+        <ul class="space-y-2 text-sm text-muted">
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>Tender title and description as published by the procuring entity</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>Procuring entity name and type (government, parastatal, international organization)</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>Reference number for easy identification</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>Published date and closing date with countdown</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>Category classification and procurement method</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>Links to original documents (PDFs, bid forms) when available</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span>Source attribution with direct link to the original portal listing</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="glass-card p-6">
+        <h2 class="text-lg font-semibold text-text mb-4">Accuracy & Limitations</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          We strive for accuracy, but we want to be transparent about limitations:
+        </p>
+        <ul class="space-y-3 text-sm text-muted">
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5 shrink-0">&#9679;</span>
+            <span><strong class="text-text">Data freshness:</strong> There may be a short delay between when a tender is published on the source portal and when it appears on TendersMW.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5 shrink-0">&#9679;</span>
+            <span><strong class="text-text">Amendments:</strong> Procuring entities may issue addenda or extend deadlines after initial publication. Always check the source portal for the latest information.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5 shrink-0">&#9679;</span>
+            <span><strong class="text-text">Newspaper tenders:</strong> Some Malawian entities publish tenders only in print newspapers. These are not currently captured by our system.</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5 shrink-0">&#9679;</span>
+            <span><strong class="text-text">Always verify:</strong> Bidders should always verify all details directly with the procuring entity before submitting a bid.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="glass-card p-6 border border-primary/20">
+        <h2 class="text-lg font-semibold text-text mb-4">Corrections & Updates</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          If you believe any tender information on TendersMW is incorrect, outdated, or misleading, please contact us at <a href="mailto:contact@tendersmw.com" class="text-primary hover:underline">contact@tendersmw.com</a> with "Correction" in the subject line.
+        </p>
+        <p class="text-sm text-muted leading-relaxed">
+          Include the tender URL or reference number and the information you believe is inaccurate. We will review and update within 2 business days.
+        </p>
+      </div>
+
+      <p class="text-xs text-muted text-center">
+        Last updated: March 26, 2026 | TendersMW is a property of Cosmic Phoenix LLC.
+      </p>
+    </div>
+  </article>
+</BaseLayout>
