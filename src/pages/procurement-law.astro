@@ -1,0 +1,789 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Malawi Procurement Law & Compliance Guide",
+  "description": "Complete guide to Malawi's public procurement legislation — the PPDA Act 2025, bidder requirements, procurement methods, thresholds, MSME preferences, and complaints process.",
+  "url": "https://tendersmw.com/procurement-law/",
+  "datePublished": "2026-03-26",
+  "dateModified": "2026-03-26"
+};
+---
+
+<BaseLayout
+  title="Malawi Procurement Law & Compliance Guide | PPDA Act 2025 - TendersMW"
+  description="Complete guide to Malawi's public procurement legislation — the PPDA Act 2025, bidder requirements, registration fees, procurement methods, thresholds, MSME preferences, complaints process, and anti-corruption rules."
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+    <span class="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-xs font-semibold text-primary uppercase tracking-wider mb-6">Legal Reference</span>
+    <h1 class="text-3xl font-bold text-text mb-2">Malawi Procurement Law & Compliance Guide</h1>
+    <p class="text-muted mb-4">Everything you need to know about public procurement in Malawi — legislation, registration, bidding, and your rights as a supplier.</p>
+    <p class="text-xs text-muted mb-8">Last updated: March 26, 2026 · Based on the PPDA Act 2025 (Act No. 7 of 2025)</p>
+
+    <!-- Table of Contents -->
+    <nav class="glass-card p-6 mb-10">
+      <h2 class="text-lg font-semibold text-text mb-4">Contents</h2>
+      <ol class="space-y-2 text-sm text-muted columns-1 sm:columns-2">
+        <li><a href="#legislation" class="text-primary hover:underline">1. Primary Legislation</a></li>
+        <li><a href="#ppda-authority" class="text-primary hover:underline">2. PPDA — The Regulatory Authority</a></li>
+        <li><a href="#procurement-methods" class="text-primary hover:underline">3. Procurement Methods</a></li>
+        <li><a href="#thresholds" class="text-primary hover:underline">4. Procurement Thresholds</a></li>
+        <li><a href="#bidder-requirements" class="text-primary hover:underline">5. Bidder Requirements</a></li>
+        <li><a href="#registration" class="text-primary hover:underline">6. Supplier Registration & Fees</a></li>
+        <li><a href="#process-rules" class="text-primary hover:underline">7. Procurement Process Rules</a></li>
+        <li><a href="#msme" class="text-primary hover:underline">8. MSME & Local Preferences</a></li>
+        <li><a href="#complaints" class="text-primary hover:underline">9. Complaints & Appeals</a></li>
+        <li><a href="#anti-corruption" class="text-primary hover:underline">10. Anti-Corruption Provisions</a></li>
+        <li><a href="#donor-rules" class="text-primary hover:underline">11. International & Donor Rules</a></li>
+        <li><a href="#maneps" class="text-primary hover:underline">12. MANEPS E-Procurement</a></li>
+        <li><a href="#quick-reference" class="text-primary hover:underline">13. Quick Reference for Bidders</a></li>
+        <li><a href="#contacts" class="text-primary hover:underline">14. Key Contacts & Resources</a></li>
+      </ol>
+    </nav>
+
+    <div class="space-y-10">
+
+      <!-- 1. Primary Legislation -->
+      <section id="legislation">
+        <div class="glass-card p-6">
+          <h2 class="text-xl font-semibold text-text mb-4">1. Primary Legislation</h2>
+
+          <div class="glass-card p-4 mb-6 border border-primary/20">
+            <h3 class="text-base font-semibold text-text mb-3">Current Law: Public Procurement and Disposal of Public Assets Act, 2024</h3>
+            <div class="overflow-x-auto">
+              <table class="w-full text-sm">
+                <tbody class="divide-y divide-border">
+                  <tr><td class="py-2 pr-4 font-medium text-muted whitespace-nowrap">Act Number</td><td class="py-2 text-muted">Act No. 7 of 2025</td></tr>
+                  <tr><td class="py-2 pr-4 font-medium text-muted whitespace-nowrap">Presidential Assent</td><td class="py-2 text-muted">24 January 2025 (Dr. Lazarus McCarthy Chakwera)</td></tr>
+                  <tr><td class="py-2 pr-4 font-medium text-muted whitespace-nowrap">Passed in Parliament</td><td class="py-2 text-muted">17 December 2024</td></tr>
+                  <tr><td class="py-2 pr-4 font-medium text-muted whitespace-nowrap">Commenced</td><td class="py-2 text-muted">31 March 2025</td></tr>
+                  <tr><td class="py-2 pr-4 font-medium text-muted whitespace-nowrap">Repeals</td><td class="py-2 text-muted">Public Procurement and Disposal of Public Assets Act (Cap. 37:03) — the 2017 Act</td></tr>
+                  <tr><td class="py-2 pr-4 font-medium text-muted whitespace-nowrap">Structure</td><td class="py-2 text-muted">99 sections across 14 Parts, plus 1 Schedule (Oath of Secrecy)</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <h3 class="text-base font-semibold text-text mb-3">Key Reforms in the 2025 Act</h3>
+          <div class="space-y-3">
+            <div class="flex items-start gap-3">
+              <span class="text-primary font-bold mt-0.5 shrink-0 text-sm">01</span>
+              <p class="text-sm text-muted"><strong class="text-text">ACB clearance for single-source procurement</strong> (s.45) — Procuring entities must obtain Anti-Corruption Bureau clearance before signing any single-source contract.</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-primary font-bold mt-0.5 shrink-0 text-sm">02</span>
+              <p class="text-sm text-muted"><strong class="text-text">Beneficial ownership disclosure</strong> (s.75) — All bidders must disclose beneficial ownership in accordance with the Companies Act.</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-primary font-bold mt-0.5 shrink-0 text-sm">03</span>
+              <p class="text-sm text-muted"><strong class="text-text">E-procurement mandate</strong> (s.38, s.71) — All procuring entities shall use MANEPS, the national electronic procurement system.</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-primary font-bold mt-0.5 shrink-0 text-sm">04</span>
+              <p class="text-sm text-muted"><strong class="text-text">60% MSME reservation</strong> (s.62) — 60% of national competitive bidding value must be reserved for Malawian MSMEs.</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-primary font-bold mt-0.5 shrink-0 text-sm">05</span>
+              <p class="text-sm text-muted"><strong class="text-text">Strengthened debarment</strong> (s.79) — Owners and directors of debarred companies are now personally debarred.</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-primary font-bold mt-0.5 shrink-0 text-sm">06</span>
+              <p class="text-sm text-muted"><strong class="text-text">Unrealistically high bids criminalized</strong> (s.64) — Processing unrealistically high bids is now a criminal offence (K5M fine + 2 years imprisonment).</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-primary font-bold mt-0.5 shrink-0 text-sm">07</span>
+              <p class="text-sm text-muted"><strong class="text-text">Procurement plan splitting prohibited</strong> (s.55) — Splitting procurement to avoid competitive methods is a criminal offence (K5M fine + 2 years).</p>
+            </div>
+            <div class="flex items-start gap-3">
+              <span class="text-primary font-bold mt-0.5 shrink-0 text-sm">08</span>
+              <p class="text-sm text-muted"><strong class="text-text">Post-engagement cooling-off period</strong> (s.80, s.94) — 2-year restriction for former public officials before working on contracts with former employers.</p>
+            </div>
+          </div>
+
+          <h3 class="text-base font-semibold text-text mt-6 mb-3">Subsidiary Legislation (Still in Force)</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="bg-bg-alt">
+                  <th class="px-3 py-2 text-left font-semibold text-text">Legislation</th>
+                  <th class="px-3 py-2 text-left font-semibold text-text">Date</th>
+                  <th class="px-3 py-2 text-left font-semibold text-text">Purpose</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                <tr>
+                  <td class="px-3 py-2 text-muted">Public Procurement Regulations (GN 24/2020)</td>
+                  <td class="px-3 py-2 text-muted whitespace-nowrap">17 Jun 2020</td>
+                  <td class="px-3 py-2 text-muted text-xs">Detailed thresholds, procedures, evaluation methods, supplier registration</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted">MSME Order (GN 96/2020)</td>
+                  <td class="px-3 py-2 text-muted whitespace-nowrap">14 Dec 2020</td>
+                  <td class="px-3 py-2 text-muted text-xs">MSME preferences, reservations for youth, women, and persons with disabilities</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted">Registration Fees Regulations (GN 44/2025)</td>
+                  <td class="px-3 py-2 text-muted whitespace-nowrap">30 May 2025</td>
+                  <td class="px-3 py-2 text-muted text-xs">New supplier registration fee structure under the 2025 Act</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="text-xs text-muted mt-3">The 2020 Regulations continue in force under transitional provisions (s.98(2)) to the extent they are not inconsistent with the 2025 Act.</p>
+        </div>
+      </section>
+
+      <!-- 2. PPDA Authority -->
+      <section id="ppda-authority">
+        <div class="glass-card p-6">
+          <h2 class="text-xl font-semibold text-text mb-4">2. PPDA — The Regulatory Authority</h2>
+          <p class="text-sm text-muted leading-relaxed mb-4">
+            The Public Procurement and Disposal of Public Assets Authority (PPDA) is established under Section 4 of the PPDA Act 2025 as an independent body corporate responsible for regulating, monitoring, and overseeing all public procurement and disposal in Malawi.
+          </p>
+
+          <h3 class="text-base font-semibold text-text mb-3">Key Functions (s.5)</h3>
+          <ul class="space-y-2 text-sm text-muted mb-6">
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Develop standardized regulations, guidelines, and bidding documents</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Set monetary procurement thresholds via Gazette notice</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Issue "No Objection" for procurements above threshold levels</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Maintain and circulate lists of debarred bidders and suppliers</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Conduct procurement audits and investigate mis-procurement</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Hear administrative reviews of bid protests</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Suspend or debar any bidder, supplier, or contractor</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Collect a 1% levy on procurement and disposal contracts (s.21)</span></li>
+          </ul>
+
+          <h3 class="text-base font-semibold text-text mb-3">Governance (s.7–9)</h3>
+          <p class="text-sm text-muted leading-relaxed mb-2">
+            The PPDA Authority consists of nine members: six appointed by the Minister (subject to Public Appointments Committee approval) and three ex-officio members (Secretary to the President and Cabinet, Secretary to the Treasury, Solicitor General).
+          </p>
+          <p class="text-sm text-muted leading-relaxed">
+            Members serve 3-year terms with one re-appointment. The Director General is appointed through open competitive process and must hold a Master's degree with at least 10 years executive management experience.
+          </p>
+        </div>
+      </section>
+
+      <!-- 3. Procurement Methods -->
+      <section id="procurement-methods">
+        <div class="glass-card p-6">
+          <h2 class="text-xl font-semibold text-text mb-4">3. Procurement Methods</h2>
+          <p class="text-sm text-muted leading-relaxed mb-4">
+            <strong class="text-text">Open tender is the default.</strong> Section 38(1): "A procuring and disposing entity shall undertake public procurement and disposal proceedings by means of open methods of tender proceedings." Any non-open method requires written application to the Authority.
+          </p>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="bg-bg-alt">
+                  <th class="px-3 py-2 text-left font-semibold text-text">Method</th>
+                  <th class="px-3 py-2 text-left font-semibold text-text">Section</th>
+                  <th class="px-3 py-2 text-left font-semibold text-text">When Used</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">National Competitive Bidding (NCB)</td>
+                  <td class="px-3 py-2 text-muted">s.40</td>
+                  <td class="px-3 py-2 text-muted text-xs">Targets local enterprises; value below ICB threshold; goods/works/services available from 2+ local suppliers</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">International Competitive Bidding (ICB)</td>
+                  <td class="px-3 py-2 text-muted">s.42</td>
+                  <td class="px-3 py-2 text-muted text-xs">Value exceeds prescribed threshold; not available from 2+ local suppliers; no supplier identified via NCB</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">Restricted Tendering</td>
+                  <td class="px-3 py-2 text-muted">s.41</td>
+                  <td class="px-3 py-2 text-muted text-xs">Limited number of known suppliers; time/cost of large bid pool disproportionate to value</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">Request for Proposals (RFP)</td>
+                  <td class="px-3 py-2 text-muted">s.43</td>
+                  <td class="px-3 py-2 text-muted text-xs">Consultancy services</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">Request for Quotations (RFQ)</td>
+                  <td class="px-3 py-2 text-muted">s.44</td>
+                  <td class="px-3 py-2 text-muted text-xs">Low-value goods, works, and routine services below prescribed threshold</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">Single Sourcing</td>
+                  <td class="px-3 py-2 text-muted">s.45</td>
+                  <td class="px-3 py-2 text-muted text-xs">Only one capable supplier; emergency; compatibility. <strong class="text-text">Requires ACB clearance before signing.</strong></td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">Two-Stage Tendering</td>
+                  <td class="px-3 py-2 text-muted">s.39</td>
+                  <td class="px-3 py-2 text-muted text-xs">Complex procurement where specs can't be fully defined upfront</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">Force Account</td>
+                  <td class="px-3 py-2 text-muted">s.46</td>
+                  <td class="px-3 py-2 text-muted text-xs">Government uses own resources/equipment/personnel for construction</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">Community Participation</td>
+                  <td class="px-3 py-2 text-muted">s.47</td>
+                  <td class="px-3 py-2 text-muted text-xs">Enhances economy/quality/sustainability; community employment objective</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">Reverse Auction</td>
+                  <td class="px-3 py-2 text-muted">s.48</td>
+                  <td class="px-3 py-2 text-muted text-xs">Online real-time competitive pricing (requires e-procurement system)</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">Emergency Procurement</td>
+                  <td class="px-3 py-2 text-muted">s.49</td>
+                  <td class="px-3 py-2 text-muted text-xs">May use any method; post-procurement audit required</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-muted font-medium whitespace-nowrap">Framework Agreements</td>
+                  <td class="px-3 py-2 text-muted">s.54</td>
+                  <td class="px-3 py-2 text-muted text-xs">Indefinite quantity at agreed unit price for an agreed period</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Thresholds -->
+      <section id="thresholds">
+        <div class="glass-card p-6">
+          <h2 class="text-xl font-semibold text-text mb-4">4. Procurement Thresholds</h2>
+          <p class="text-sm text-muted leading-relaxed mb-4">
+            The Act delegates threshold-setting to the PPDA via Gazette notice (s.6(1)(a)). Thresholds are adjusted periodically — the most recent revision is the <strong class="text-text">PPDA Circular effective 1 April 2024</strong>.
+          </p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="bg-bg-alt">
+                  <th class="px-3 py-2 text-left font-semibold text-text">Procurement Method</th>
+                  <th class="px-3 py-2 text-left font-semibold text-text">Threshold</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                <tr><td class="px-3 py-2 text-muted">Request for Quotations</td><td class="px-3 py-2 text-muted">Up to a prescribed maximum (low-value)</td></tr>
+                <tr><td class="px-3 py-2 text-muted">National Competitive Bidding</td><td class="px-3 py-2 text-muted">Below ICB threshold</td></tr>
+                <tr><td class="px-3 py-2 text-muted">International Competitive Bidding</td><td class="px-3 py-2 text-muted">Above NCB threshold (high-value/specialist)</td></tr>
+                <tr><td class="px-3 py-2 text-muted">Single Sourcing</td><td class="px-3 py-2 text-muted">Below a prescribed maximum + ACB clearance</td></tr>
+                <tr><td class="px-3 py-2 text-muted">PPDA No Objection required</td><td class="px-3 py-2 text-muted">Above a prescribed threshold</td></tr>
+                <tr><td class="px-3 py-2 text-muted">Contract publication on PPDA</td><td class="px-3 py-2 text-muted">Above MK 50 million</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="text-xs text-muted mt-3">
+            Exact MK threshold amounts are published in PPDA circulars, available at <a href="https://www.ppda.mw/circulars" target="_blank" rel="noopener" class="text-primary hover:underline">ppda.mw/circulars</a>. Tenders below MK 50 million are typically published only in newspapers and not on the PPDA website.
+          </p>
+        </div>
+      </section>
+
+      <!-- 5. Bidder Requirements -->
+      <section id="bidder-requirements">
+        <div class="glass-card p-6">
+          <h2 class="text-xl font-semibold text-text mb-4">5. Bidder Requirements</h2>
+
+          <h3 class="text-base font-semibold text-text mb-3">Eligibility (s.75)</h3>
+          <p class="text-sm text-muted leading-relaxed mb-3">To be eligible for a procurement contract, a bidder must:</p>
+          <ul class="space-y-2 text-sm text-muted mb-6">
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Be registered with the Registrar of Companies or Registrar of Business Names, and with any applicable professional regulatory body</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Be tax compliant (valid tax clearance from MRA)</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Disclose beneficial ownership in accordance with the Companies Act</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Not be debarred from procurement under the Act</span></li>
+          </ul>
+
+          <h3 class="text-base font-semibold text-text mb-3">Disqualifying Conditions (s.75(2))</h3>
+          <p class="text-sm text-muted leading-relaxed mb-3">A procuring entity cannot contract with a bidder that is:</p>
+          <ul class="space-y-1 text-sm text-muted mb-6">
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>Bankrupt or insolvent</span></li>
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>In receivership or being wound up</span></li>
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>Under court or judicial administration</span></li>
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>Subject to legal proceedings for any of the above</span></li>
+          </ul>
+
+          <h3 class="text-base font-semibold text-text mb-3">Qualification Assessment (s.76)</h3>
+          <p class="text-sm text-muted leading-relaxed">Procuring entities may assess bidders on: legal capacity, professional and technical qualifications, financial resources, equipment and facilities, personnel and managerial capability, and past performance (including legal disputes, convictions, or false statements in the last 3 years).</p>
+        </div>
+      </section>
+
+      <!-- 6. Supplier Registration & Fees -->
+      <section id="registration">
+        <div class="glass-card p-6 border border-primary/20">
+          <h2 class="text-xl font-semibold text-text mb-4">6. Supplier Registration & Fees</h2>
+          <p class="text-sm text-muted leading-relaxed mb-4">
+            Businesses are <strong class="text-text">required by law to register with the PPDA</strong> (s.77) to do business with Government Ministries, Departments, and Agencies. Processing time is 5 working days if all documents are in order.
+          </p>
+
+          <h3 class="text-base font-semibold text-text mb-3">Required Documents</h3>
+          <ol class="space-y-2 text-sm text-muted mb-6 list-decimal list-inside">
+            <li>Business Registration Certificate or Certificate of Incorporation</li>
+            <li>MRA TPIN Certificate</li>
+            <li>General Receipt or Bank Deposit Slip (original, for registration fee payment)</li>
+            <li>MRA Tax Clearance Certificate (for renewals)</li>
+            <li>Previous PPDA Registration Certificate (for renewals)</li>
+            <li>Completed PPDA supplier registration form</li>
+          </ol>
+
+          <h3 class="text-base font-semibold text-text mb-3">Domestic Supplier Registration Fees (GN 44/2025)</h3>
+          <div class="overflow-x-auto mb-6">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="bg-bg-alt">
+                  <th class="px-3 py-2 text-left font-semibold text-text">Contract Value Threshold</th>
+                  <th class="px-3 py-2 text-right font-semibold text-text">Fee (MK)</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                <tr><td class="px-3 py-2 text-muted">Up to MK 10 million</td><td class="px-3 py-2 text-muted text-right">12,000</td></tr>
+                <tr><td class="px-3 py-2 text-muted">MK 10M — 30M</td><td class="px-3 py-2 text-muted text-right">25,000</td></tr>
+                <tr><td class="px-3 py-2 text-muted">MK 30M — 80M</td><td class="px-3 py-2 text-muted text-right">40,000</td></tr>
+                <tr><td class="px-3 py-2 text-muted">MK 80M — 100M</td><td class="px-3 py-2 text-muted text-right">75,000</td></tr>
+                <tr><td class="px-3 py-2 text-muted">MK 100M — 500M</td><td class="px-3 py-2 text-muted text-right">250,000</td></tr>
+                <tr><td class="px-3 py-2 text-muted">MK 500M — 1B</td><td class="px-3 py-2 text-muted text-right">500,000</td></tr>
+                <tr><td class="px-3 py-2 text-muted">Above MK 1 billion</td><td class="px-3 py-2 text-muted text-right">1,000,000</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 class="text-base font-semibold text-text mb-3">Foreign Supplier Registration Fees</h3>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="bg-bg-alt">
+                  <th class="px-3 py-2 text-left font-semibold text-text">Category</th>
+                  <th class="px-3 py-2 text-right font-semibold text-text">Fee (USD)</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                <tr><td class="px-3 py-2 text-muted">Goods</td><td class="px-3 py-2 text-muted text-right">$2,000</td></tr>
+                <tr><td class="px-3 py-2 text-muted">Works</td><td class="px-3 py-2 text-muted text-right">$2,500</td></tr>
+                <tr><td class="px-3 py-2 text-muted">Services</td><td class="px-3 py-2 text-muted text-right">$1,500</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="text-xs text-muted mt-3">Fees are deposited into National Bank of Malawi (Capital City branch) account for PPDA. Register at <a href="https://www.ppda.mw/supplier-registration" target="_blank" rel="noopener" class="text-primary hover:underline">ppda.mw/supplier-registration</a>.</p>
+        </div>
+      </section>
+
+      <!-- 7. Procurement Process Rules -->
+      <section id="process-rules">
+        <div class="glass-card p-6">
+          <h2 class="text-xl font-semibold text-text mb-4">7. Procurement Process Rules</h2>
+
+          <h3 class="text-base font-semibold text-text mb-3">Where Tenders Must Be Published (s.56)</h3>
+          <ul class="space-y-1 text-sm text-muted mb-6">
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>The Government Gazette</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>At least one widely circulated national newspaper</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>Electronic media</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>The PDE's website and the PPDA website</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>Displayed at the PDE's head office</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>For ICB: additionally in internationally recognized business portals</span></li>
+          </ul>
+
+          <h3 class="text-base font-semibold text-text mb-3">Minimum Bidding Periods (s.58(5))</h3>
+          <div class="overflow-x-auto mb-6">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="bg-bg-alt">
+                  <th class="px-3 py-2 text-left font-semibold text-text">Method</th>
+                  <th class="px-3 py-2 text-right font-semibold text-text">Minimum Period</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                <tr><td class="px-3 py-2 text-muted">International Competitive Bidding</td><td class="px-3 py-2 text-muted text-right font-semibold">30 days</td></tr>
+                <tr><td class="px-3 py-2 text-muted">National Competitive Bidding</td><td class="px-3 py-2 text-muted text-right font-semibold">20 days</td></tr>
+                <tr><td class="px-3 py-2 text-muted">Restricted Tender</td><td class="px-3 py-2 text-muted text-right font-semibold">15 days</td></tr>
+                <tr><td class="px-3 py-2 text-muted">Request for Proposals</td><td class="px-3 py-2 text-muted text-right font-semibold">15 days</td></tr>
+                <tr><td class="px-3 py-2 text-muted">Request for Quotations</td><td class="px-3 py-2 text-muted text-right font-semibold">5 days</td></tr>
+                <tr><td class="px-3 py-2 text-muted">Single Sourcing</td><td class="px-3 py-2 text-muted text-right font-semibold">5 days</td></tr>
+                <tr><td class="px-3 py-2 text-muted">Emergency Procurement</td><td class="px-3 py-2 text-muted text-right font-semibold">24 hours</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="text-xs text-muted mb-6">A shorter period requires prior PPDA approval (s.58(6)).</p>
+
+          <h3 class="text-base font-semibold text-text mb-3">14-Day Standstill Period (s.70)</h3>
+          <p class="text-sm text-muted leading-relaxed mb-4">
+            Before signing any contract above a prescribed threshold, the procuring entity must publish a <strong class="text-text">notice of intention to award for 14 days</strong> in the Gazette, a national newspaper, the PPDA website, and the PDE's website. This gives unsuccessful bidders time to review the decision and submit complaints.
+          </p>
+
+          <h3 class="text-base font-semibold text-text mb-3">Evaluation Rules (s.62)</h3>
+          <ul class="space-y-1 text-sm text-muted mb-6">
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>Evaluation must follow criteria set in the bidding document</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>Evaluation must start within 7 days of bid opening</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span><strong class="text-text">Lowest evaluated bid</strong> wins for procurement</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>No negotiation on substance or price of bids (except single source)</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>Bidders or representatives may attend bid opening (including virtually)</span></li>
+          </ul>
+
+          <h3 class="text-base font-semibold text-text mb-3">Other Key Rules</h3>
+          <ul class="space-y-1 text-sm text-muted">
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span><strong class="text-text">Language:</strong> All communication must be in English and in writing (s.33)</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span><strong class="text-text">Record keeping:</strong> Records must be maintained for 7 years (s.32)</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span><strong class="text-text">Contract extensions:</strong> Maximum 12 months; beyond that requires PPDA No Objection (s.73)</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span><strong class="text-text">Bid security:</strong> Must be provided if required by bidding documents; refusal to extend bid validity does not forfeit security (s.59, s.68)</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 8. MSME & Local Preferences -->
+      <section id="msme">
+        <div class="glass-card p-6 border border-primary/20">
+          <h2 class="text-xl font-semibold text-text mb-4">8. MSME & Local Preferences</h2>
+
+          <div class="glass-card p-4 mb-4">
+            <h3 class="text-base font-semibold text-text mb-2">60% MSME Reservation (s.62(11))</h3>
+            <p class="text-sm text-muted leading-relaxed">
+              <strong class="text-text">60% of the value</strong> of procurements carried out under national competitive bidding in a financial year must be reserved for Malawian MSMEs. The remaining 40% is open to other bidders. This is now in the primary legislation — previously it was only in subsidiary orders.
+            </p>
+          </div>
+
+          <div class="glass-card p-4 mb-4">
+            <h3 class="text-base font-semibold text-text mb-2">20% Margin of Price Preference (s.62(6))</h3>
+            <p class="text-sm text-muted leading-relaxed">
+              Procuring entities may apply a margin of price preference in favour of domestic or regional bidders. In practice, PPDA has set a <strong class="text-text">20% margin</strong> — meaning local companies can win contracts even if their bid is up to 20% higher than a foreign competitor's bid.
+            </p>
+          </div>
+
+          <div class="glass-card p-4 mb-4">
+            <h3 class="text-base font-semibold text-text mb-2">MSME Order 2020 (GN 96/2020)</h3>
+            <p class="text-sm text-muted leading-relaxed">
+              Prescribes reserved/set-aside procurement for MSMEs and marginalized groups — specifically <strong class="text-text">youth, women, and persons with disabilities</strong>. Certain procurement categories are restricted to MSME bidding only.
+            </p>
+          </div>
+
+          <h3 class="text-base font-semibold text-text mb-2">Key Definitions (s.2)</h3>
+          <ul class="space-y-2 text-sm text-muted">
+            <li><strong class="text-text">Local enterprise:</strong> Supplier registered and principally operating in Malawi, with majority shareholding by Malawian nationals.</li>
+            <li><strong class="text-text">MSMEs:</strong> Independently owned enterprises, not dominant in their field, qualifying under the Micro, Small and Medium Enterprises Act, 2024 (Act No. 30 of 2024).</li>
+            <li><strong class="text-text">Domestic bidder:</strong> Any bidder whose principal place of business is within Malawi.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 9. Complaints & Appeals -->
+      <section id="complaints">
+        <div class="glass-card p-6">
+          <h2 class="text-xl font-semibold text-text mb-4">9. Complaints & Appeals</h2>
+          <p class="text-sm text-muted leading-relaxed mb-4">
+            Any bidder who has suffered or may suffer loss due to a breach of duty by a procuring entity may seek a review under Part XI of the Act (s.82).
+          </p>
+
+          <div class="space-y-4">
+            <div class="glass-card p-4">
+              <h3 class="text-base font-semibold text-text mb-2">Step 1: Controlling Officer (s.83(1)–(2))</h3>
+              <ul class="space-y-1 text-sm text-muted">
+                <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>Written application during the 14-day standstill period, or within 14 days of becoming aware of the issue</span></li>
+                <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>Controlling Officer must respond within <strong class="text-text">14 days</strong></span></li>
+                <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>Procurement proceedings are <strong class="text-text">suspended for 10 days</strong> upon receipt (extendable to 30 days)</span></li>
+              </ul>
+            </div>
+
+            <div class="glass-card p-4">
+              <h3 class="text-base font-semibold text-text mb-2">Step 2: Appeal to PPDA (s.83(3)–(6))</h3>
+              <ul class="space-y-1 text-sm text-muted">
+                <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>If not satisfied with Step 1, submit written application to the Authority</span></li>
+                <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>Must be accompanied by prescribed fees</span></li>
+                <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#8226;</span><span>PPDA convenes a 3-member technical committee to hear the case</span></li>
+              </ul>
+            </div>
+
+            <div class="glass-card p-4">
+              <h3 class="text-base font-semibold text-text mb-2">Step 3: High Court (s.83(11))</h3>
+              <p class="text-sm text-muted">Any PPDA decision is subject to judicial review by the High Court.</p>
+            </div>
+          </div>
+
+          <h3 class="text-base font-semibold text-text mt-6 mb-3">PPDA Remedial Powers (s.83(10))</h3>
+          <ul class="space-y-1 text-sm text-muted">
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Prohibit unlawful acts by the procuring entity</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Annul the unlawful decision (whole or part)</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Revise or substitute the decision</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Compel the PDE to pay the applicant's bid preparation and review costs</span></li>
+            <li class="flex items-start gap-2"><span class="text-primary shrink-0">&#10003;</span><span>Report officials to oversight bodies for disciplinary action or prosecution</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 10. Anti-Corruption -->
+      <section id="anti-corruption">
+        <div class="glass-card p-6">
+          <h2 class="text-xl font-semibold text-text mb-4">10. Anti-Corruption Provisions</h2>
+
+          <h3 class="text-base font-semibold text-text mb-3">Prohibited Conduct — Bidders (s.78)</h3>
+          <ul class="space-y-1 text-sm text-muted mb-6">
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>Corrupt practices — offering improper inducements to influence procurement</span></li>
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>Fraudulent practices — misrepresentation of facts</span></li>
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>Collusion among bidders — artificial, non-competitive price levels</span></li>
+          </ul>
+
+          <h3 class="text-base font-semibold text-text mb-3">Prohibited Conduct — Public Officials (s.80)</h3>
+          <ul class="space-y-1 text-sm text-muted mb-6">
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>Acting partially or not in the public interest</span></li>
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>Conflicts of interest</span></li>
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>Interfering with or exerting undue influence on procurement</span></li>
+            <li class="flex items-start gap-2"><span class="text-red-400 shrink-0">&#10007;</span><span>Breaching confidentiality obligations</span></li>
+          </ul>
+
+          <h3 class="text-base font-semibold text-text mb-3">Disclosure of Interest (s.93)</h3>
+          <p class="text-sm text-muted leading-relaxed mb-6">
+            Members of the Authority, committees, evaluation teams, and procurement units must disclose any direct or indirect interest. If undisclosed and the decision benefits that person, the <strong class="text-text">decision is null and void</strong>.
+          </p>
+
+          <h3 class="text-base font-semibold text-text mb-3">Penalties</h3>
+          <div class="overflow-x-auto mb-6">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="bg-bg-alt">
+                  <th class="px-3 py-2 text-left font-semibold text-text">Offence</th>
+                  <th class="px-3 py-2 text-right font-semibold text-text">Fine (MK)</th>
+                  <th class="px-3 py-2 text-right font-semibold text-text">Prison</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                <tr><td class="px-3 py-2 text-muted text-xs">General offence (individual)</td><td class="px-3 py-2 text-muted text-right">1,000,000</td><td class="px-3 py-2 text-muted text-right">12 months</td></tr>
+                <tr><td class="px-3 py-2 text-muted text-xs">General offence (body corporate)</td><td class="px-3 py-2 text-muted text-right">5,000,000</td><td class="px-3 py-2 text-muted text-right">—</td></tr>
+                <tr><td class="px-3 py-2 text-muted text-xs">Splitting procurement requirements</td><td class="px-3 py-2 text-muted text-right">5,000,000</td><td class="px-3 py-2 text-muted text-right">2 years</td></tr>
+                <tr><td class="px-3 py-2 text-muted text-xs">Processing unrealistically high bids</td><td class="px-3 py-2 text-muted text-right">5,000,000</td><td class="px-3 py-2 text-muted text-right">2 years</td></tr>
+                <tr><td class="px-3 py-2 text-muted text-xs">Confidentiality breach</td><td class="px-3 py-2 text-muted text-right">1,000,000</td><td class="px-3 py-2 text-muted text-right">12 months</td></tr>
+                <tr><td class="px-3 py-2 text-muted text-xs">Post-engagement restriction breach</td><td class="px-3 py-2 text-muted text-right">1,000,000</td><td class="px-3 py-2 text-muted text-right">12 months</td></tr>
+                <tr><td class="px-3 py-2 text-muted text-xs">Failure to submit procurement plan</td><td class="px-3 py-2 text-muted text-right">500,000</td><td class="px-3 py-2 text-muted text-right">—</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3 class="text-base font-semibold text-text mb-3">Debarment (s.79)</h3>
+          <p class="text-sm text-muted leading-relaxed">
+            The PPDA can debar suppliers for false information, collusion, corruption, price fixing, contract misconduct, or repeated failure to comply with contract terms. <strong class="text-text">Owners and directors of debarred companies are personally debarred.</strong> Debarment decisions are reviewable by the High Court. The PPDA maintains and publishes a list of debarred entities.
+          </p>
+        </div>
+      </section>
+
+      <!-- 11. International & Donor Rules -->
+      <section id="donor-rules">
+        <div class="glass-card p-6">
+          <h2 class="text-xl font-semibold text-text mb-4">11. International & Donor Procurement Rules</h2>
+          <p class="text-sm text-muted leading-relaxed mb-4">
+            Section 3(2)(j) of the Act: Donor procurement rules <strong class="text-text">override national law</strong> when the rules conflict and the financing agreement makes donor rules mandatory. Otherwise, national procurement law applies.
+          </p>
+
+          <div class="space-y-3">
+            <div class="glass-card p-4">
+              <h3 class="text-sm font-semibold text-text mb-2">World Bank</h3>
+              <p class="text-xs text-muted leading-relaxed">Uses the 2016 Procurement Framework and STEP system. Open Competitive Bidding preferred. National procedures may be used for lower-value contracts. Firms from all Bank member countries eligible.</p>
+            </div>
+            <div class="glass-card p-4">
+              <h3 class="text-sm font-semibold text-text mb-2">European Union / EDF</h3>
+              <p class="text-xs text-muted leading-relaxed">Governed by PRAG (Practical Guide to Contract Procedures for EU External Actions). Approximately EUR 560 million allocated to Malawi. High-value contracts published on TED (Tenders Electronic Daily).</p>
+            </div>
+            <div class="glass-card p-4">
+              <h3 class="text-sm font-semibold text-text mb-2">African Development Bank</h3>
+              <p class="text-xs text-muted leading-relaxed">Uses AfDB Procurement Framework (effective January 2016). Open Competitive Bidding with wide notification preferred. Firms from AfDB member countries eligible.</p>
+            </div>
+            <div class="glass-card p-4">
+              <h3 class="text-sm font-semibold text-text mb-2">United Nations (UNGM)</h3>
+              <p class="text-xs text-muted leading-relaxed">Register at ungm.org. All vendors must accept UN Supplier Code of Conduct. Active agencies in Malawi include UNDP, UNICEF, WFP, WHO, and FAO.</p>
+            </div>
+          </div>
+
+          <div class="glass-card p-4 mt-4 border border-primary/20">
+            <h3 class="text-sm font-semibold text-text mb-2">What to Check for Donor-Funded Tenders</h3>
+            <ol class="space-y-1 text-sm text-muted list-decimal list-inside">
+              <li>Who is financing the project — this determines which procurement rules apply</li>
+              <li>Does the financing agreement mandate donor rules — if yes, donor rules override national law</li>
+              <li>What are the specific thresholds — these vary by project and donor</li>
+              <li>Where is it advertised — donor projects often require publication on STEP, TED, UNGM, or dgMarket</li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- 12. MANEPS -->
+      <section id="maneps">
+        <div class="glass-card p-6 border border-primary/20">
+          <h2 class="text-xl font-semibold text-text mb-4">12. MANEPS E-Procurement</h2>
+          <p class="text-sm text-muted leading-relaxed mb-4">
+            The <strong class="text-text">Malawi National Electronic Procurement System (MANEPS)</strong> is the government's e-procurement platform. The 2025 Act mandates its use (s.38(5), s.71), and a Ministry of Finance directive requires <strong class="text-text">all government PDEs to use MANEPS from 1 April 2026</strong>.
+          </p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <tbody class="divide-y divide-border">
+                <tr><td class="py-2 pr-4 font-medium text-muted">Portal</td><td class="py-2 text-muted"><a href="https://www.maneps.mw" target="_blank" rel="noopener" class="text-primary hover:underline">maneps.mw</a></td></tr>
+                <tr><td class="py-2 pr-4 font-medium text-muted">Coverage</td><td class="py-2 text-muted">Full lifecycle: vendor registration, planning, requisition, tendering, contract management</td></tr>
+                <tr><td class="py-2 pr-4 font-medium text-muted">Adoption (Jul 2025)</td><td class="py-2 text-muted">32 government bodies transitioned (out of ~200 PDEs)</td></tr>
+                <tr><td class="py-2 pr-4 font-medium text-muted">Mandatory from</td><td class="py-2 text-muted">1 April 2026</td></tr>
+                <tr><td class="py-2 pr-4 font-medium text-muted">Support</td><td class="py-2 text-muted">maneps.support@ppda.mw · +265 885 975 666</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 13. Quick Reference for Bidders -->
+      <section id="quick-reference">
+        <div class="glass-card p-6 border border-primary/20">
+          <h2 class="text-xl font-semibold text-text mb-4">13. Quick Reference for Bidders</h2>
+          <p class="text-sm text-muted mb-4">Step-by-step guide to participating in Malawi public procurement:</p>
+          <div class="overflow-x-auto">
+            <table class="w-full text-sm">
+              <thead>
+                <tr class="bg-bg-alt">
+                  <th class="px-3 py-2 text-left font-semibold text-text">Step</th>
+                  <th class="px-3 py-2 text-left font-semibold text-text">Action</th>
+                  <th class="px-3 py-2 text-left font-semibold text-text">Where</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-border">
+                <tr>
+                  <td class="px-3 py-2 text-primary font-bold">1</td>
+                  <td class="px-3 py-2 text-muted">Register your business</td>
+                  <td class="px-3 py-2 text-muted text-xs"><a href="https://mbrs.gov.mw" target="_blank" rel="noopener" class="text-primary hover:underline">MBRS (mbrs.gov.mw)</a></td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-primary font-bold">2</td>
+                  <td class="px-3 py-2 text-muted">Get your TPIN (tax registration)</td>
+                  <td class="px-3 py-2 text-muted text-xs"><a href="https://www.mra.mw" target="_blank" rel="noopener" class="text-primary hover:underline">MRA (mra.mw)</a> — free, immediate</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-primary font-bold">3</td>
+                  <td class="px-3 py-2 text-muted">Get Tax Clearance Certificate</td>
+                  <td class="px-3 py-2 text-muted text-xs"><a href="https://www.mra.mw" target="_blank" rel="noopener" class="text-primary hover:underline">MRA (mra.mw)</a></td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-primary font-bold">4</td>
+                  <td class="px-3 py-2 text-muted">Register with PPDA (+ pay fee)</td>
+                  <td class="px-3 py-2 text-muted text-xs"><a href="https://www.ppda.mw/supplier-registration" target="_blank" rel="noopener" class="text-primary hover:underline">PPDA (ppda.mw)</a> — 5 working days</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-primary font-bold">5</td>
+                  <td class="px-3 py-2 text-muted">Register on MANEPS</td>
+                  <td class="px-3 py-2 text-muted text-xs"><a href="https://www.maneps.mw" target="_blank" rel="noopener" class="text-primary hover:underline">MANEPS (maneps.mw)</a> — online</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-primary font-bold">6</td>
+                  <td class="px-3 py-2 text-muted">Find tender opportunities</td>
+                  <td class="px-3 py-2 text-muted text-xs">PPDA website, MANEPS, newspapers, or <a href="/" class="text-primary hover:underline">TendersMW</a></td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-primary font-bold">7</td>
+                  <td class="px-3 py-2 text-muted">Submit bid per bidding documents</td>
+                  <td class="px-3 py-2 text-muted text-xs">As instructed in tender documents</td>
+                </tr>
+                <tr>
+                  <td class="px-3 py-2 text-primary font-bold">8</td>
+                  <td class="px-3 py-2 text-muted">Challenge if needed</td>
+                  <td class="px-3 py-2 text-muted text-xs">Written complaint within 14 days to Controlling Officer, then PPDA</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- 14. Key Contacts -->
+      <section id="contacts">
+        <div class="glass-card p-6">
+          <h2 class="text-xl font-semibold text-text mb-4">14. Key Contacts & Resources</h2>
+
+          <h3 class="text-base font-semibold text-text mb-3">Government Agencies</h3>
+          <div class="grid gap-3 sm:grid-cols-2 mb-6">
+            <div class="rounded-lg border border-border p-3">
+              <p class="text-sm font-semibold text-text">PPDA</p>
+              <p class="text-xs text-muted">Jireh Bible House, Area 3, Lilongwe</p>
+              <p class="text-xs text-muted">+265 887 083 261 · <a href="mailto:info@ppda.mw" class="text-primary hover:underline">info@ppda.mw</a></p>
+              <p class="text-xs text-muted"><a href="https://www.ppda.mw" target="_blank" rel="noopener" class="text-primary hover:underline">ppda.mw</a></p>
+            </div>
+            <div class="rounded-lg border border-border p-3">
+              <p class="text-sm font-semibold text-text">MANEPS</p>
+              <p class="text-xs text-muted">E-procurement portal</p>
+              <p class="text-xs text-muted">+265 885 975 666 · <a href="mailto:maneps.support@ppda.mw" class="text-primary hover:underline">maneps.support@ppda.mw</a></p>
+              <p class="text-xs text-muted"><a href="https://www.maneps.mw" target="_blank" rel="noopener" class="text-primary hover:underline">maneps.mw</a></p>
+            </div>
+            <div class="rounded-lg border border-border p-3">
+              <p class="text-sm font-semibold text-text">Anti-Corruption Bureau</p>
+              <p class="text-xs text-muted">Mulanje House, Lilongwe</p>
+              <p class="text-xs text-muted">+265 1 770 166 · <a href="mailto:anti-corruption@acbmw.org" class="text-primary hover:underline">anti-corruption@acbmw.org</a></p>
+              <p class="text-xs text-muted"><a href="https://acbmw.org" target="_blank" rel="noopener" class="text-primary hover:underline">acbmw.org</a></p>
+            </div>
+            <div class="rounded-lg border border-border p-3">
+              <p class="text-sm font-semibold text-text">Malawi Revenue Authority</p>
+              <p class="text-xs text-muted">Tax registration, TPIN, clearance</p>
+              <p class="text-xs text-muted">+265 1 822 588 · <a href="mailto:mrahq@mra.mw" class="text-primary hover:underline">mrahq@mra.mw</a></p>
+              <p class="text-xs text-muted"><a href="https://www.mra.mw" target="_blank" rel="noopener" class="text-primary hover:underline">mra.mw</a></p>
+            </div>
+            <div class="rounded-lg border border-border p-3">
+              <p class="text-sm font-semibold text-text">Registrar General (MBRS)</p>
+              <p class="text-xs text-muted">Company registration</p>
+              <p class="text-xs text-muted">+265 1 828 018 · <a href="mailto:info@registrargeneral.gov.mw" class="text-primary hover:underline">info@registrargeneral.gov.mw</a></p>
+              <p class="text-xs text-muted"><a href="https://mbrs.gov.mw" target="_blank" rel="noopener" class="text-primary hover:underline">mbrs.gov.mw</a></p>
+            </div>
+          </div>
+
+          <h3 class="text-base font-semibold text-text mb-3">Legal Resources</h3>
+          <div class="space-y-2 mb-6">
+            <div class="flex items-start gap-3 text-sm text-muted">
+              <span class="text-primary shrink-0">&#10003;</span>
+              <span><a href="https://ppda.mw/storage/documents/resources/PUBLIC%20PROCUREMENT%20AND%20DISPOSAL%20OF%20PUBLIC%20ASSETS%20ACT,%202025.pdf" target="_blank" rel="noopener" class="text-primary hover:underline">PPDA Act 2025 — Full Text (PDF)</a></span>
+            </div>
+            <div class="flex items-start gap-3 text-sm text-muted">
+              <span class="text-primary shrink-0">&#10003;</span>
+              <span><a href="https://malawilii.org/akn/mw/act/gn/2020/24/eng@2020-06-17" target="_blank" rel="noopener" class="text-primary hover:underline">Procurement Regulations 2020 — Full Text (MalawiLII)</a></span>
+            </div>
+            <div class="flex items-start gap-3 text-sm text-muted">
+              <span class="text-primary shrink-0">&#10003;</span>
+              <span><a href="https://ppda.mw/documents/MSME-Order_2020.pdf" target="_blank" rel="noopener" class="text-primary hover:underline">MSME Order 2020 (PDF)</a></span>
+            </div>
+            <div class="flex items-start gap-3 text-sm text-muted">
+              <span class="text-primary shrink-0">&#10003;</span>
+              <span><a href="https://malawilii.org/akn/mw/act/gn/2025/44/eng@2025-05-30" target="_blank" rel="noopener" class="text-primary hover:underline">Registration Fees Regulations 2025 (MalawiLII)</a></span>
+            </div>
+            <div class="flex items-start gap-3 text-sm text-muted">
+              <span class="text-primary shrink-0">&#10003;</span>
+              <span><a href="https://www.ppda.mw/circulars" target="_blank" rel="noopener" class="text-primary hover:underline">PPDA Circulars — Current Thresholds & Directives</a></span>
+            </div>
+            <div class="flex items-start gap-3 text-sm text-muted">
+              <span class="text-primary shrink-0">&#10003;</span>
+              <span><a href="https://malawilii.org" target="_blank" rel="noopener" class="text-primary hover:underline">MalawiLII — Malawi Legal Information Institute</a></span>
+            </div>
+          </div>
+
+          <h3 class="text-base font-semibold text-text mb-3">International Procurement Portals</h3>
+          <div class="grid gap-3 sm:grid-cols-2">
+            <div class="rounded-lg border border-border p-3">
+              <p class="text-sm font-semibold text-text">World Bank STEP</p>
+              <p class="text-xs text-muted"><a href="https://projects.worldbank.org/en/projects-operations/products-and-services/brief/procurement-new-framework" target="_blank" rel="noopener" class="text-primary hover:underline">worldbank.org/procurement</a></p>
+            </div>
+            <div class="rounded-lg border border-border p-3">
+              <p class="text-sm font-semibold text-text">EU TED</p>
+              <p class="text-xs text-muted"><a href="https://ted.europa.eu" target="_blank" rel="noopener" class="text-primary hover:underline">ted.europa.eu</a></p>
+            </div>
+            <div class="rounded-lg border border-border p-3">
+              <p class="text-sm font-semibold text-text">UNGM</p>
+              <p class="text-xs text-muted"><a href="https://www.ungm.org" target="_blank" rel="noopener" class="text-primary hover:underline">ungm.org</a></p>
+            </div>
+            <div class="rounded-lg border border-border p-3">
+              <p class="text-sm font-semibold text-text">AfDB Procurement</p>
+              <p class="text-xs text-muted"><a href="https://www.afdb.org/en/projects-and-operations/procurement" target="_blank" rel="noopener" class="text-primary hover:underline">afdb.org/procurement</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Disclaimer -->
+      <div class="glass-card p-6">
+        <h2 class="text-base font-semibold text-text mb-3">Disclaimer</h2>
+        <p class="text-xs text-muted leading-relaxed">
+          This guide is provided for informational purposes only and does not constitute legal advice. While we have made every effort to ensure accuracy based on the PPDA Act 2025 and related legislation, procurement rules and thresholds are updated periodically by the PPDA. Always verify current requirements directly with the <a href="https://www.ppda.mw" target="_blank" rel="noopener" class="text-primary hover:underline">PPDA</a> or seek qualified legal counsel before making decisions about public procurement in Malawi. TendersMW is not affiliated with the PPDA or any government ministry. See our <a href="/disclaimer/" class="text-primary hover:underline">full disclaimer</a>.
+        </p>
+      </div>
+
+      <p class="text-xs text-muted text-center mt-6">
+        Last updated: March 26, 2026 · TendersMW is a property of Cosmic Phoenix LLC.
+      </p>
+
+    </div>
+  </article>
+</BaseLayout>
