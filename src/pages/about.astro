@@ -1,49 +1,163 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About TendersMW",
+  "description": "TendersMW uses AI to aggregate, analyze, and simplify procurement opportunities for Malawian businesses.",
+  "url": "https://tendersmw.com/about/"
+};
 ---
 
 <BaseLayout
-  title="About TendersMW | Malawi Procurement Intelligence"
-  description="TendersMW aggregates government and development tenders from across Malawi into one searchable platform."
+  title="About TendersMW | AI-Powered Procurement Intelligence for Malawi"
+  description="TendersMW collects tenders from every major source in Malawi and uses AI to analyze, categorize, and match opportunities to the businesses that need them."
+  jsonLd={jsonLd}
 >
   <article class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
-    <h1 class="text-3xl font-bold text-text mb-6">About TendersMW</h1>
+    <h1 class="text-3xl font-bold text-text mb-2">About TendersMW</h1>
+    <p class="text-muted mb-8">AI-powered procurement intelligence for Malawian businesses</p>
 
-    <div class="prose prose-invert max-w-none space-y-6 text-muted">
+    <div class="space-y-8">
+
+      <!-- Mission -->
       <div class="glass-card p-6">
-        <h2 class="text-xl font-semibold text-text mb-3">What We Do</h2>
-        <p>TendersMW is Malawi's procurement intelligence platform. We aggregate government tenders, procurement notices, and contract opportunities from multiple sources into one searchable directory.</p>
-        <p class="mt-3">Instead of checking PPDA, MANEPS, World Bank, African Development Bank, and UN procurement portals separately, you can find everything here.</p>
+        <h2 class="text-xl font-semibold text-text mb-4">What We Do</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          TendersMW collects every publicly available tender in Malawi -- from government ministries, parastatals, international development agencies, and the United Nations -- and brings them together in one place.
+        </p>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          But we don't just list them. We use <strong class="text-text">artificial intelligence to analyze, categorize, and enrich every tender</strong> so you can quickly find the opportunities that matter to your business. Our AI reads each procurement notice, identifies the category and sector, estimates urgency, and surfaces the most relevant details -- saving you hours of manual searching across multiple portals.
+        </p>
+        <p class="text-sm text-muted leading-relaxed">
+          Instead of checking PPDA, MANEPS, the World Bank, AfDB, EU TED, and UN procurement portals separately every day, you check TendersMW once.
+        </p>
       </div>
 
+      <!-- The Problem -->
       <div class="glass-card p-6">
-        <h2 class="text-xl font-semibold text-text mb-3">Our Sources</h2>
-        <ul class="space-y-2 text-sm">
-          <li><strong class="text-text">PPDA</strong> — Public Procurement and Disposal of Assets Authority</li>
-          <li><strong class="text-text">MANEPS</strong> — Malawi National Electronic Procurement System</li>
-          <li><strong class="text-text">World Bank</strong> — International development project procurement</li>
-          <li><strong class="text-text">African Development Bank</strong> — AfDB-funded procurement notices</li>
-          <li><strong class="text-text">EU TED</strong> — European Union Tenders Electronic Daily</li>
-          <li><strong class="text-text">UNGM</strong> — United Nations Global Marketplace</li>
-          <li><strong class="text-text">ESCOM</strong> — Electricity Supply Corporation of Malawi</li>
-          <li><strong class="text-text">MRA</strong> — Malawi Revenue Authority</li>
+        <h2 class="text-xl font-semibold text-text mb-4">The Problem We're Solving</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          Finding tenders in Malawi is harder than it should be. Procurement notices are scattered across a dozen different websites -- each with a different layout, different search tools, and different update schedules. Some are published only in newspapers. Many have short deadlines that businesses miss simply because they didn't check the right portal on the right day.
+        </p>
+        <p class="text-sm text-muted leading-relaxed">
+          For small and medium Malawian businesses, this fragmentation is a real barrier. The companies best positioned to deliver goods, services, and works often never see the opportunity. We're here to fix that.
+        </p>
+      </div>
+
+      <!-- AI & What's Coming -->
+      <div class="glass-card p-6 border border-primary/20">
+        <h2 class="text-xl font-semibold text-text mb-4">What We're Building</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          What you see today is just the beginning. We are actively developing a much more advanced AI-powered system that will provide significantly more value to Malawian businesses looking for tenders:
+        </p>
+        <ul class="space-y-3 text-sm text-muted">
+          <li class="flex items-start gap-3">
+            <span class="text-primary font-bold mt-0.5 shrink-0">01</span>
+            <span><strong class="text-text">Intelligent matching</strong> -- Tell us what your business does, and our AI will automatically match you with relevant tenders as soon as they're published.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-primary font-bold mt-0.5 shrink-0">02</span>
+            <span><strong class="text-text">Bid preparation assistance</strong> -- AI-assisted tools to help you understand tender requirements and prepare compliant bid documents.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-primary font-bold mt-0.5 shrink-0">03</span>
+            <span><strong class="text-text">Real-time alerts</strong> -- Email and SMS notifications the moment a tender matching your profile is published, so you never miss a deadline.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-primary font-bold mt-0.5 shrink-0">04</span>
+            <span><strong class="text-text">Procurement analytics</strong> -- Insights into spending patterns, which entities are procuring what, and where the opportunities are growing.</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-primary font-bold mt-0.5 shrink-0">05</span>
+            <span><strong class="text-text">Newspaper tender capture</strong> -- Extracting tender notices from print newspapers that never make it to any online portal.</span>
+          </li>
         </ul>
       </div>
 
+      <!-- Sources -->
       <div class="glass-card p-6">
-        <h2 class="text-xl font-semibold text-text mb-3">Who We Serve</h2>
-        <ul class="space-y-2 text-sm">
-          <li><strong class="text-text">Malawian businesses</strong> looking for government and development project opportunities</li>
-          <li><strong class="text-text">International companies</strong> seeking procurement opportunities in Malawi</li>
-          <li><strong class="text-text">NGOs and development organizations</strong> tracking procurement in the country</li>
-          <li><strong class="text-text">Researchers and journalists</strong> analyzing public procurement patterns</li>
+        <h2 class="text-xl font-semibold text-text mb-4">Our Data Sources</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">We pull procurement data from every major source in Malawi:</p>
+        <div class="grid gap-3 sm:grid-cols-2">
+          <div class="rounded-lg border border-border p-3">
+            <p class="text-sm font-semibold text-text">PPDA</p>
+            <p class="text-xs text-muted">Public Procurement and Disposal of Assets Authority</p>
+          </div>
+          <div class="rounded-lg border border-border p-3">
+            <p class="text-sm font-semibold text-text">MANEPS</p>
+            <p class="text-xs text-muted">Malawi National Electronic Procurement System</p>
+          </div>
+          <div class="rounded-lg border border-border p-3">
+            <p class="text-sm font-semibold text-text">World Bank</p>
+            <p class="text-xs text-muted">International development project procurement</p>
+          </div>
+          <div class="rounded-lg border border-border p-3">
+            <p class="text-sm font-semibold text-text">African Development Bank</p>
+            <p class="text-xs text-muted">AfDB-funded procurement in Malawi</p>
+          </div>
+          <div class="rounded-lg border border-border p-3">
+            <p class="text-sm font-semibold text-text">EU TED</p>
+            <p class="text-xs text-muted">European Union Tenders Electronic Daily</p>
+          </div>
+          <div class="rounded-lg border border-border p-3">
+            <p class="text-sm font-semibold text-text">UNGM</p>
+            <p class="text-xs text-muted">United Nations Global Marketplace</p>
+          </div>
+          <div class="rounded-lg border border-border p-3">
+            <p class="text-sm font-semibold text-text">ESCOM</p>
+            <p class="text-xs text-muted">Electricity Supply Corporation of Malawi</p>
+          </div>
+          <div class="rounded-lg border border-border p-3">
+            <p class="text-sm font-semibold text-text">MRA</p>
+            <p class="text-xs text-muted">Malawi Revenue Authority</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Who We Serve -->
+      <div class="glass-card p-6">
+        <h2 class="text-xl font-semibold text-text mb-4">Who We Serve</h2>
+        <ul class="space-y-3 text-sm text-muted">
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span><strong class="text-text">Malawian businesses</strong> -- from sole traders to established companies looking for government and development project opportunities</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span><strong class="text-text">International companies</strong> -- seeking procurement opportunities in Malawi and the SADC region</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span><strong class="text-text">NGOs and development organizations</strong> -- tracking procurement activity across the country</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary shrink-0">&#10003;</span>
+            <span><strong class="text-text">Procurement professionals</strong> -- staying current on all open opportunities in their sector</span>
+          </li>
         </ul>
       </div>
 
+      <!-- Contact -->
+      <div class="glass-card p-6 border border-primary/20">
+        <h2 class="text-xl font-semibold text-text mb-4">Get in Touch</h2>
+        <p class="text-sm text-muted leading-relaxed mb-4">
+          We're always looking to improve. If you have feedback, know of a tender source we're missing, or want to discuss how TendersMW can help your business, reach out:
+        </p>
+        <p class="text-sm text-muted">
+          Email: <a href="mailto:contact@tendersmw.com" class="text-primary hover:underline">contact@tendersmw.com</a>
+        </p>
+      </div>
+
+      <!-- Disclaimer -->
       <div class="glass-card p-6">
         <h2 class="text-xl font-semibold text-text mb-3">Disclaimer</h2>
-        <p class="text-sm">TendersMW is an aggregation service. We collect and present tender information from publicly available sources. We do not issue, manage, or adjudicate tenders. Always verify tender details directly with the procuring entity before submitting a bid. We make every effort to ensure accuracy but cannot guarantee that all information is complete or up-to-date.</p>
+        <p class="text-xs text-muted leading-relaxed">
+          TendersMW is an aggregation and intelligence service. We collect and present tender information from publicly available sources and are not affiliated with the PPDA or any government ministry. We do not issue, manage, or adjudicate tenders. Always verify tender details directly with the procuring entity before submitting a bid. See our <a href="/editorial-policy/" class="text-primary hover:underline">Editorial Policy</a> and <a href="/disclaimer/" class="text-primary hover:underline">Disclaimer</a> for full details.
+        </p>
       </div>
+
     </div>
   </article>
 </BaseLayout>
