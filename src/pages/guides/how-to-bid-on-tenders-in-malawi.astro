@@ -1,0 +1,395 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Bid on Government Tenders in Malawi',
+  description: 'A complete step-by-step guide to finding, preparing for, and winning government tenders in Malawi through the PPDA procurement process.',
+  url: 'https://tendersmw.com/guides/how-to-bid-on-tenders-in-malawi/',
+  step: [
+    { '@type': 'HowToStep', position: 1, name: 'Register as a Supplier', text: 'Register with PPDA and obtain your supplier registration certificate.' },
+    { '@type': 'HowToStep', position: 2, name: 'Find Relevant Tenders', text: 'Search for tenders matching your business category on PPDA, MANEPS, and TendersMW.' },
+    { '@type': 'HowToStep', position: 3, name: 'Understand the Requirements', text: 'Read the tender document carefully and note all requirements, deadlines, and evaluation criteria.' },
+    { '@type': 'HowToStep', position: 4, name: 'Prepare Your Bid', text: 'Assemble all required documents, prepare technical and financial proposals.' },
+    { '@type': 'HowToStep', position: 5, name: 'Submit Your Bid', text: 'Submit your sealed bid before the deadline at the specified location.' },
+    { '@type': 'HowToStep', position: 6, name: 'Attend Bid Opening', text: 'Attend the public bid opening to verify your bid was received.' },
+    { '@type': 'HowToStep', position: 7, name: 'Contract Award', text: 'If successful, sign the contract and begin delivery.' },
+  ],
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tendersmw.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://tendersmw.com/guides/' },
+      { '@type': 'ListItem', position: 3, name: 'How to Bid on Tenders' },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title="How to Bid on Government Tenders in Malawi — Complete Guide | TendersMW"
+  description="Step-by-step guide to bidding on government tenders in Malawi. Learn about PPDA registration, tender documents, bid preparation, submission, and winning strategies."
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/" class="hover:text-primary transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/guides/" class="hover:text-primary transition-colors">Guides</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">How to Bid on Tenders</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-text mb-4">How to Bid on Government Tenders in Malawi: A Complete Guide</h1>
+    <p class="text-lg text-muted mb-8">Everything you need to know about finding, preparing for, and winning public procurement contracts in Malawi — from supplier registration to contract award.</p>
+
+    <!-- Table of Contents -->
+    <div class="glass-card p-6 mb-10">
+      <h2 class="text-sm font-semibold text-text uppercase tracking-wider mb-3">In This Guide</h2>
+      <ol class="space-y-2 text-sm text-muted">
+        <li><a href="#overview" class="hover:text-primary transition-colors">1. Overview of Malawi's Procurement System</a></li>
+        <li><a href="#eligibility" class="hover:text-primary transition-colors">2. Who Can Bid on Tenders?</a></li>
+        <li><a href="#registration" class="hover:text-primary transition-colors">3. Supplier Registration with PPDA</a></li>
+        <li><a href="#finding" class="hover:text-primary transition-colors">4. Finding Tenders</a></li>
+        <li><a href="#documents" class="hover:text-primary transition-colors">5. Understanding Tender Documents</a></li>
+        <li><a href="#preparation" class="hover:text-primary transition-colors">6. Preparing Your Bid</a></li>
+        <li><a href="#submission" class="hover:text-primary transition-colors">7. Submitting Your Bid</a></li>
+        <li><a href="#evaluation" class="hover:text-primary transition-colors">8. Evaluation and Award Process</a></li>
+        <li><a href="#methods" class="hover:text-primary transition-colors">9. Procurement Methods Explained</a></li>
+        <li><a href="#msme" class="hover:text-primary transition-colors">10. MSME Preferences and Set-Asides</a></li>
+        <li><a href="#mistakes" class="hover:text-primary transition-colors">11. Common Mistakes to Avoid</a></li>
+        <li><a href="#tips" class="hover:text-primary transition-colors">12. Tips for Winning Tenders</a></li>
+      </ol>
+    </div>
+
+    <!-- Section 1 -->
+    <section id="overview" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">1. Overview of Malawi's Procurement System</h2>
+      <p class="text-muted leading-relaxed mb-4">
+        Public procurement in Malawi is governed by the <strong class="text-text">PPDA Act 2025</strong> (Act No. 7 of 2025), which replaced the 2003 Act. The system is regulated by the <strong class="text-text">Public Procurement and Disposal of Assets Authority (PPDA)</strong>, which sets rules, monitors compliance, and maintains the register of approved suppliers.
+      </p>
+      <p class="text-muted leading-relaxed mb-4">
+        Government procurement accounts for approximately <strong class="text-text">14% of Malawi's GDP</strong> — around MWK 2.5-3.6 trillion ($1.5-2.1 billion) annually. This covers everything from office supplies and vehicles to major infrastructure projects funded by government and international donors.
+      </p>
+      <p class="text-muted leading-relaxed">
+        All government ministries, departments, statutory corporations, and district councils (called <strong class="text-text">Procuring and Disposing Entities or PDEs</strong>) must follow PPDA rules when purchasing goods, works, or services above specified thresholds.
+      </p>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="eligibility" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">2. Who Can Bid on Tenders?</h2>
+      <p class="text-muted leading-relaxed mb-4">Any registered business can bid on Malawi government tenders, provided they meet the following basic requirements:</p>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-4">
+        <li><strong class="text-text">Business registration</strong> — Valid registration with the Registrar General</li>
+        <li><strong class="text-text">Tax compliance</strong> — Current Tax Clearance Certificate from Malawi Revenue Authority (MRA)</li>
+        <li><strong class="text-text">PPDA registration</strong> — Registration with PPDA in the appropriate category (mandatory for most tenders above MWK 75 million)</li>
+        <li><strong class="text-text">Financial capacity</strong> — Audited financial statements demonstrating ability to fulfill the contract</li>
+        <li><strong class="text-text">Technical capacity</strong> — Relevant experience, qualified staff, and equipment for the work</li>
+        <li><strong class="text-text">No debarment</strong> — Not on the PPDA debarment list</li>
+      </ul>
+      <p class="text-muted leading-relaxed">
+        For <strong class="text-text">construction tenders</strong>, you also need registration with the National Construction Industry Council (NCIC) in the appropriate class and category.
+      </p>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="registration" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">3. Supplier Registration with PPDA</h2>
+      <p class="text-muted leading-relaxed mb-4">
+        PPDA registration is mandatory for most tenders above MWK 75 million. Registration is done in categories that match your business activities.
+      </p>
+
+      <h3 class="text-lg font-semibold text-text mb-3">Required Documents</h3>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-6">
+        <li>Certificate of Incorporation / Business Registration</li>
+        <li>Tax Clearance Certificate (current year)</li>
+        <li>Audited financial statements (2-3 years)</li>
+        <li>Company profile and CV of key personnel</li>
+        <li>MRA tax registration certificate (TPIN)</li>
+        <li>Bank reference letter</li>
+        <li>Proof of physical address</li>
+        <li>Directors' national IDs</li>
+      </ul>
+
+      <h3 class="text-lg font-semibold text-text mb-3">Registration Fees</h3>
+      <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm text-left">
+          <thead class="text-xs text-muted uppercase bg-bg-alt">
+            <tr>
+              <th class="px-4 py-3">Category</th>
+              <th class="px-4 py-3">Contract Value Range</th>
+              <th class="px-4 py-3">Fee (MWK)</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-border">
+            <tr class="border-b border-border">
+              <td class="px-4 py-3 text-text">A</td>
+              <td class="px-4 py-3 text-muted">Above MWK 1 billion</td>
+              <td class="px-4 py-3 text-muted">MWK 500,000</td>
+            </tr>
+            <tr class="border-b border-border">
+              <td class="px-4 py-3 text-text">B</td>
+              <td class="px-4 py-3 text-muted">MWK 500 million - 1 billion</td>
+              <td class="px-4 py-3 text-muted">MWK 300,000</td>
+            </tr>
+            <tr class="border-b border-border">
+              <td class="px-4 py-3 text-text">C</td>
+              <td class="px-4 py-3 text-muted">MWK 200 million - 500 million</td>
+              <td class="px-4 py-3 text-muted">MWK 200,000</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 text-text">D</td>
+              <td class="px-4 py-3 text-muted">MWK 75 million - 200 million</td>
+              <td class="px-4 py-3 text-muted">MWK 100,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-muted leading-relaxed">
+        Registration is valid for <strong class="text-text">2 years</strong> and must be renewed before expiry. Apply at the <a href="https://www.ppda.mw" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">PPDA offices in Lilongwe</a> or through the PPDA website.
+      </p>
+    </section>
+
+    <!-- Section 4 -->
+    <section id="finding" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">4. Finding Tenders</h2>
+      <p class="text-muted leading-relaxed mb-4">Tenders in Malawi are published through several channels:</p>
+
+      <div class="space-y-4 mb-6">
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">TendersMW</h3>
+          <p class="text-sm text-muted">Free aggregator covering PPDA, MANEPS, World Bank, EU, and UN sources. Browse by <a href="/category/" class="text-primary hover:underline">category</a>, source, or entity.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">PPDA Website</h3>
+          <p class="text-sm text-muted">Official tender notices from all government Procuring and Disposing Entities. <a href="/source/ppda/" class="text-primary hover:underline">View PPDA tenders</a>.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">MANEPS (maneps.mw)</h3>
+          <p class="text-sm text-muted">Malawi's electronic procurement portal, mandatory from April 2026. <a href="/source/maneps/" class="text-primary hover:underline">View MANEPS tenders</a>.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Newspapers</h3>
+          <p class="text-sm text-muted">The Nation, Daily Times, and Malawi News publish 30-40% of all tenders. The PPDA Act requires newspaper publication for Open Competitive Bidding.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">International Sources</h3>
+          <p class="text-sm text-muted">For donor-funded projects: <a href="/source/world_bank/" class="text-primary hover:underline">World Bank</a>, <a href="/source/eu_ted/" class="text-primary hover:underline">EU TED</a>, <a href="/source/ungm/" class="text-primary hover:underline">UN Global Marketplace</a>, and AfDB.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section id="documents" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">5. Understanding Tender Documents</h2>
+      <p class="text-muted leading-relaxed mb-4">A typical tender document in Malawi contains the following sections:</p>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-4">
+        <li><strong class="text-text">Invitation to Bid (ITB)</strong> — Summary of what's being procured, eligibility, and submission deadline</li>
+        <li><strong class="text-text">Instructions to Bidders (ITB)</strong> — Detailed rules on bid preparation, formatting, sealing, and submission</li>
+        <li><strong class="text-text">General Conditions of Contract (GCC)</strong> — Standard contract terms</li>
+        <li><strong class="text-text">Special Conditions of Contract (SCC)</strong> — Project-specific terms that modify or add to the GCC</li>
+        <li><strong class="text-text">Technical Specifications</strong> — Detailed requirements for the goods, works, or services</li>
+        <li><strong class="text-text">Evaluation Criteria</strong> — How bids will be scored (technical merit, price, or a combination)</li>
+        <li><strong class="text-text">Bill of Quantities / Price Schedule</strong> — Where you fill in your prices</li>
+        <li><strong class="text-text">Bid Forms</strong> — Standard forms you must complete and sign</li>
+      </ul>
+      <p class="text-muted leading-relaxed">
+        <strong class="text-text">Read every page.</strong> The most common reason for bid disqualification is failure to comply with a requirement stated in the tender document. Pay special attention to mandatory requirements, document formats, and the evaluation criteria.
+      </p>
+    </section>
+
+    <!-- Section 6 -->
+    <section id="preparation" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">6. Preparing Your Bid</h2>
+
+      <h3 class="text-lg font-semibold text-text mb-3">Document Checklist</h3>
+      <p class="text-muted leading-relaxed mb-4">A typical bid submission in Malawi requires:</p>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-6">
+        <li>Completed bid form (signed and stamped)</li>
+        <li>Bid security / bid bond (if required — typically 1-2% of bid value)</li>
+        <li>Valid PPDA registration certificate</li>
+        <li>Current Tax Clearance Certificate</li>
+        <li>Certificate of Incorporation</li>
+        <li>Audited financial statements (2-3 years)</li>
+        <li>Technical proposal (methodology, work plan, team CVs)</li>
+        <li>Financial proposal (priced Bill of Quantities or price schedule)</li>
+        <li>Power of Attorney (if signed by someone other than a director)</li>
+        <li>NCIC registration (for construction tenders)</li>
+        <li>References and evidence of past performance</li>
+        <li>Any other documents specified in the tender notice</li>
+      </ul>
+
+      <h3 class="text-lg font-semibold text-text mb-3">Technical Proposal Tips</h3>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-6">
+        <li>Address every requirement in the technical specifications — use the same headings</li>
+        <li>Provide a clear methodology showing you understand the scope of work</li>
+        <li>Include a realistic work plan with milestones and deliverables</li>
+        <li>Highlight your team's relevant qualifications and experience</li>
+        <li>Include evidence of similar completed contracts (references, completion certificates)</li>
+      </ul>
+
+      <h3 class="text-lg font-semibold text-text mb-3">Financial Proposal Tips</h3>
+      <ul class="list-disc pl-6 space-y-2 text-muted">
+        <li>Price every item in the Bill of Quantities — leaving items blank may disqualify your bid</li>
+        <li>Ensure arithmetic is correct — errors may be corrected but can affect your standing</li>
+        <li>Include all taxes (VAT, WHT) as required by the tender document</li>
+        <li>Be competitive but realistic — abnormally low bids may be rejected</li>
+        <li>State your bid validity period (typically 90-120 days)</li>
+      </ul>
+    </section>
+
+    <!-- Section 7 -->
+    <section id="submission" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">7. Submitting Your Bid</h2>
+      <p class="text-muted leading-relaxed mb-4">For traditional (paper) procurement:</p>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-6">
+        <li><strong class="text-text">Seal your bid</strong> in the envelopes as specified (usually separate technical and financial envelopes inside an outer envelope)</li>
+        <li><strong class="text-text">Label each envelope</strong> with the tender reference number, your company name, and "Technical Proposal" or "Financial Proposal"</li>
+        <li><strong class="text-text">Submit before the deadline</strong> — late bids are returned unopened, no exceptions</li>
+        <li><strong class="text-text">Get a receipt</strong> — always obtain written confirmation that your bid was received</li>
+        <li><strong class="text-text">Attend the bid opening</strong> — bid openings are public; attend to verify your bid was received and recorded correctly</li>
+      </ul>
+      <p class="text-muted leading-relaxed">
+        For <strong class="text-text">MANEPS electronic submissions</strong>: upload your documents on the platform before the deadline. The system automatically locks submissions at the closing time. Ensure you have a stable internet connection and start uploading well before the deadline.
+      </p>
+    </section>
+
+    <!-- Section 8 -->
+    <section id="evaluation" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">8. Evaluation and Award Process</h2>
+      <p class="text-muted leading-relaxed mb-4">After bid opening, the PDE's Internal Procurement and Disposal Committee (IPDC) evaluates bids in stages:</p>
+      <ol class="list-decimal pl-6 space-y-3 text-muted mb-6">
+        <li><strong class="text-text">Preliminary examination</strong> — Checks completeness, eligibility, and compliance with mandatory requirements. Incomplete bids are rejected at this stage.</li>
+        <li><strong class="text-text">Technical evaluation</strong> — Scores the technical proposal against the published criteria. For Quality and Cost-Based Selection (QCBS), you must meet a minimum technical score (typically 70-75%) to proceed.</li>
+        <li><strong class="text-text">Financial evaluation</strong> — Opens and evaluates financial proposals. For goods and works, the lowest evaluated bid usually wins. For consulting services, price and quality are weighted.</li>
+        <li><strong class="text-text">PPDA no-objection</strong> — For high-value tenders, the PPDA reviews and approves the evaluation before award.</li>
+        <li><strong class="text-text">Notification</strong> — The winning bidder is notified and a 10-day standstill period begins during which unsuccessful bidders can challenge the decision.</li>
+        <li><strong class="text-text">Contract signing</strong> — After the standstill period, the contract is signed and any performance security is provided.</li>
+      </ol>
+    </section>
+
+    <!-- Section 9 -->
+    <section id="methods" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">9. Procurement Methods Explained</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm text-left mb-6">
+          <thead class="text-xs text-muted uppercase bg-bg-alt">
+            <tr>
+              <th class="px-4 py-3">Method</th>
+              <th class="px-4 py-3">When Used</th>
+              <th class="px-4 py-3">Threshold</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-border">
+            <tr>
+              <td class="px-4 py-3 text-text font-medium">Open Competitive Bidding (OCB)</td>
+              <td class="px-4 py-3 text-muted">Default method for high-value procurement. Published in newspapers and online.</td>
+              <td class="px-4 py-3 text-muted">Above MWK 75M (goods/services), MWK 150M (works)</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 text-text font-medium">Restricted Bidding</td>
+              <td class="px-4 py-3 text-muted">Limited to pre-qualified or shortlisted suppliers. Used for specialised goods/services.</td>
+              <td class="px-4 py-3 text-muted">Above MWK 75M (with PPDA approval)</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 text-text font-medium">Request for Quotations (RFQ)</td>
+              <td class="px-4 py-3 text-muted">Simplified process for lower-value purchases. Minimum 3 quotations required.</td>
+              <td class="px-4 py-3 text-muted">Below MWK 75M</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 text-text font-medium">Single Source</td>
+              <td class="px-4 py-3 text-muted">Direct procurement from one supplier. Only with PPDA approval for emergencies or sole supplier situations.</td>
+              <td class="px-4 py-3 text-muted">Any value (PPDA approval required)</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 text-text font-medium">QCBS</td>
+              <td class="px-4 py-3 text-muted">Quality and Cost-Based Selection. Common for consulting assignments. Weight split between technical and financial scores.</td>
+              <td class="px-4 py-3 text-muted">Consulting services above MWK 75M</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-muted leading-relaxed">
+        For full details on procurement methods and thresholds, see our <a href="/procurement-law/" class="text-primary hover:underline">Malawi Procurement Law reference</a>.
+      </p>
+    </section>
+
+    <!-- Section 10 -->
+    <section id="msme" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">10. MSME Preferences and Set-Asides</h2>
+      <p class="text-muted leading-relaxed mb-4">
+        The PPDA Act 2025 and the <strong class="text-text">Preference and Reservations Order 2020</strong> give significant advantages to Malawian MSMEs:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-4">
+        <li><strong class="text-text">60% set-aside</strong> — At least 60% of all procurement value must go to Malawian-owned MSMEs (new under 2025 Act)</li>
+        <li><strong class="text-text">40% women/youth/disabilities</strong> — Within the MSME set-aside, at least 40% must go to businesses owned by women, youth, or persons with disabilities</li>
+        <li><strong class="text-text">Margin of preference</strong> — Up to 15% price preference for indigenous Malawian bidders competing against international bidders</li>
+        <li><strong class="text-text">Simplified procedures</strong> — MSMEs may benefit from simplified bidding procedures for lower-value contracts</li>
+      </ul>
+      <p class="text-muted leading-relaxed">
+        To qualify for MSME preferences, your business must be registered as an MSME with the Small and Medium Enterprise Development Institute (SMEDI) and be majority Malawian-owned.
+      </p>
+    </section>
+
+    <!-- Section 11 -->
+    <section id="mistakes" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">11. Common Mistakes to Avoid</h2>
+      <div class="space-y-4">
+        <div class="glass-card p-4 border-l-4 border-red-500">
+          <h3 class="font-semibold text-text mb-1">Missing documents</h3>
+          <p class="text-sm text-muted">Forgetting to include required certificates, audited accounts, or signed bid forms. Use a checklist for every submission.</p>
+        </div>
+        <div class="glass-card p-4 border-l-4 border-red-500">
+          <h3 class="font-semibold text-text mb-1">Late submission</h3>
+          <p class="text-sm text-muted">Submitting after the deadline. No extensions are granted. Aim to submit at least 24 hours early.</p>
+        </div>
+        <div class="glass-card p-4 border-l-4 border-red-500">
+          <h3 class="font-semibold text-text mb-1">Not reading the full tender document</h3>
+          <p class="text-sm text-muted">Skipping sections often means missing mandatory requirements. Read every page, including annexes.</p>
+        </div>
+        <div class="glass-card p-4 border-l-4 border-red-500">
+          <h3 class="font-semibold text-text mb-1">Expired certificates</h3>
+          <p class="text-sm text-muted">Submitting expired Tax Clearance Certificates, PPDA registrations, or insurance policies.</p>
+        </div>
+        <div class="glass-card p-4 border-l-4 border-red-500">
+          <h3 class="font-semibold text-text mb-1">Arithmetic errors</h3>
+          <p class="text-sm text-muted">Calculation mistakes in the Bill of Quantities. Double-check all totals and unit prices.</p>
+        </div>
+        <div class="glass-card p-4 border-l-4 border-red-500">
+          <h3 class="font-semibold text-text mb-1">Bidding outside your capacity</h3>
+          <p class="text-sm text-muted">Taking on contracts larger than your financial or technical capacity leads to contract failure and potential debarment.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 12 -->
+    <section id="tips" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">12. Tips for Winning Tenders</h2>
+      <ul class="list-disc pl-6 space-y-3 text-muted">
+        <li><strong class="text-text">Specialise</strong> — Focus on 2-3 categories where you have the strongest track record. Spreading yourself too thin reduces quality.</li>
+        <li><strong class="text-text">Build relationships</strong> — Attend pre-bid conferences, join industry associations (MCCCI), and connect with procurement officers professionally.</li>
+        <li><strong class="text-text">Start small</strong> — Win smaller RFQ contracts first to build a track record before pursuing larger OCB tenders.</li>
+        <li><strong class="text-text">Keep documents ready</strong> — Maintain a "bid-ready" folder with all standard documents (certificates, financial statements, company profile) updated and organised.</li>
+        <li><strong class="text-text">Joint ventures</strong> — If a contract is too large for you alone, partner with complementary firms through a joint venture or subcontracting arrangement.</li>
+        <li><strong class="text-text">Learn from losses</strong> — After losing a bid, request a debriefing from the PDE. Understand why you lost and improve for next time. You have the right to a debriefing under the PPDA Act.</li>
+        <li><strong class="text-text">Monitor TendersMW</strong> — Set up <a href="/" class="text-primary hover:underline">daily monitoring</a> to catch new opportunities as soon as they're published.</li>
+        <li><strong class="text-text">Understand donor rules</strong> — If bidding on World Bank or EU-funded projects, learn their specific procurement rules, which differ from national rules.</li>
+      </ul>
+    </section>
+
+    <!-- CTA -->
+    <div class="glass-card p-8 text-center bg-primary/5">
+      <h2 class="text-xl font-bold text-text mb-2">Ready to Find Your Next Tender?</h2>
+      <p class="text-muted mb-4">Browse the latest procurement opportunities across all Malawi government sources.</p>
+      <a href="/" class="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-medium text-white hover:bg-primary/90 transition-colors">
+        Browse Active Tenders
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+      </a>
+    </div>
+  </article>
+</BaseLayout>

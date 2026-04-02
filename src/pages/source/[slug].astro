@@ -1,0 +1,94 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TenderCard from '../../components/TenderCard.astro';
+import { getTendersBySource, getSourceInfo } from '../../utils/data';
+
+export function getStaticPaths() {
+  const sources = getSourceInfo();
+  return sources.map(s => ({ params: { slug: s.slug }, props: { source: s } }));
+}
+
+const { source } = Astro.props;
+const tenders = getTendersBySource(source.slug);
+const activeTenders = tenders.filter(t => t.is_active);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${source.name} Tenders in Malawi`,
+  description: source.description,
+  url: `https://tendersmw.com/source/${source.slug}/`,
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tendersmw.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Sources', item: 'https://tendersmw.com/source/' },
+      { '@type': 'ListItem', position: 3, name: source.name },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title={`${source.name} Tenders in Malawi | TendersMW`}
+  description={source.description}
+  jsonLd={jsonLd}
+>
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/" class="hover:text-primary transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">{source.name}</span>
+    </nav>
+
+    <div class="flex items-center gap-3 mb-2">
+      <span class="text-3xl">{source.icon}</span>
+      <h1 class="text-3xl font-bold text-text">{source.name} Tenders</h1>
+    </div>
+    <p class="text-lg text-muted mb-6">{source.fullName}</p>
+
+    <!-- About this source -->
+    <div class="glass-card p-6 mb-8">
+      <h2 class="text-lg font-semibold text-text mb-3">About {source.name}</h2>
+      <p class="text-sm text-muted leading-relaxed mb-4">{source.about}</p>
+      <a
+        href={source.website}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-1 text-sm text-primary hover:underline"
+      >
+        Visit {source.name} website
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Stats -->
+    <div class="flex items-center gap-3 mb-6">
+      <span class="inline-flex items-center rounded-full bg-primary-light px-3 py-1 text-sm font-medium text-primary">
+        {activeTenders.length} active
+      </span>
+      <span class="inline-flex items-center rounded-full bg-bg-alt px-3 py-1 text-sm font-medium text-muted border border-border">
+        {tenders.length} total
+      </span>
+    </div>
+
+    <!-- Tender list -->
+    {tenders.length > 0 ? (
+      <div class="grid gap-4">
+        {tenders.map(tender => (
+          <TenderCard tender={tender} />
+        ))}
+      </div>
+    ) : (
+      <div class="glass-card p-12 text-center">
+        <p class="text-lg font-medium text-text mb-2">No tenders from {source.name} yet</p>
+        <p class="text-sm text-muted max-w-md mx-auto">
+          We're actively building our {source.name} data pipeline. Tenders from this source will appear here once our scraper is connected. Check back soon or browse <a href="/" class="text-primary hover:underline">all tenders</a>.
+        </p>
+      </div>
+    )}
+  </section>
+</BaseLayout>

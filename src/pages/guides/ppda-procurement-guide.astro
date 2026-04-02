@@ -1,0 +1,513 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'PPDA Procurement Guide: Everything You Need to Know',
+  description: 'Complete guide to the Public Procurement and Disposal of Assets Authority (PPDA) in Malawi — registration, regulations, compliance, and supplier resources.',
+  url: 'https://tendersmw.com/guides/ppda-procurement-guide/',
+  author: { '@type': 'Organization', name: 'TendersMW' },
+  publisher: { '@type': 'Organization', name: 'TendersMW', url: 'https://tendersmw.com' },
+  datePublished: '2026-03-28',
+  dateModified: '2026-04-02',
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tendersmw.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://tendersmw.com/guides/' },
+      { '@type': 'ListItem', position: 3, name: 'PPDA Procurement Guide' },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title="PPDA Procurement Guide — Supplier Registration, Rules & Compliance | TendersMW"
+  description="Complete guide to the PPDA in Malawi. Learn about supplier registration, procurement regulations, registration fees, categories, the complaints process, and how PPDA protects fair procurement."
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/" class="hover:text-primary transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/guides/" class="hover:text-primary transition-colors">Guides</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">PPDA Guide</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-text mb-4">PPDA Procurement Guide: Everything You Need to Know</h1>
+    <p class="text-lg text-muted mb-8">A comprehensive guide to working with the Public Procurement and Disposal of Assets Authority — Malawi's procurement regulator — including registration, compliance, and supplier resources.</p>
+
+    <!-- TOC -->
+    <div class="glass-card p-6 mb-10">
+      <h2 class="text-sm font-semibold text-text uppercase tracking-wider mb-3">In This Guide</h2>
+      <ol class="space-y-2 text-sm text-muted">
+        <li><a href="#what-is-ppda" class="hover:text-primary transition-colors">1. What Is the PPDA?</a></li>
+        <li><a href="#legal-framework" class="hover:text-primary transition-colors">2. Legal Framework</a></li>
+        <li><a href="#registration" class="hover:text-primary transition-colors">3. Supplier Registration</a></li>
+        <li><a href="#categories" class="hover:text-primary transition-colors">4. Registration Categories and Fees</a></li>
+        <li><a href="#registration-process" class="hover:text-primary transition-colors">5. Step-by-Step Registration Process</a></li>
+        <li><a href="#pdes" class="hover:text-primary transition-colors">6. Procuring and Disposing Entities (PDEs)</a></li>
+        <li><a href="#procurement-cycle" class="hover:text-primary transition-colors">7. The Procurement Cycle</a></li>
+        <li><a href="#compliance" class="hover:text-primary transition-colors">8. Compliance Requirements</a></li>
+        <li><a href="#complaints" class="hover:text-primary transition-colors">9. Complaints and Appeals</a></li>
+        <li><a href="#debarment" class="hover:text-primary transition-colors">10. Debarment and Sanctions</a></li>
+        <li><a href="#maneps" class="hover:text-primary transition-colors">11. PPDA and MANEPS</a></li>
+        <li><a href="#contact" class="hover:text-primary transition-colors">12. Contact PPDA</a></li>
+      </ol>
+    </div>
+
+    <!-- Section 1 -->
+    <section id="what-is-ppda" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">1. What Is the PPDA?</h2>
+      <p class="text-muted leading-relaxed mb-4">
+        The <strong class="text-text">Public Procurement and Disposal of Assets Authority (PPDA)</strong> is Malawi's independent regulatory body responsible for overseeing all public procurement and disposal of assets by government entities. It was established under the Public Procurement Act of 2003 and continues under the updated <strong class="text-text">PPDA Act 2025</strong> (Act No. 7 of 2025).
+      </p>
+      <p class="text-muted leading-relaxed mb-4">The PPDA's key functions include:</p>
+      <ul class="list-disc pl-6 space-y-2 text-muted">
+        <li>Setting procurement rules, standards, and guidelines for all government purchasing</li>
+        <li>Monitoring and auditing PDEs to ensure compliance with procurement law</li>
+        <li>Maintaining the <strong class="text-text">Register of Approved Suppliers</strong> — the official list of businesses eligible to bid on government contracts</li>
+        <li>Reviewing and approving high-value procurement decisions (no-objection process)</li>
+        <li>Handling procurement complaints and investigations</li>
+        <li>Capacity building and training for procurement officers</li>
+        <li>Managing the debarment list — businesses banned from government contracting</li>
+        <li>Overseeing the implementation of MANEPS (e-procurement system)</li>
+      </ul>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="legal-framework" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">2. Legal Framework</h2>
+      <p class="text-muted leading-relaxed mb-4">Public procurement in Malawi is governed by several pieces of legislation:</p>
+
+      <div class="space-y-4 mb-6">
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">PPDA Act 2025 (Act No. 7 of 2025)</h3>
+          <p class="text-sm text-muted">The primary law governing all public procurement. Replaced the 2003 Act. Introduced e-procurement mandates, enhanced MSME preferences (60% set-aside), and strengthened anti-corruption provisions.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Public Procurement and Disposal of Assets Regulations 2020</h3>
+          <p class="text-sm text-muted">Detailed regulations implementing the Act, including procurement thresholds, evaluation procedures, standard bidding documents, and record-keeping requirements.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Preference and Reservations Order 2020</h3>
+          <p class="text-sm text-muted">Sets margin of preference for Malawian suppliers (up to 15%) and reservations for MSMEs, women, youth, and persons with disabilities.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Corrupt Practices Act</h3>
+          <p class="text-sm text-muted">Anti-corruption law that applies to all procurement activities. The Anti-Corruption Bureau (ACB) investigates procurement fraud.</p>
+        </div>
+      </div>
+      <p class="text-muted leading-relaxed">
+        For a complete legal reference including thresholds, procurement methods, and compliance requirements, see our <a href="/procurement-law/" class="text-primary hover:underline">Malawi Procurement Law page</a>.
+      </p>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="registration" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">3. Supplier Registration</h2>
+      <p class="text-muted leading-relaxed mb-4">
+        PPDA registration is <strong class="text-text">mandatory for bidding on government tenders above MWK 75 million</strong>. Without a valid PPDA registration certificate, your bid will be rejected.
+      </p>
+      <p class="text-muted leading-relaxed mb-4">Registration gives you:</p>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-6">
+        <li>Eligibility to bid on government contracts in your registered categories</li>
+        <li>Listing on the PPDA Approved Suppliers Register (publicly searchable)</li>
+        <li>Access to MANEPS e-procurement platform</li>
+        <li>Credibility with PDEs who check registration status before evaluation</li>
+      </ul>
+
+      <h3 class="text-lg font-semibold text-text mb-3">Required Documents</h3>
+      <div class="glass-card p-6 mb-4">
+        <ul class="space-y-2 text-sm text-muted">
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>Certificate of Incorporation or Business Registration</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>Tax Registration Certificate (TPIN) from MRA</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>Current Tax Clearance Certificate from MRA</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>Audited financial statements (minimum 2 years)</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>Company profile with details of directors, staff, and capabilities</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>CVs of key personnel</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>Bank reference letter</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>Proof of physical business address</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>National IDs of all directors</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>Evidence of relevant experience (contracts, references)</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary mt-0.5">&#10003;</span>
+            <span>NCIC registration (for construction firms only)</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section id="categories" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">4. Registration Categories and Fees</h2>
+      <p class="text-muted leading-relaxed mb-4">
+        Suppliers register in categories based on the maximum contract value they can bid on. Your category is determined by your financial capacity (turnover, assets) and track record.
+      </p>
+
+      <div class="overflow-x-auto mb-6">
+        <table class="w-full text-sm text-left">
+          <thead class="text-xs text-muted uppercase bg-bg-alt">
+            <tr>
+              <th class="px-4 py-3">Category</th>
+              <th class="px-4 py-3">Contract Value Range</th>
+              <th class="px-4 py-3">Registration Fee</th>
+              <th class="px-4 py-3">Typical Businesses</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-border">
+            <tr>
+              <td class="px-4 py-3 text-text font-medium">Category A</td>
+              <td class="px-4 py-3 text-muted">Above MWK 1 billion</td>
+              <td class="px-4 py-3 text-muted">MWK 500,000</td>
+              <td class="px-4 py-3 text-muted">Large corporations, international firms, major contractors</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 text-text font-medium">Category B</td>
+              <td class="px-4 py-3 text-muted">MWK 500M - 1 billion</td>
+              <td class="px-4 py-3 text-muted">MWK 300,000</td>
+              <td class="px-4 py-3 text-muted">Medium-large enterprises, established contractors</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 text-text font-medium">Category C</td>
+              <td class="px-4 py-3 text-muted">MWK 200M - 500M</td>
+              <td class="px-4 py-3 text-muted">MWK 200,000</td>
+              <td class="px-4 py-3 text-muted">Medium enterprises, growing businesses</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 text-text font-medium">Category D</td>
+              <td class="px-4 py-3 text-muted">MWK 75M - 200M</td>
+              <td class="px-4 py-3 text-muted">MWK 100,000</td>
+              <td class="px-4 py-3 text-muted">Small enterprises, new suppliers</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="text-muted leading-relaxed mb-4">
+        You can register in <strong class="text-text">multiple business areas</strong> (goods, services, works, consulting) under the same category. Registration is valid for <strong class="text-text">2 years</strong>. Renewal applications should be submitted at least 30 days before expiry.
+      </p>
+
+      <div class="glass-card p-4 border-l-4 border-primary">
+        <p class="text-sm text-muted"><strong class="text-text">Note for MSMEs:</strong> If your expected contract values are below MWK 75 million, PPDA registration is not mandatory. You can bid on Request for Quotation (RFQ) procurements without PPDA registration, provided you have a valid Tax Clearance Certificate and business registration.</p>
+      </div>
+    </section>
+
+    <!-- Section 5 -->
+    <section id="registration-process" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">5. Step-by-Step Registration Process</h2>
+      <ol class="space-y-6">
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">1</span>
+          <div>
+            <h3 class="font-semibold text-text mb-1">Gather your documents</h3>
+            <p class="text-sm text-muted">Collect all required documents listed above. Ensure Tax Clearance Certificate is current and financial statements are audited by a registered auditor.</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">2</span>
+          <div>
+            <h3 class="font-semibold text-text mb-1">Obtain the application form</h3>
+            <p class="text-sm text-muted">Download the Supplier Registration Form from the PPDA website (ppda.mw) or collect a physical copy from the PPDA offices in Lilongwe.</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">3</span>
+          <div>
+            <h3 class="font-semibold text-text mb-1">Complete the application</h3>
+            <p class="text-sm text-muted">Fill in all sections of the form. Specify the business areas you want to register for (goods, services, works, consulting) and your preferred category (A, B, C, or D).</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">4</span>
+          <div>
+            <h3 class="font-semibold text-text mb-1">Pay the registration fee</h3>
+            <p class="text-sm text-muted">Pay the fee for your category via bank transfer to the PPDA account or at the PPDA cashier. Keep the payment receipt.</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">5</span>
+          <div>
+            <h3 class="font-semibold text-text mb-1">Submit your application</h3>
+            <p class="text-sm text-muted">Submit the completed form, all supporting documents, and payment receipt to the PPDA offices. You'll receive an acknowledgment of receipt.</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">6</span>
+          <div>
+            <h3 class="font-semibold text-text mb-1">PPDA review (5-10 working days)</h3>
+            <p class="text-sm text-muted">PPDA reviews your application, verifies documents, and may request additional information. If approved, you receive your Supplier Registration Certificate.</p>
+          </div>
+        </li>
+        <li class="flex gap-4">
+          <span class="flex-shrink-0 w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">7</span>
+          <div>
+            <h3 class="font-semibold text-text mb-1">Register on MANEPS</h3>
+            <p class="text-sm text-muted">Once registered with PPDA, create your account on MANEPS (maneps.mw) to access electronic procurement opportunities. MANEPS registration requires your PPDA registration number.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Section 6 -->
+    <section id="pdes" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">6. Procuring and Disposing Entities (PDEs)</h2>
+      <p class="text-muted leading-relaxed mb-4">
+        PDEs are the government bodies that buy goods, works, and services. Every PDE has an <strong class="text-text">Internal Procurement and Disposal Committee (IPDC)</strong> that oversees procurement decisions and a <strong class="text-text">Procurement Unit</strong> that handles day-to-day purchasing.
+      </p>
+      <p class="text-muted leading-relaxed mb-4">Types of PDEs in Malawi:</p>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-4">
+        <li><strong class="text-text">Central Government</strong> — Ministries (e.g., Ministry of Health, Education, Transport)</li>
+        <li><strong class="text-text">Government Departments</strong> — Immigration, Lands, Surveys</li>
+        <li><strong class="text-text">Statutory Corporations</strong> — ESCOM, ADMARC, MRA, Water Boards, MACRA</li>
+        <li><strong class="text-text">Local Authorities</strong> — 35 District, City, and Municipal Councils</li>
+        <li><strong class="text-text">Defence and Security</strong> — Malawi Defence Force, Malawi Police Service</li>
+        <li><strong class="text-text">Education Institutions</strong> — Public universities, TEVETA colleges</li>
+        <li><strong class="text-text">Health Institutions</strong> — Central hospitals, district health offices</li>
+      </ul>
+      <p class="text-muted leading-relaxed">
+        There are approximately <strong class="text-text">200+ PDEs</strong> in Malawi, each publishing their own tenders. TendersMW aggregates tenders from all these sources so you can find opportunities in one place.
+      </p>
+    </section>
+
+    <!-- Section 7 -->
+    <section id="procurement-cycle" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">7. The Procurement Cycle</h2>
+      <p class="text-muted leading-relaxed mb-4">Every procurement follows a standard cycle:</p>
+      <div class="space-y-3">
+        <div class="flex items-start gap-3">
+          <div class="flex-shrink-0 w-8 h-8 rounded bg-primary/10 flex items-center justify-center">
+            <span class="text-primary text-sm font-bold">1</span>
+          </div>
+          <div>
+            <p class="text-text font-medium">Planning</p>
+            <p class="text-sm text-muted">PDE identifies need, prepares specifications, and includes in Annual Procurement Plan (submitted to PPDA by January each year).</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="flex-shrink-0 w-8 h-8 rounded bg-primary/10 flex items-center justify-center">
+            <span class="text-primary text-sm font-bold">2</span>
+          </div>
+          <div>
+            <p class="text-text font-medium">Solicitation</p>
+            <p class="text-sm text-muted">Tender is published in newspapers, PPDA website, MANEPS, and/or sent to shortlisted suppliers.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="flex-shrink-0 w-8 h-8 rounded bg-primary/10 flex items-center justify-center">
+            <span class="text-primary text-sm font-bold">3</span>
+          </div>
+          <div>
+            <p class="text-text font-medium">Bidding Period</p>
+            <p class="text-sm text-muted">Minimum 30 days for OCB (goods/services), 45 days for works. Pre-bid conference may be held.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="flex-shrink-0 w-8 h-8 rounded bg-primary/10 flex items-center justify-center">
+            <span class="text-primary text-sm font-bold">4</span>
+          </div>
+          <div>
+            <p class="text-text font-medium">Bid Opening</p>
+            <p class="text-sm text-muted">Public opening at the time and place stated in the tender. Bidder names and prices read aloud.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="flex-shrink-0 w-8 h-8 rounded bg-primary/10 flex items-center justify-center">
+            <span class="text-primary text-sm font-bold">5</span>
+          </div>
+          <div>
+            <p class="text-text font-medium">Evaluation</p>
+            <p class="text-sm text-muted">IPDC evaluates bids: preliminary examination, technical scoring, financial evaluation. PPDA no-objection for high-value contracts.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="flex-shrink-0 w-8 h-8 rounded bg-primary/10 flex items-center justify-center">
+            <span class="text-primary text-sm font-bold">6</span>
+          </div>
+          <div>
+            <p class="text-text font-medium">Award & Standstill</p>
+            <p class="text-sm text-muted">Winning bidder notified. 10-day standstill period for complaints. Unsuccessful bidders informed with reasons.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <div class="flex-shrink-0 w-8 h-8 rounded bg-primary/10 flex items-center justify-center">
+            <span class="text-primary text-sm font-bold">7</span>
+          </div>
+          <div>
+            <p class="text-text font-medium">Contract & Delivery</p>
+            <p class="text-sm text-muted">Contract signed, performance security provided, and contract executed.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8 -->
+    <section id="compliance" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">8. Compliance Requirements</h2>
+      <p class="text-muted leading-relaxed mb-4">Both PDEs and suppliers must comply with PPDA rules:</p>
+
+      <h3 class="text-lg font-semibold text-text mb-3">For Suppliers</h3>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-6">
+        <li>Maintain valid PPDA registration (renew before expiry)</li>
+        <li>Keep Tax Clearance Certificate current at all times</li>
+        <li>Declare any conflicts of interest</li>
+        <li>Never offer bribes, gifts, or inducements to procurement officers</li>
+        <li>Fulfil contracts on time and to specification</li>
+        <li>Maintain accurate records of all transactions</li>
+        <li>Report any suspected corruption to PPDA or ACB</li>
+      </ul>
+
+      <h3 class="text-lg font-semibold text-text mb-3">For PDEs</h3>
+      <ul class="list-disc pl-6 space-y-2 text-muted">
+        <li>Submit Annual Procurement Plans to PPDA by January</li>
+        <li>Use Standard Bidding Documents issued by PPDA</li>
+        <li>Publish all tenders above threshold in newspapers and MANEPS</li>
+        <li>Evaluate bids strictly against published criteria</li>
+        <li>Obtain PPDA no-objection for high-value contracts</li>
+        <li>Maintain procurement records for at least 7 years</li>
+        <li>Report quarterly procurement statistics to PPDA</li>
+      </ul>
+    </section>
+
+    <!-- Section 9 -->
+    <section id="complaints" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">9. Complaints and Appeals</h2>
+      <p class="text-muted leading-relaxed mb-4">
+        If you believe a procurement process was unfair, you have the right to challenge it. The complaints process has three levels:
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Level 1: Complaint to the PDE</h3>
+          <p class="text-sm text-muted">File within <strong>10 working days</strong> of learning about the issue. The PDE's Accounting Officer must respond within 15 working days. If unsatisfied, escalate to PPDA.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Level 2: Review by PPDA</h3>
+          <p class="text-sm text-muted">File within <strong>10 working days</strong> of the PDE's decision. PPDA has 21 working days to investigate and issue a binding decision. PPDA can order re-evaluation, cancel the procurement, or confirm the award.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Level 3: High Court</h3>
+          <p class="text-sm text-muted">If unsatisfied with PPDA's decision, you can appeal to the High Court within <strong>14 days</strong>. This is the final appeal level.</p>
+        </div>
+      </div>
+
+      <div class="glass-card p-4 border-l-4 border-primary">
+        <p class="text-sm text-muted"><strong class="text-text">Important:</strong> Filing a complaint during the standstill period (10 days after award notification) automatically suspends the contract award until the complaint is resolved. This is your most powerful tool for challenging unfair procurement.</p>
+      </div>
+    </section>
+
+    <!-- Section 10 -->
+    <section id="debarment" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">10. Debarment and Sanctions</h2>
+      <p class="text-muted leading-relaxed mb-4">
+        PPDA can debar (ban) suppliers from government contracting for serious violations. Debarment grounds include:
+      </p>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-4">
+        <li>Providing false or fraudulent information in bids or registration</li>
+        <li>Collusion with other bidders (bid rigging)</li>
+        <li>Offering bribes or gifts to procurement officers</li>
+        <li>Repeated contract failures (poor performance, abandonment)</li>
+        <li>Conviction for corruption or fraud</li>
+      </ul>
+      <p class="text-muted leading-relaxed">
+        Debarment can last <strong class="text-text">up to 10 years</strong> under the 2025 Act (increased from 5 years). Debarred suppliers are listed publicly on the PPDA website. Before the debarment decision, suppliers have the right to be heard by PPDA.
+      </p>
+    </section>
+
+    <!-- Section 11 -->
+    <section id="maneps" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">11. PPDA and MANEPS</h2>
+      <p class="text-muted leading-relaxed mb-4">
+        <strong class="text-text">MANEPS</strong> (Malawi National Electronic Procurement System) is the government's new digital procurement platform, developed with World Bank support. It became mandatory for all PDEs in April 2026.
+      </p>
+      <p class="text-muted leading-relaxed mb-4">MANEPS handles:</p>
+      <ul class="list-disc pl-6 space-y-2 text-muted mb-6">
+        <li>Electronic publication of all tender notices</li>
+        <li>Online bid submission and receipt</li>
+        <li>Automated bid opening and recording</li>
+        <li>Electronic evaluation workflows</li>
+        <li>Contract management and monitoring</li>
+        <li>Supplier registration and profile management</li>
+        <li>Procurement reporting and analytics</li>
+      </ul>
+      <p class="text-muted leading-relaxed">
+        All registered suppliers should create their MANEPS account at <a href="https://www.maneps.mw" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">maneps.mw</a>. You'll need your PPDA registration number to complete the process. View <a href="/source/maneps/" class="text-primary hover:underline">MANEPS tenders on TendersMW</a>.
+      </p>
+    </section>
+
+    <!-- Section 12 -->
+    <section id="contact" class="mb-12">
+      <h2 class="text-2xl font-bold text-text mb-4">12. Contact PPDA</h2>
+      <div class="glass-card p-6">
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div>
+            <h3 class="font-semibold text-text mb-2">Office Address</h3>
+            <p class="text-sm text-muted leading-relaxed">
+              Public Procurement and Disposal of Assets Authority<br/>
+              Gemini House, 3rd Floor<br/>
+              City Centre, Off Kenyatta Road<br/>
+              Private Bag 383<br/>
+              Lilongwe 3, Malawi
+            </p>
+          </div>
+          <div>
+            <h3 class="font-semibold text-text mb-2">Contact Details</h3>
+            <p class="text-sm text-muted leading-relaxed">
+              Phone: +265 1 770 700<br/>
+              Fax: +265 1 770 135<br/>
+              Email: info@ppda.mw<br/>
+              Website: <a href="https://www.ppda.mw" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">www.ppda.mw</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <div class="glass-card p-8 text-center bg-primary/5">
+      <h2 class="text-xl font-bold text-text mb-2">Start Bidding on Malawi Tenders</h2>
+      <p class="text-muted mb-4">Browse current procurement opportunities from PPDA and other sources.</p>
+      <div class="flex flex-wrap justify-center gap-3">
+        <a href="/source/ppda/" class="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-2.5 text-sm font-medium text-white hover:bg-primary/90 transition-colors">
+          View PPDA Tenders
+        </a>
+        <a href="/guides/how-to-bid-on-tenders-in-malawi/" class="inline-flex items-center gap-2 rounded-lg border border-border px-5 py-2.5 text-sm font-medium text-text hover:bg-bg-alt transition-colors">
+          How to Bid Guide
+        </a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>
