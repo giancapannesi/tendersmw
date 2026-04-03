@@ -1,0 +1,46 @@
+{
+  "title": "Procurement of Security Services for ADG-01",
+  "slug": "procurement-of-security-services-for-adg-01-administrators-gener-rfqsecurityag",
+  "reference_number": "RFQ/SECURITY/AGD/FY2026-2027-01",
+  "source": "ppda",
+  "source_url": "https://www.ppda.mw/tenders",
+  "procuring_entity": "Administrators General Department",
+  "procuring_entity_slug": "administrators-general-department",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "services",
+  "subcategories": [],
+  "sectors": [
+    "services"
+  ],
+  "description_short": "Procurement of Security Services for ADG-01 \u2014 Procurement notice from Administrators General Department",
+  "description_long": "Procurement notice for Procurement of Security Services for ADG-01. Published by Administrators General Department through the Public Procurement and Disposal of Assets Authority (PPDA).",
+  "country": "Malawi",
+  "region": "",
+  "city": "",
+  "published_date": "2026-04-03",
+  "closing_date": "2026-04-10",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government_budget",
+  "donor": null,
+  "document_urls": [
+    {
+      "name": "Document",
+      "url": "https://ppda.mw/storage/documents/opentenders/RFQ FOR Security Services 4APRIL20262027doc.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "open",
+  "is_active": true,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 4,
+  "has_been_enriched": false
+}
