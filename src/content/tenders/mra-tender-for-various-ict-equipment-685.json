@@ -1,0 +1,46 @@
+{
+  "title": "Tender for various ICT Equipment",
+  "slug": "mra-tender-for-various-ict-equipment-685",
+  "reference_number": "MRA-685",
+  "source": "mra",
+  "source_url": "https://www.mra.mw/tenders",
+  "procuring_entity": "Malawi Revenue Authority (MRA)",
+  "procuring_entity_slug": "malawi-revenue-authority-mra",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "technology",
+  "subcategories": [],
+  "sectors": [
+    "technology"
+  ],
+  "description_short": "Tender for various ICT Equipment",
+  "description_long": "Procurement notice from Malawi Revenue Authority: Tender for various ICT Equipment",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2019-10-31",
+  "closing_date": "2019-11-30",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.mra.mw/admin/storage/downloads/TESUPPLY_AND_DELIVERY_OF_VARIOUS_ICT_EQUIPMENT_2019_-_Nation-_33x3_Page_Ad_1_on_1.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}

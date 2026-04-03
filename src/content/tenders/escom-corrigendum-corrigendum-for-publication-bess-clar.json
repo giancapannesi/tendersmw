@@ -1,0 +1,47 @@
+{
+  "title": "Corrigendum: CORRIGENDUM FOR PUBLICATION-BESS CLARIFICATION ON MODE OF PAYMENT",
+  "slug": "escom-corrigendum-corrigendum-for-publication-bess-clar",
+  "reference_number": "ESCOM-corrigendum",
+  "source": "escom",
+  "source_url": "https://www.escom.mw/tenders/",
+  "procuring_entity": "Electricity Supply Corporation of Malawi (ESCOM)",
+  "procuring_entity_slug": "electricity-supply-corporation-of-malawi-escom",
+  "entity_type": "parastatal",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods",
+    "energy"
+  ],
+  "description_short": "Corrigendum: CORRIGENDUM FOR PUBLICATION-BESS CLARIFICATION ON MODE OF PAYMENT",
+  "description_long": "CORRIGENDUM FOR PUBLICATION-BESS CLARIFICATION ON MODE OF PAYMENT",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2026-04-03",
+  "closing_date": "2024-04-15",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.escom.mw/wp-content/uploads/2024/01/CORRIGENDUM-BESS-CLALIFICATION-ON-MODE-OF-PAYMENT.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}

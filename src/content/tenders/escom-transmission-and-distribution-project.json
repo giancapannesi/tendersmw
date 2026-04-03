@@ -1,0 +1,47 @@
+{
+  "title": "Transmission and Distribution Project",
+  "slug": "escom-transmission-and-distribution-project",
+  "reference_number": "ESCOM-transmission-and-distribution",
+  "source": "escom",
+  "source_url": "https://www.escom.mw/tenders/",
+  "procuring_entity": "Electricity Supply Corporation of Malawi (ESCOM)",
+  "procuring_entity_slug": "electricity-supply-corporation-of-malawi-escom",
+  "entity_type": "parastatal",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods",
+    "energy"
+  ],
+  "description_short": "Transmission and Distribution Project",
+  "description_long": "Transmission and Distribution Project",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2026-04-03",
+  "closing_date": "2025-04-30",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.escom.mw/wp-content/uploads/2024/01/Introduction.docx",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}

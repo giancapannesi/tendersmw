@@ -1,0 +1,46 @@
+{
+  "title": "TENDER REQUEST FOR QUOTATION FOR WASTE COLLECTION SERVICES AT MCHINJI ONE STOP BORDER POST",
+  "slug": "mra-tender-request-for-quotation-for-waste-collection-741",
+  "reference_number": "MRA-741",
+  "source": "mra",
+  "source_url": "https://www.mra.mw/tenders",
+  "procuring_entity": "Malawi Revenue Authority (MRA)",
+  "procuring_entity_slug": "malawi-revenue-authority-mra",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "TENDER REQUEST FOR QUOTATION FOR WASTE COLLECTION SERVICES AT MCHINJI ONE STOP BORDER POST",
+  "description_long": "Procurement notice from Malawi Revenue Authority: TENDER REQUEST FOR QUOTATION FOR WASTE COLLECTION SERVICES AT MCHINJI ONE STOP BORDER POST",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2022-11-15",
+  "closing_date": "2022-12-15",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.mra.mw/admin/storage/downloads/TEFOR_QUOTATION_FOR_WASTE_COLLECTION_SERVICES_AT_MCHINJI_ONE_STOP_BORDER_POST_35X3COLS.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}

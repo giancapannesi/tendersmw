@@ -1,0 +1,46 @@
+{
+  "title": "RFQ FOR SUPPLY OF FACE MASKS",
+  "slug": "mra-rfq-for-supply-of-face-masks-690",
+  "reference_number": "MRA-690",
+  "source": "mra",
+  "source_url": "https://www.mra.mw/tenders",
+  "procuring_entity": "Malawi Revenue Authority (MRA)",
+  "procuring_entity_slug": "malawi-revenue-authority-mra",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "RFQ FOR SUPPLY OF FACE MASKS",
+  "description_long": "Procurement notice from Malawi Revenue Authority: RFQ FOR SUPPLY OF FACE MASKS",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2020-05-19",
+  "closing_date": "2020-06-18",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.mra.mw/admin/storage/downloads/RETATION_FOR_THE_SUPPLY_AND_DELIVERY_OF_FACE_MASKS_MAY_2020_.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}

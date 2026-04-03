@@ -1,0 +1,46 @@
+{
+  "title": "Tender for Supply of  UPS Withdrawal",
+  "slug": "mra-tender-for-supply-of-ups-withdrawal-686",
+  "reference_number": "MRA-686",
+  "source": "mra",
+  "source_url": "https://www.mra.mw/tenders",
+  "procuring_entity": "Malawi Revenue Authority (MRA)",
+  "procuring_entity_slug": "malawi-revenue-authority-mra",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "Tender for Supply of  UPS Withdrawal",
+  "description_long": "Procurement notice from Malawi Revenue Authority: Tender for Supply of  UPS Withdrawal",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2019-10-31",
+  "closing_date": "2019-11-30",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.mra.mw/admin/storage/downloads/Puender_Notice_for_the_Supply,_Delivery_and_Installation_of_Uninterruptible_Power_Supply_(UPS)_(WITHDRAWAL_NOTICE)_18X3cols.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}

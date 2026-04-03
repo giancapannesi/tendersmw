@@ -1,0 +1,46 @@
+{
+  "title": "TENDER FOR LANDSCAPING SERVICES",
+  "slug": "mra-tender-for-landscaping-services-700",
+  "reference_number": "MRA-700",
+  "source": "mra",
+  "source_url": "https://www.mra.mw/tenders",
+  "procuring_entity": "Malawi Revenue Authority (MRA)",
+  "procuring_entity_slug": "malawi-revenue-authority-mra",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "TENDER FOR LANDSCAPING SERVICES",
+  "description_long": "Procurement notice from Malawi Revenue Authority: TENDER FOR LANDSCAPING SERVICES",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2020-09-01",
+  "closing_date": "2020-10-01",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.mra.mw/admin/storage/downloads/INENDER_FOR_THE_PROVISION_OF_LANDSCAPING_SERVICES_TO_MALAWI_REVENUE_AUTHORITY_OFFICES_FOR_24_MONTHS_2020_18x3cols.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}

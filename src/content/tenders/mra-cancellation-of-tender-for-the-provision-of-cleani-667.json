@@ -1,0 +1,46 @@
+{
+  "title": "Cancellation of Tender for the Provision of Cleaning Services.pdf",
+  "slug": "mra-cancellation-of-tender-for-the-provision-of-cleani-667",
+  "reference_number": "MRA-667",
+  "source": "mra",
+  "source_url": "https://www.mra.mw/tenders",
+  "procuring_entity": "Malawi Revenue Authority (MRA)",
+  "procuring_entity_slug": "malawi-revenue-authority-mra",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "services",
+  "subcategories": [],
+  "sectors": [
+    "services"
+  ],
+  "description_short": "Cancellation of Tender for the Provision of Cleaning Services.pdf",
+  "description_long": "Procurement notice from Malawi Revenue Authority: Cancellation of Tender for the Provision of Cleaning Services.pdf",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2017-07-26",
+  "closing_date": "2017-08-25",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.mra.mw/admin/storage/downloads/Ca_Tender_for_the_Provision_of_Cleaning_Services.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}

@@ -1,0 +1,441 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Register on MANEPS — Malawi National Electronic Procurement System',
+  description: 'Step-by-step guide to registering as a supplier on MANEPS, Malawi\'s mandatory e-procurement platform.',
+  url: 'https://tendersmw.com/guides/maneps-registration-guide/',
+  step: [
+    { '@type': 'HowToStep', position: 1, name: 'Visit MANEPS Portal', text: 'Go to maneps.mw and click the Supplier Registration button.' },
+    { '@type': 'HowToStep', position: 2, name: 'Create Your Account', text: 'Enter your email, phone number, and set a password. Verify via email or SMS.' },
+    { '@type': 'HowToStep', position: 3, name: 'Complete Business Profile', text: 'Fill in company name, registration number, TIN, physical address, and contact details.' },
+    { '@type': 'HowToStep', position: 4, name: 'Upload Required Documents', text: 'Upload business registration certificate, tax clearance, and PPDA registration certificate.' },
+    { '@type': 'HowToStep', position: 5, name: 'Select Supply Categories', text: 'Choose the goods, works, or services categories that match your business.' },
+    { '@type': 'HowToStep', position: 6, name: 'Submit and Wait for Verification', text: 'Submit your application for PPDA review. Verification typically takes 5-10 business days.' },
+    { '@type': 'HowToStep', position: 7, name: 'Start Bidding', text: 'Once approved, browse and submit bids electronically through the MANEPS platform.' },
+  ],
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tendersmw.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://tendersmw.com/guides/' },
+      { '@type': 'ListItem', position: 3, name: 'MANEPS Registration Guide' },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title="MANEPS Registration Guide — How to Register as a Supplier | TendersMW"
+  description="Step-by-step guide to registering on MANEPS (Malawi National Electronic Procurement System). Requirements, documents, fees, and tips for suppliers."
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/" class="hover:text-primary transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/guides/" class="hover:text-primary transition-colors">Guides</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">MANEPS Registration</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-text sm:text-4xl mb-4">MANEPS Registration Guide</h1>
+    <p class="text-lg text-muted mb-8">How to register as a supplier on Malawi's mandatory electronic procurement system</p>
+
+    <!-- Alert banner -->
+    <div class="glass-card p-4 mb-8 border-l-4 border-primary">
+      <p class="text-sm text-text"><strong>Important:</strong> As of April 2026, MANEPS registration is <strong>mandatory</strong> for all suppliers wishing to bid on government tenders in Malawi. Paper-based bids are no longer accepted for most procurements.</p>
+    </div>
+
+    <!-- Table of Contents -->
+    <div class="glass-card p-6 mb-8">
+      <h2 class="text-lg font-semibold text-text mb-3">In this guide</h2>
+      <ol class="grid gap-1.5 sm:grid-cols-2 text-sm">
+        <li><a href="#what-is-maneps" class="text-primary hover:underline">1. What is MANEPS?</a></li>
+        <li><a href="#why-register" class="text-primary hover:underline">2. Why you must register</a></li>
+        <li><a href="#requirements" class="text-primary hover:underline">3. Registration requirements</a></li>
+        <li><a href="#documents" class="text-primary hover:underline">4. Required documents</a></li>
+        <li><a href="#step-by-step" class="text-primary hover:underline">5. Step-by-step registration</a></li>
+        <li><a href="#categories" class="text-primary hover:underline">6. Supply categories</a></li>
+        <li><a href="#fees" class="text-primary hover:underline">7. Fees and costs</a></li>
+        <li><a href="#using-maneps" class="text-primary hover:underline">8. Using MANEPS to bid</a></li>
+        <li><a href="#common-issues" class="text-primary hover:underline">9. Common issues & fixes</a></li>
+        <li><a href="#ppda-vs-maneps" class="text-primary hover:underline">10. PPDA vs MANEPS</a></li>
+        <li><a href="#tips" class="text-primary hover:underline">11. Tips for success</a></li>
+        <li><a href="#resources" class="text-primary hover:underline">12. Useful resources</a></li>
+      </ol>
+    </div>
+
+    <!-- Section 1 -->
+    <section id="what-is-maneps" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">1. What is MANEPS?</h2>
+      <p class="text-muted mb-3">
+        MANEPS (Malawi National Electronic Procurement System) is the government's official e-procurement platform. It was developed with World Bank support under the Good Governance and Public Sector Development Project (GGPDP) and became mandatory for all government procurement in April 2026.
+      </p>
+      <p class="text-muted mb-3">
+        MANEPS digitises the entire procurement cycle:
+      </p>
+      <ul class="list-disc list-inside text-muted space-y-1.5 ml-2">
+        <li><strong>Tender publication</strong> — all government tenders published electronically</li>
+        <li><strong>Bid submission</strong> — suppliers submit bids online, no physical delivery</li>
+        <li><strong>Evaluation</strong> — structured evaluation with audit trail</li>
+        <li><strong>Contract award</strong> — award notifications sent through the platform</li>
+        <li><strong>Contract management</strong> — performance tracking and payments</li>
+      </ul>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="why-register" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">2. Why You Must Register</h2>
+      <p class="text-muted mb-3">
+        Since April 2026, MANEPS registration is no longer optional. Here's why it matters:
+      </p>
+      <div class="grid gap-3 sm:grid-cols-2">
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Legal requirement</h3>
+          <p class="text-sm text-muted">The PPDA Act 2025 mandates electronic procurement. Unregistered suppliers cannot participate.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Access all tenders</h3>
+          <p class="text-sm text-muted">Government tenders from all ministries, parastatals, and councils are now published on MANEPS.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Automatic notifications</h3>
+          <p class="text-sm text-muted">Receive email alerts when new tenders matching your categories are published.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text mb-1">Transparent process</h3>
+          <p class="text-sm text-muted">Full audit trail of bids, evaluations, and awards. Reduced corruption risk.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section id="requirements" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">3. Registration Requirements</h2>
+      <p class="text-muted mb-4">To register on MANEPS, you need:</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-border">
+              <th class="text-left py-3 px-4 font-semibold text-text">Requirement</th>
+              <th class="text-left py-3 px-4 font-semibold text-text">Details</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted">
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Business registration</td><td class="py-3 px-4">Registered with Registrar General (Business Registration Act)</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Tax compliance</td><td class="py-3 px-4">Valid Tax Clearance Certificate from MRA (renewed annually)</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">PPDA registration</td><td class="py-3 px-4">Valid PPDA Supplier Registration Certificate</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Email address</td><td class="py-3 px-4">Active email for account verification and notifications</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Mobile number</td><td class="py-3 px-4">Malawi mobile number for SMS verification</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Internet access</td><td class="py-3 px-4">Reliable connection for uploading documents and submitting bids</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Section 4 -->
+    <section id="documents" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">4. Required Documents</h2>
+      <p class="text-muted mb-4">Have these documents ready before starting registration (PDF format, max 5MB each):</p>
+      <ol class="space-y-3 text-muted">
+        <li class="flex gap-3">
+          <span class="flex-shrink-0 flex h-7 w-7 items-center justify-center rounded-full bg-primary-light text-primary text-sm font-bold">1</span>
+          <div><strong class="text-text">Business Registration Certificate</strong> — from the Registrar General's Office</div>
+        </li>
+        <li class="flex gap-3">
+          <span class="flex-shrink-0 flex h-7 w-7 items-center justify-center rounded-full bg-primary-light text-primary text-sm font-bold">2</span>
+          <div><strong class="text-text">Tax Clearance Certificate</strong> — current, from <a href="/source/mra/" class="text-primary hover:underline">MRA</a> (valid for the current tax year)</div>
+        </li>
+        <li class="flex gap-3">
+          <span class="flex-shrink-0 flex h-7 w-7 items-center justify-center rounded-full bg-primary-light text-primary text-sm font-bold">3</span>
+          <div><strong class="text-text">PPDA Supplier Registration Certificate</strong> — see our <a href="/guides/ppda-procurement-guide/" class="text-primary hover:underline">PPDA guide</a> for how to register</div>
+        </li>
+        <li class="flex gap-3">
+          <span class="flex-shrink-0 flex h-7 w-7 items-center justify-center rounded-full bg-primary-light text-primary text-sm font-bold">4</span>
+          <div><strong class="text-text">Company profile or capability statement</strong> — summarising your experience, key personnel, and past contracts</div>
+        </li>
+        <li class="flex gap-3">
+          <span class="flex-shrink-0 flex h-7 w-7 items-center justify-center rounded-full bg-primary-light text-primary text-sm font-bold">5</span>
+          <div><strong class="text-text">Bank reference letter</strong> — from your business bank (some tenders require this)</div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Section 5 -->
+    <section id="step-by-step" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">5. Step-by-Step Registration</h2>
+      <div class="space-y-4">
+        <div class="glass-card p-5">
+          <div class="flex gap-3">
+            <span class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white text-sm font-bold">1</span>
+            <div>
+              <h3 class="font-semibold text-text">Visit the MANEPS Portal</h3>
+              <p class="text-sm text-muted mt-1">Go to <strong>maneps.mw</strong> and click the <strong>"Supplier Registration"</strong> or <strong>"Register"</strong> button on the homepage.</p>
+            </div>
+          </div>
+        </div>
+        <div class="glass-card p-5">
+          <div class="flex gap-3">
+            <span class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white text-sm font-bold">2</span>
+            <div>
+              <h3 class="font-semibold text-text">Create Your Account</h3>
+              <p class="text-sm text-muted mt-1">Enter your email address, mobile phone number, and create a strong password. You will receive a verification code via email or SMS — enter it to confirm your account.</p>
+            </div>
+          </div>
+        </div>
+        <div class="glass-card p-5">
+          <div class="flex gap-3">
+            <span class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white text-sm font-bold">3</span>
+            <div>
+              <h3 class="font-semibold text-text">Complete Your Business Profile</h3>
+              <p class="text-sm text-muted mt-1">Fill in all required fields: company legal name, Taxpayer Identification Number (TIN), business registration number, physical address, postal address, and contact details. For sole traders, use your personal details.</p>
+            </div>
+          </div>
+        </div>
+        <div class="glass-card p-5">
+          <div class="flex gap-3">
+            <span class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white text-sm font-bold">4</span>
+            <div>
+              <h3 class="font-semibold text-text">Upload Required Documents</h3>
+              <p class="text-sm text-muted mt-1">Upload your business registration certificate, tax clearance certificate, and PPDA registration certificate. Files should be in PDF format, clear and legible. Maximum file size is typically 5MB per document.</p>
+            </div>
+          </div>
+        </div>
+        <div class="glass-card p-5">
+          <div class="flex gap-3">
+            <span class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white text-sm font-bold">5</span>
+            <div>
+              <h3 class="font-semibold text-text">Select Supply Categories</h3>
+              <p class="text-sm text-muted mt-1">Choose the goods, works, or services categories that match your business. You can select multiple categories. This determines which tender notifications you receive.</p>
+            </div>
+          </div>
+        </div>
+        <div class="glass-card p-5">
+          <div class="flex gap-3">
+            <span class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white text-sm font-bold">6</span>
+            <div>
+              <h3 class="font-semibold text-text">Submit and Wait for Verification</h3>
+              <p class="text-sm text-muted mt-1">Review all information and submit your application. The PPDA verification team will review your documents. This typically takes <strong>5-10 business days</strong>. You'll receive an email notification once approved.</p>
+            </div>
+          </div>
+        </div>
+        <div class="glass-card p-5">
+          <div class="flex gap-3">
+            <span class="flex-shrink-0 flex h-8 w-8 items-center justify-center rounded-full bg-primary text-white text-sm font-bold">7</span>
+            <div>
+              <h3 class="font-semibold text-text">Start Bidding</h3>
+              <p class="text-sm text-muted mt-1">Once approved, log in to MANEPS to browse active tenders, download documents, and submit bids electronically. You can also <a href="/" class="text-primary hover:underline">browse tenders on TendersMW</a> for a consolidated view across all sources.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6 -->
+    <section id="categories" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">6. Supply Categories</h2>
+      <p class="text-muted mb-4">MANEPS uses the same category system as PPDA. Common categories include:</p>
+      <div class="grid gap-3 sm:grid-cols-2">
+        <a href="/category/goods/" class="glass-card p-4 hover:border-primary/30 transition-colors">
+          <h3 class="font-semibold text-text">Goods & Supplies</h3>
+          <p class="text-sm text-muted">Office equipment, stationery, vehicles, fuel, medical supplies</p>
+        </a>
+        <a href="/category/works/" class="glass-card p-4 hover:border-primary/30 transition-colors">
+          <h3 class="font-semibold text-text">Construction & Works</h3>
+          <p class="text-sm text-muted">Building, roads, bridges, renovation, infrastructure</p>
+        </a>
+        <a href="/category/consulting/" class="glass-card p-4 hover:border-primary/30 transition-colors">
+          <h3 class="font-semibold text-text">Consulting Services</h3>
+          <p class="text-sm text-muted">Advisory, research, evaluations, audits</p>
+        </a>
+        <a href="/category/technology/" class="glass-card p-4 hover:border-primary/30 transition-colors">
+          <h3 class="font-semibold text-text">IT & Technology</h3>
+          <p class="text-sm text-muted">Software, hardware, networks, digital transformation</p>
+        </a>
+      </div>
+      <p class="text-sm text-muted mt-3">
+        <a href="/category/" class="text-primary hover:underline">View all categories</a> to see current tender counts.
+      </p>
+    </section>
+
+    <!-- Section 7 -->
+    <section id="fees" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">7. Fees and Costs</h2>
+      <p class="text-muted mb-3">MANEPS registration itself is free. However, you need the following paid registrations:</p>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-border">
+              <th class="text-left py-3 px-4 font-semibold text-text">Item</th>
+              <th class="text-left py-3 px-4 font-semibold text-text">Cost</th>
+              <th class="text-left py-3 px-4 font-semibold text-text">Validity</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted">
+            <tr class="border-b border-border/50"><td class="py-3 px-4">PPDA Registration (Citizen)</td><td class="py-3 px-4">MWK 25,000</td><td class="py-3 px-4">2 years</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4">PPDA Registration (Foreign)</td><td class="py-3 px-4">MWK 100,000</td><td class="py-3 px-4">2 years</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4">Tax Clearance Certificate</td><td class="py-3 px-4">Free (if tax compliant)</td><td class="py-3 px-4">1 year</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4">Business Registration</td><td class="py-3 px-4">MWK 12,000 - 35,000</td><td class="py-3 px-4">Perpetual</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4">MANEPS Account</td><td class="py-3 px-4"><strong>Free</strong></td><td class="py-3 px-4">Ongoing</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-muted mt-3">See our <a href="/guides/ppda-procurement-guide/" class="text-primary hover:underline">PPDA procurement guide</a> for detailed fee schedules by category.</p>
+    </section>
+
+    <!-- Section 8 -->
+    <section id="using-maneps" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">8. Using MANEPS to Bid</h2>
+      <p class="text-muted mb-4">Once registered, here's how to use MANEPS for bidding:</p>
+      <div class="space-y-3 text-muted">
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Browse tenders</h3>
+          <p class="text-sm mt-1">Log in and browse active tenders by category, procuring entity, or keyword. You can also set up email notifications for your categories.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Download tender documents</h3>
+          <p class="text-sm mt-1">Download the full tender document, terms of reference, and any addenda. Some tenders charge a document fee (typically MWK 5,000-20,000).</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Prepare your bid</h3>
+          <p class="text-sm mt-1">Follow the tender document instructions exactly. Prepare technical and financial proposals as separate documents. Use the templates provided.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Submit electronically</h3>
+          <p class="text-sm mt-1">Upload your bid documents through MANEPS before the deadline. The system timestamps all submissions — late submissions are automatically rejected.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Track results</h3>
+          <p class="text-sm mt-1">Check the platform for evaluation results and award notifications. You can also view past tender results for benchmarking.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9 -->
+    <section id="common-issues" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">9. Common Issues & Fixes</h2>
+      <div class="space-y-3">
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Verification email not received</h3>
+          <p class="text-sm text-muted mt-1">Check your spam/junk folder. If still missing, try re-registering with a different email or contact PPDA helpdesk. Gmail and Yahoo work best.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Document upload fails</h3>
+          <p class="text-sm text-muted mt-1">Ensure files are PDF format, under 5MB, and not password-protected. Compress large files. Use a stable internet connection.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Account stuck in "Pending"</h3>
+          <p class="text-sm text-muted mt-1">Verification takes 5-10 business days. If longer, call the PPDA helpdesk at +265 1 770 335 or email info@ppda.mw.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Cannot find a tender</h3>
+          <p class="text-sm text-muted mt-1">Some tenders are restricted to specific categories. Ensure your profile includes the correct supply categories. Also check <a href="/search/" class="text-primary hover:underline">TendersMW search</a> for tenders from other sources.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Bid submission error</h3>
+          <p class="text-sm text-muted mt-1">Don't wait until the last minute. Submit at least 2 hours before the deadline. If the system is down, take screenshots as evidence and contact the procuring entity.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 10 -->
+    <section id="ppda-vs-maneps" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">10. PPDA vs MANEPS — What's the Difference?</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-border">
+              <th class="text-left py-3 px-4 font-semibold text-text">Aspect</th>
+              <th class="text-left py-3 px-4 font-semibold text-text">PPDA</th>
+              <th class="text-left py-3 px-4 font-semibold text-text">MANEPS</th>
+            </tr>
+          </thead>
+          <tbody class="text-muted">
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Role</td><td class="py-3 px-4">Regulator and oversight body</td><td class="py-3 px-4">E-procurement platform</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Registration</td><td class="py-3 px-4">Supplier registration (required)</td><td class="py-3 px-4">Platform account (required)</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">What you do</td><td class="py-3 px-4">Get approved as a supplier</td><td class="py-3 px-4">Find and bid on tenders</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Fee</td><td class="py-3 px-4">MWK 25,000 / 100,000</td><td class="py-3 px-4">Free</td></tr>
+            <tr class="border-b border-border/50"><td class="py-3 px-4 font-medium">Order</td><td class="py-3 px-4">Register first</td><td class="py-3 px-4">Register second</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="text-sm text-muted mt-3">
+        <strong>Bottom line:</strong> You need <em>both</em>. Register with PPDA first (it's the prerequisite), then create your MANEPS account to access the e-procurement system.
+      </p>
+    </section>
+
+    <!-- Section 11 -->
+    <section id="tips" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">11. Tips for Success</h2>
+      <div class="grid gap-3 sm:grid-cols-2">
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Keep documents current</h3>
+          <p class="text-sm text-muted mt-1">Tax clearance expires annually. PPDA registration every 2 years. Set calendar reminders for renewal.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Complete your profile fully</h3>
+          <p class="text-sm text-muted mt-1">Incomplete profiles get lower visibility. Add past contracts, references, key personnel, and company capabilities.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Check daily for new tenders</h3>
+          <p class="text-sm text-muted mt-1">Some tenders have short windows (14 days). Enable email notifications and check MANEPS and <a href="/" class="text-primary hover:underline">TendersMW</a> daily.</p>
+        </div>
+        <div class="glass-card p-4">
+          <h3 class="font-semibold text-text">Start small</h3>
+          <p class="text-sm text-muted mt-1">Build your track record with smaller contracts before bidding on large ones. Past performance is a major evaluation factor.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 12 -->
+    <section id="resources" class="mb-10">
+      <h2 class="text-2xl font-bold text-text mb-4">12. Useful Resources</h2>
+      <div class="glass-card p-6">
+        <ul class="space-y-3 text-sm">
+          <li class="flex items-start gap-2">
+            <span class="text-primary">&#8227;</span>
+            <span class="text-muted"><strong class="text-text">MANEPS Portal:</strong> maneps.mw</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary">&#8227;</span>
+            <span class="text-muted"><strong class="text-text">PPDA:</strong> <a href="/source/ppda/" class="text-primary hover:underline">ppda.mw</a> — supplier registration and regulations</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary">&#8227;</span>
+            <span class="text-muted"><strong class="text-text">MRA:</strong> <a href="/source/mra/" class="text-primary hover:underline">mra.mw</a> — tax clearance and TIN registration</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary">&#8227;</span>
+            <span class="text-muted"><strong class="text-text">PPDA Helpdesk:</strong> +265 1 770 335 / info@ppda.mw</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary">&#8227;</span>
+            <span class="text-muted"><strong class="text-text">How to Bid:</strong> <a href="/guides/how-to-bid-on-tenders-in-malawi/" class="text-primary hover:underline">Our comprehensive bidding guide</a></span>
+          </li>
+          <li class="flex items-start gap-2">
+            <span class="text-primary">&#8227;</span>
+            <span class="text-muted"><strong class="text-text">Procurement Law:</strong> <a href="/procurement-law/" class="text-primary hover:underline">PPDA Act 2025 reference</a></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Related -->
+    <div class="glass-card p-6">
+      <h2 class="text-lg font-semibold text-text mb-3">Related Guides</h2>
+      <div class="flex flex-wrap gap-3">
+        <a href="/guides/how-to-bid-on-tenders-in-malawi/" class="text-sm text-primary hover:underline">How to Bid on Tenders</a>
+        <span class="text-border">|</span>
+        <a href="/guides/ppda-procurement-guide/" class="text-sm text-primary hover:underline">PPDA Procurement Guide</a>
+        <span class="text-border">|</span>
+        <a href="/search/" class="text-sm text-primary hover:underline">Search all tenders</a>
+        <span class="text-border">|</span>
+        <a href="/procurement-law/" class="text-sm text-primary hover:underline">Procurement Law</a>
+      </div>
+    </div>
+  </article>
+</BaseLayout>

@@ -1,0 +1,46 @@
+{
+  "title": "MRA Invitation to Tender for the Design Supply Delivery and Installation and Commissioning Services",
+  "slug": "mra-mra-invitation-to-tender-for-the-design-supply-del-669",
+  "reference_number": "MRA-669",
+  "source": "mra",
+  "source_url": "https://www.mra.mw/tenders",
+  "procuring_entity": "Malawi Revenue Authority (MRA)",
+  "procuring_entity_slug": "malawi-revenue-authority-mra",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "MRA Invitation to Tender for the Design Supply Delivery and Installation and Commissioning Services",
+  "description_long": "Procurement notice from Malawi Revenue Authority: MRA Invitation to Tender for the Design Supply Delivery and Installation and Commissioning Services",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2017-10-31",
+  "closing_date": "2017-11-30",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.mra.mw/admin/storage/downloads/MRto_Tender_for_the_Design_Supply_Delivery_and_Installation_and_Commissioning_Services.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}

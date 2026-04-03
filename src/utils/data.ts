@@ -285,6 +285,24 @@ export function getSourceInfo(): SourceInfo[] {
       icon: '🇺🇳',
       about: 'The UN Global Marketplace (UNGM) is the common procurement portal for all UN agencies, funds, and programmes. In Malawi, active UN agencies include UNDP, UNICEF, WFP, UNFPA, WHO, FAO, and UN Women. UN procurement in Malawi covers humanitarian assistance, development programmes, health supplies, food security, and capacity building. Suppliers must register on UNGM and may need to meet specific UN vendor requirements.',
     },
+    {
+      slug: 'escom',
+      name: 'ESCOM',
+      fullName: 'Electricity Supply Corporation of Malawi',
+      description: 'Procurement notices from ESCOM for power infrastructure, equipment, and services across Malawi.',
+      website: 'https://www.escom.mw',
+      icon: '⚡',
+      about: 'The Electricity Supply Corporation of Malawi (ESCOM) is the sole electricity distributor in the country, responsible for transmission and distribution of power to over 1.5 million customers. ESCOM procures equipment (transformers, cables, meters), construction services (substations, power lines), and professional services. Tenders are published on the ESCOM website and typically require PPDA-registered suppliers.',
+    },
+    {
+      slug: 'mra',
+      name: 'MRA',
+      fullName: 'Malawi Revenue Authority',
+      description: 'Procurement opportunities from the Malawi Revenue Authority for IT systems, office supplies, and services.',
+      website: 'https://www.mra.mw',
+      icon: '🏦',
+      about: 'The Malawi Revenue Authority (MRA) is the government agency responsible for collecting taxes and customs duties. MRA is one of Malawi\'s largest public sector procurers, regularly issuing tenders for IT systems, office equipment, fleet vehicles, security services, and professional consultancies. MRA follows PPDA procurement guidelines and publishes tenders on its website.',
+    },
   ];
 }
 

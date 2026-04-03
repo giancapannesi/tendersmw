@@ -1,0 +1,46 @@
+{
+  "title": "Tender for the provision of borehole drilling",
+  "slug": "mra-tender-for-the-provision-of-borehole-drilling-681",
+  "reference_number": "MRA-681",
+  "source": "mra",
+  "source_url": "https://www.mra.mw/tenders",
+  "procuring_entity": "Malawi Revenue Authority (MRA)",
+  "procuring_entity_slug": "malawi-revenue-authority-mra",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "Tender for the provision of borehole drilling",
+  "description_long": "Procurement notice from Malawi Revenue Authority: Tender for the provision of borehole drilling",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2019-08-27",
+  "closing_date": "2019-09-26",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.mra.mw/admin/storage/downloads/TEOR_BOREHOLE_DRILLING.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}

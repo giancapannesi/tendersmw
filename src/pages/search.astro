@@ -1,0 +1,256 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getAllTenders, getCategories, getSources, formatDate } from '../utils/data';
+
+const allTenders = getAllTenders();
+const categories = getCategories();
+const sources = getSources();
+
+const sourceNames: Record<string, string> = {
+  ppda: 'PPDA',
+  maneps: 'MANEPS',
+  eu_ted: 'EU TED',
+  world_bank: 'World Bank',
+  afdb: 'AfDB',
+  ungm: 'UNGM',
+  escom: 'ESCOM',
+  mra: 'MRA',
+};
+
+// Build a lightweight JSON for client-side search
+const searchData = allTenders.map(t => ({
+  s: t.slug,
+  t: t.title,
+  e: t.procuring_entity,
+  c: t.category,
+  src: t.source,
+  cd: t.closing_date,
+  st: t.status,
+  dr: t.days_remaining,
+  ia: t.is_active,
+  ref: t.reference_number,
+  ct: t.city,
+  r: t.region,
+}));
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SearchResultsPage',
+  name: 'Search Tenders — TendersMW',
+  description: 'Search and filter Malawi government tenders, procurement notices, and contract opportunities.',
+  url: 'https://tendersmw.com/search/',
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tendersmw.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Search' },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title="Search Tenders | TendersMW"
+  description="Search and filter Malawi government tenders by keyword, category, source, and status. Find procurement opportunities from PPDA, ESCOM, MRA, World Bank, EU, and UN."
+  jsonLd={jsonLd}
+>
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <h1 class="text-3xl font-bold text-text mb-2">Search Tenders</h1>
+    <p class="text-muted mb-8">Filter {allTenders.length} tenders by keyword, category, source, or status</p>
+
+    <!-- Filters -->
+    <div class="glass-card p-4 mb-6">
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <!-- Keyword -->
+        <div>
+          <label for="search-input" class="block text-sm font-medium text-text mb-1">Keyword</label>
+          <input
+            type="text"
+            id="search-input"
+            placeholder="e.g. construction, ICT, vehicles..."
+            class="w-full rounded-lg border border-border bg-bg px-3 py-2 text-sm text-text placeholder-muted focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+          />
+        </div>
+
+        <!-- Category -->
+        <div>
+          <label for="filter-category" class="block text-sm font-medium text-text mb-1">Category</label>
+          <select id="filter-category" class="w-full rounded-lg border border-border bg-bg px-3 py-2 text-sm text-text focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary">
+            <option value="">All categories</option>
+            {categories.map(cat => (
+              <option value={cat.slug}>{cat.name} ({cat.count})</option>
+            ))}
+          </select>
+        </div>
+
+        <!-- Source -->
+        <div>
+          <label for="filter-source" class="block text-sm font-medium text-text mb-1">Source</label>
+          <select id="filter-source" class="w-full rounded-lg border border-border bg-bg px-3 py-2 text-sm text-text focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary">
+            <option value="">All sources</option>
+            {sources.map(src => (
+              <option value={src.slug}>{src.name} ({src.count})</option>
+            ))}
+          </select>
+        </div>
+
+        <!-- Status -->
+        <div>
+          <label for="filter-status" class="block text-sm font-medium text-text mb-1">Status</label>
+          <select id="filter-status" class="w-full rounded-lg border border-border bg-bg px-3 py-2 text-sm text-text focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary">
+            <option value="">All statuses</option>
+            <option value="active">Active only</option>
+            <option value="closing_soon">Closing soon</option>
+            <option value="closed">Closed</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <!-- Results count -->
+    <div class="flex items-center justify-between mb-4">
+      <p id="results-count" class="text-sm text-muted">Showing {allTenders.length} tenders</p>
+      <button id="clear-filters" class="text-sm text-primary hover:text-primary-hover transition-colors hidden">Clear filters</button>
+    </div>
+
+    <!-- Tender list -->
+    <div id="tender-list" class="grid gap-4">
+      {allTenders.map(tender => {
+        const statusClass = tender.status === 'open' ? 'status-open' :
+                           tender.status === 'closing_soon' ? 'status-closing' :
+                           'status-closed';
+        const statusLabel = tender.status === 'open' ? 'Open' :
+                           tender.status === 'closing_soon' ? `${tender.days_remaining}d left` :
+                           'Closed';
+        return (
+          <a
+            href={`/tender/${tender.slug}/`}
+            class="glass-card block p-5 tender-item"
+            data-title={tender.title.toLowerCase()}
+            data-entity={tender.procuring_entity.toLowerCase()}
+            data-category={tender.category}
+            data-source={tender.source}
+            data-status={tender.is_active ? (tender.status === 'closing_soon' ? 'closing_soon' : 'active') : 'closed'}
+            data-ref={tender.reference_number?.toLowerCase() || ''}
+          >
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex-1 min-w-0">
+                <div class="flex flex-wrap items-center gap-2 mb-2">
+                  <span class:list={["inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium", statusClass]}>
+                    {statusLabel}
+                  </span>
+                  <span class={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium source-${tender.source}`}>
+                    {sourceNames[tender.source] || tender.source}
+                  </span>
+                  {tender.category && (
+                    <span class="inline-flex items-center rounded-full bg-bg px-2.5 py-0.5 text-xs font-medium text-muted border border-border">
+                      {tender.category}
+                    </span>
+                  )}
+                </div>
+                <h3 class="text-base font-semibold text-text line-clamp-2">
+                  {tender.title}
+                </h3>
+                <p class="mt-1 text-sm text-muted">{tender.procuring_entity}</p>
+                <div class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted">
+                  {tender.closing_date && (
+                    <span>Closes {formatDate(tender.closing_date)}</span>
+                  )}
+                  {tender.reference_number && (
+                    <span class="text-muted/60">Ref: {tender.reference_number}</span>
+                  )}
+                </div>
+              </div>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+
+    <!-- No results -->
+    <div id="no-results" class="glass-card p-12 text-center hidden">
+      <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto h-12 w-12 text-muted" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/>
+      </svg>
+      <h3 class="mt-4 text-lg font-semibold text-text">No tenders found</h3>
+      <p class="mt-2 text-sm text-muted max-w-md mx-auto">
+        Try adjusting your filters or search terms. You can also <a href="/" class="text-primary hover:underline">browse all tenders</a> on the homepage.
+      </p>
+    </div>
+  </section>
+
+  <script>
+    const searchInput = document.getElementById('search-input') as HTMLInputElement;
+    const categoryFilter = document.getElementById('filter-category') as HTMLSelectElement;
+    const sourceFilter = document.getElementById('filter-source') as HTMLSelectElement;
+    const statusFilter = document.getElementById('filter-status') as HTMLSelectElement;
+    const clearBtn = document.getElementById('clear-filters') as HTMLButtonElement;
+    const resultsCount = document.getElementById('results-count') as HTMLElement;
+    const noResults = document.getElementById('no-results') as HTMLElement;
+    const items = document.querySelectorAll('.tender-item') as NodeListOf<HTMLElement>;
+
+    function applyFilters() {
+      const query = searchInput.value.toLowerCase().trim();
+      const category = categoryFilter.value;
+      const source = sourceFilter.value;
+      const status = statusFilter.value;
+
+      let visible = 0;
+      const hasFilters = query || category || source || status;
+
+      items.forEach(item => {
+        const title = item.dataset.title || '';
+        const entity = item.dataset.entity || '';
+        const ref = item.dataset.ref || '';
+        const itemCategory = item.dataset.category || '';
+        const itemSource = item.dataset.source || '';
+        const itemStatus = item.dataset.status || '';
+
+        let show = true;
+
+        if (query && !title.includes(query) && !entity.includes(query) && !ref.includes(query)) {
+          show = false;
+        }
+        if (category && itemCategory !== category) {
+          show = false;
+        }
+        if (source && itemSource !== source) {
+          show = false;
+        }
+        if (status) {
+          if (status === 'active' && itemStatus !== 'active' && itemStatus !== 'closing_soon') show = false;
+          else if (status === 'closing_soon' && itemStatus !== 'closing_soon') show = false;
+          else if (status === 'closed' && itemStatus !== 'closed') show = false;
+        }
+
+        item.style.display = show ? '' : 'none';
+        if (show) visible++;
+      });
+
+      resultsCount.textContent = `Showing ${visible} of ${items.length} tenders`;
+      noResults.classList.toggle('hidden', visible > 0);
+      clearBtn.classList.toggle('hidden', !hasFilters);
+    }
+
+    searchInput.addEventListener('input', applyFilters);
+    categoryFilter.addEventListener('change', applyFilters);
+    sourceFilter.addEventListener('change', applyFilters);
+    statusFilter.addEventListener('change', applyFilters);
+
+    clearBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      categoryFilter.value = '';
+      sourceFilter.value = '';
+      statusFilter.value = '';
+      applyFilters();
+    });
+
+    // Handle URL query param
+    const urlParams = new URLSearchParams(window.location.search);
+    const q = urlParams.get('q');
+    if (q) {
+      searchInput.value = q;
+      applyFilters();
+    }
+  </script>
+</BaseLayout>

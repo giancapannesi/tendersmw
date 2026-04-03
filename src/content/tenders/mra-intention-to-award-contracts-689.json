@@ -1,0 +1,46 @@
+{
+  "title": "INTENTION TO AWARD CONTRACTS",
+  "slug": "mra-intention-to-award-contracts-689",
+  "reference_number": "MRA-689",
+  "source": "mra",
+  "source_url": "https://www.mra.mw/tenders",
+  "procuring_entity": "Malawi Revenue Authority (MRA)",
+  "procuring_entity_slug": "malawi-revenue-authority-mra",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "INTENTION TO AWARD CONTRACTS",
+  "description_long": "Procurement notice from Malawi Revenue Authority: INTENTION TO AWARD CONTRACTS",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2020-04-27",
+  "closing_date": "2020-05-27",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.mra.mw/admin/storage/downloads/NO_INTENTION_TO_AWARD_CONTRACTS_2020_35X3COLS.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "closed",
+  "is_active": false,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-04-03",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}
