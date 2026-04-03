@@ -125,6 +125,23 @@ def parse_mra_item(item):
         if not title or len(title) < 5:
             return None
 
+        # Skip EU tender dossier templates (c4a, c4b, etc.) and non-tender documents
+        title_lower = title.lower()
+        skip_patterns = [
+            'c4a_', 'c4b_', 'c4d_', 'c4k_', 'c4l_', 'c4o',
+            'a5e_', 'a5f_', 'a11c_', 'a14a_',
+            'lefind_en', 'lefcompany_en', 'lefpublic_en', 'fif_en',
+            'contractnotice_enotices', 'specialconditions_en', 'evalgrid_en',
+            'invit_en', 'itt_en', 'tenderform_en',
+            'tax stamps regulation', 'tax incentives for the',
+            'new tax measures for',
+        ]
+        if any(p in title_lower for p in skip_patterns):
+            return None
+        # Skip withdrawn/cancelled
+        if title_lower.startswith('withdrawn') or title_lower.startswith('cancellation of'):
+            return None
+
         item_id = item.get('id', '')
         pub_date_str = item.get('formatted_created_at', '')
         file_path = item.get('downloadFilePath', '')
