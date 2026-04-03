@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getSources, getSourceInfo } from '../../utils/data';
+
+const liveSources = getSources();
+const allSourceInfo = getSourceInfo();
+
+// Merge live counts with source info
+const sourceData = allSourceInfo.map(info => {
+  const live = liveSources.find(s => s.slug === info.slug);
+  return { ...info, count: live?.count || 0 };
+});
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Tender Data Sources — TendersMW',
+  description: 'Browse Malawi tenders by data source: PPDA, MANEPS, World Bank, EU TED, and UN Global Marketplace.',
+  url: 'https://tendersmw.com/source/',
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tendersmw.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Sources' },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title="Tender Data Sources | TendersMW"
+  description="Browse Malawi tenders by data source. We aggregate procurement notices from PPDA, MANEPS, World Bank, EU TED, and the United Nations."
+  jsonLd={jsonLd}
+>
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <h1 class="text-3xl font-bold text-text mb-2">Data Sources</h1>
+    <p class="text-muted mb-8">We aggregate tender notices from these procurement platforms and development organizations</p>
+
+    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {sourceData.map(source => (
+        <a href={`/source/${source.slug}/`} class="glass-card p-6 hover:border-primary/30 transition-colors group">
+          <div class="flex items-start justify-between mb-3">
+            <span class="text-2xl">{source.icon}</span>
+            {source.count > 0 && (
+              <span class="inline-flex items-center rounded-full bg-primary-light px-2.5 py-0.5 text-xs font-medium text-primary">
+                {source.count} tenders
+              </span>
+            )}
+          </div>
+          <h2 class="text-lg font-semibold text-text group-hover:text-primary transition-colors mb-1">{source.name}</h2>
+          <p class="text-xs text-muted mb-2">{source.fullName}</p>
+          <p class="text-sm text-muted leading-relaxed line-clamp-3">{source.description}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

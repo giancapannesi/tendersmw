@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TenderCard from '../../components/TenderCard.astro';
+import { getUniqueEntities, getTendersByEntity } from '../../utils/data';
+
+export function getStaticPaths() {
+  const entities = getUniqueEntities();
+  return entities.map(e => ({ params: { slug: e.slug }, props: { entity: e } }));
+}
+
+const { entity } = Astro.props;
+const tenders = getTendersByEntity(entity.slug);
+const activeTenders = tenders.filter(t => t.is_active);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'GovernmentOrganization',
+  name: entity.name,
+  url: `https://tendersmw.com/entity/${entity.slug}/`,
+  description: `Procurement opportunities from ${entity.name} in Malawi.`,
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tendersmw.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Entities', item: 'https://tendersmw.com/entity/' },
+      { '@type': 'ListItem', position: 3, name: entity.name },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title={`${entity.name} Tenders | TendersMW`}
+  description={`Find procurement opportunities from ${entity.name} in Malawi. ${activeTenders.length} active tenders listed on TendersMW.`}
+  jsonLd={jsonLd}
+>
+  <section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/" class="hover:text-primary transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/entity/" class="hover:text-primary transition-colors">Entities</a>
+      <span class="mx-2">/</span>
+      <span class="text-text">{entity.name}</span>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-text mb-2">{entity.name}</h1>
+    <p class="text-muted mb-6">Procurement notices from this entity</p>
+
+    <div class="flex items-center gap-3 mb-6">
+      <span class="inline-flex items-center rounded-full bg-primary-light px-3 py-1 text-sm font-medium text-primary">
+        {activeTenders.length} active
+      </span>
+      <span class="inline-flex items-center rounded-full bg-bg-alt px-3 py-1 text-sm font-medium text-muted border border-border">
+        {tenders.length} total
+      </span>
+    </div>
+
+    {tenders.length > 0 ? (
+      <div class="grid gap-4">
+        {tenders.map(tender => (
+          <TenderCard tender={tender} />
+        ))}
+      </div>
+    ) : (
+      <div class="glass-card p-12 text-center">
+        <p class="text-muted">No tenders from this entity yet. Check back soon.</p>
+      </div>
+    )}
+
+    <!-- Related -->
+    <div class="mt-12 glass-card p-6">
+      <h2 class="text-lg font-semibold text-text mb-3">Find More Tenders</h2>
+      <div class="flex flex-wrap gap-3">
+        <a href="/category/" class="text-sm text-primary hover:underline">Browse by category</a>
+        <span class="text-border">|</span>
+        <a href="/source/ppda/" class="text-sm text-primary hover:underline">PPDA tenders</a>
+        <span class="text-border">|</span>
+        <a href="/guides/how-to-bid-on-tenders-in-malawi/" class="text-sm text-primary hover:underline">How to bid</a>
+        <span class="text-border">|</span>
+        <a href="/procurement-law/" class="text-sm text-primary hover:underline">Procurement law</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
