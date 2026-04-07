@@ -1,0 +1,247 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getAllTenders } from '../../utils/data';
+
+const allTenders = getAllTenders();
+const ocbCount = allTenders.filter(t => t.procurement_method === 'open_competitive_bidding').length;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: 'Understanding Procurement Methods in Malawi: OCB, Restricted, RFQ, Single Source',
+  description: 'Complete guide to all procurement methods used in Malawi government tenders under the PPDA Act 2003. Learn which method applies to your contract and how to participate.',
+  url: 'https://tendersmw.com/guides/procurement-methods-malawi/',
+  author: { '@type': 'Organization', name: 'TendersMW' },
+  datePublished: '2026-04-07',
+  dateModified: '2026-04-07',
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tendersmw.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://tendersmw.com/guides/' },
+      { '@type': 'ListItem', position: 3, name: 'Procurement Methods' },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title="Procurement Methods in Malawi — OCB, Restricted Bidding, RFQ, Single Source | TendersMW"
+  description="Complete guide to all 6 procurement methods used in Malawi government tenders. Learn PPDA thresholds, when each method is used, and how to participate as a supplier."
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/" class="hover:text-primary transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/guides/" class="hover:text-primary transition-colors">Guides</a>
+      <span class="mx-2">/</span>
+      <span>Procurement Methods</span>
+    </nav>
+
+    <h1 class="mb-6 text-3xl font-bold text-white sm:text-4xl">Procurement Methods in Malawi: A Complete Guide</h1>
+    <p class="mb-8 text-lg text-muted">The Malawi Public Procurement and Disposal of Public Assets Act (2003, amended 2025) defines six procurement methods. The method used depends on the contract value, urgency, and nature of the goods or services being procured.</p>
+
+    <div class="mb-8 rounded-lg border border-border bg-card p-6">
+      <p class="text-sm text-muted"><strong class="text-accent">Current data:</strong> Of the {allTenders.length} tenders tracked on TendersMW, {ocbCount} use Open Competitive Bidding — the most common method.</p>
+    </div>
+
+    <!-- Overview Table -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">Quick Overview</h2>
+      <div class="overflow-x-auto rounded-lg border border-border">
+        <table class="w-full text-sm">
+          <thead class="bg-card">
+            <tr>
+              <th class="px-4 py-3 text-left font-semibold text-white">Method</th>
+              <th class="px-4 py-3 text-left font-semibold text-white">Threshold (Goods)</th>
+              <th class="px-4 py-3 text-left font-semibold text-white">Threshold (Works)</th>
+              <th class="px-4 py-3 text-left font-semibold text-white">When Used</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-border">
+            <tr>
+              <td class="px-4 py-3 font-medium text-white">Open Competitive Bidding (OCB)</td>
+              <td class="px-4 py-3 text-muted">Above MK 50 million</td>
+              <td class="px-4 py-3 text-muted">Above MK 200 million</td>
+              <td class="px-4 py-3 text-muted">Default method for high-value contracts</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium text-white">Restricted Bidding</td>
+              <td class="px-4 py-3 text-muted">Any value</td>
+              <td class="px-4 py-3 text-muted">Any value</td>
+              <td class="px-4 py-3 text-muted">Specialized goods/services, few qualified suppliers</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium text-white">Request for Quotations (RFQ)</td>
+              <td class="px-4 py-3 text-muted">Up to MK 50 million</td>
+              <td class="px-4 py-3 text-muted">Up to MK 200 million</td>
+              <td class="px-4 py-3 text-muted">Routine, off-the-shelf goods and services</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium text-white">Single Source</td>
+              <td class="px-4 py-3 text-muted">Any value</td>
+              <td class="px-4 py-3 text-muted">Any value</td>
+              <td class="px-4 py-3 text-muted">Emergencies, sole supplier, standardization</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium text-white">Two-Stage Bidding</td>
+              <td class="px-4 py-3 text-muted">Above MK 50 million</td>
+              <td class="px-4 py-3 text-muted">Above MK 200 million</td>
+              <td class="px-4 py-3 text-muted">Complex projects, specs need refinement</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium text-white">Framework Agreement</td>
+              <td class="px-4 py-3 text-muted">Any value</td>
+              <td class="px-4 py-3 text-muted">Any value</td>
+              <td class="px-4 py-3 text-muted">Recurring needs, pre-qualified suppliers</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Method 1: OCB -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">1. Open Competitive Bidding (OCB)</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <p class="mb-4 text-muted">The default procurement method for all contracts above the PPDA thresholds. All registered suppliers can participate. This is the most transparent method and applies to the majority of government tenders.</p>
+        <h3 class="mb-2 text-lg font-semibold text-white">Key Features</h3>
+        <ul class="mb-4 list-disc space-y-1 pl-5 text-muted">
+          <li>Public advertisement in newspapers and/or PPDA website (minimum 30 days notice)</li>
+          <li>Open to all registered suppliers in the relevant category</li>
+          <li>Sealed bids opened publicly at a specified date and time</li>
+          <li>Evaluation based on published criteria (technical + financial)</li>
+          <li>Results published and losing bidders notified with reasons</li>
+        </ul>
+        <h3 class="mb-2 text-lg font-semibold text-white">PPDA Thresholds (2024 Revision)</h3>
+        <ul class="list-disc space-y-1 pl-5 text-muted">
+          <li><strong>Goods:</strong> Above MK 50,000,000 (about $28,000 USD)</li>
+          <li><strong>Works:</strong> Above MK 200,000,000 (about $112,000 USD)</li>
+          <li><strong>Consulting Services:</strong> Above MK 30,000,000 (about $17,000 USD)</li>
+        </ul>
+        <div class="mt-4 rounded border border-green/30 bg-green/10 p-4">
+          <p class="text-sm text-green"><strong>For Suppliers:</strong> OCB gives you the best chance of winning because it's open to everyone. Focus on building a strong track record with smaller RFQ contracts first, then move to OCB tenders.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Method 2: Restricted Bidding -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">2. Restricted Bidding</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <p class="mb-4 text-muted">Used when only a limited number of suppliers can provide the required goods, works, or services. The procuring entity invites specific suppliers to bid.</p>
+        <h3 class="mb-2 text-lg font-semibold text-white">When Used</h3>
+        <ul class="mb-4 list-disc space-y-1 pl-5 text-muted">
+          <li>Highly specialized goods or services with few qualified suppliers</li>
+          <li>Time-sensitive procurement where OCB would cause unreasonable delay</li>
+          <li>After an OCB received fewer than 3 responsive bids</li>
+          <li>National security or confidential procurement</li>
+        </ul>
+        <h3 class="mb-2 text-lg font-semibold text-white">PPDA Approval</h3>
+        <p class="text-muted">Procuring entities must get PPDA approval to use restricted bidding and justify why OCB is not appropriate. Minimum 3 suppliers must be invited.</p>
+      </div>
+    </section>
+
+    <!-- Method 3: RFQ -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">3. Request for Quotations (RFQ)</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <p class="mb-4 text-muted">The simplified method for lower-value purchases. Faster and less formal than OCB.</p>
+        <h3 class="mb-2 text-lg font-semibold text-white">Thresholds</h3>
+        <ul class="mb-4 list-disc space-y-1 pl-5 text-muted">
+          <li><strong>Goods:</strong> Up to MK 50,000,000</li>
+          <li><strong>Works:</strong> Up to MK 200,000,000</li>
+          <li><strong>Services:</strong> Up to MK 30,000,000</li>
+        </ul>
+        <h3 class="mb-2 text-lg font-semibold text-white">How It Works</h3>
+        <ul class="mb-4 list-disc space-y-1 pl-5 text-muted">
+          <li>Procuring entity requests quotes from at least 3 suppliers</li>
+          <li>No formal advertisement required (but some entities post on their websites)</li>
+          <li>Simplified evaluation — usually lowest price among qualified bidders</li>
+          <li>Faster processing (typically 2-4 weeks vs 6-12 weeks for OCB)</li>
+        </ul>
+        <div class="mt-4 rounded border border-accent/30 bg-accent/10 p-4">
+          <p class="text-sm text-accent"><strong>Important:</strong> RFQs are where most newspaper-only tenders appear. These are rarely posted online, which is why 30-40% of all government tenders are invisible to digital platforms. TendersMW is working to capture these through our data sources.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Method 4: Single Source -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">4. Single Source Procurement</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <p class="mb-4 text-muted">Direct procurement from a single supplier without competition. Heavily regulated and requires PPDA approval.</p>
+        <h3 class="mb-2 text-lg font-semibold text-white">Allowed Only When</h3>
+        <ul class="mb-4 list-disc space-y-1 pl-5 text-muted">
+          <li>Only one supplier can provide the goods/services (genuine sole source)</li>
+          <li>Emergency procurement where delay would cause danger to life or property</li>
+          <li>Standardization with existing equipment (spare parts, extensions)</li>
+          <li>Research, experiment, or study purposes</li>
+          <li>National security reasons</li>
+        </ul>
+        <div class="mt-4 rounded border border-red/30 bg-red/10 p-4">
+          <p class="text-sm text-red"><strong>Watch Out:</strong> Single source is the most abused procurement method. PPDA's 2022 audit found significant irregularities in single-source procurements. As a supplier, if you're approached for a single-source contract, ensure proper PPDA authorization exists.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Method 5: Two-Stage -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">5. Two-Stage Bidding</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <p class="mb-4 text-muted">Used for complex projects where the procuring entity needs to refine specifications based on supplier input.</p>
+        <ul class="mb-4 list-disc space-y-1 pl-5 text-muted">
+          <li><strong>Stage 1:</strong> Technical proposals only (no pricing). Entity evaluates approaches and may adjust specifications based on submissions.</li>
+          <li><strong>Stage 2:</strong> Revised specifications issued. Suppliers that passed Stage 1 submit final technical + financial proposals.</li>
+        </ul>
+        <p class="text-muted">Common for: large infrastructure projects, ICT systems, complex consulting assignments.</p>
+      </div>
+    </section>
+
+    <!-- Method 6: Framework -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">6. Framework Agreements</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <p class="mb-4 text-muted">Pre-qualified supplier panels for recurring needs. The entity establishes a list of approved suppliers and issues call-off orders as needs arise.</p>
+        <ul class="mb-4 list-disc space-y-1 pl-5 text-muted">
+          <li>Valid for up to 3 years (renewable)</li>
+          <li>Multiple suppliers can be on the same framework</li>
+          <li>Individual orders placed against the framework without re-tendering</li>
+          <li>Common for: stationery, fuel, vehicle maintenance, cleaning, security</li>
+        </ul>
+        <div class="mt-4 rounded border border-green/30 bg-green/10 p-4">
+          <p class="text-sm text-green"><strong>Strategy:</strong> Getting onto a framework agreement gives you repeat business for years. Watch for framework tender notices — they're worth the effort even if the initial contract value seems low.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Donor Procurement -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">7. Donor-Funded Procurement</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <p class="mb-4 text-muted">When a project is funded by a donor (World Bank, EU, AfDB, UNDP), the donor's procurement rules may override PPDA rules. Key differences:</p>
+        <ul class="list-disc space-y-1 pl-5 text-muted">
+          <li><strong>World Bank:</strong> Uses International Competitive Bidding (ICB) and National Competitive Bidding (NCB). STEP system for procurement plans.</li>
+          <li><strong>EU:</strong> Uses PRAG (Practical Guide) procedures. Tenders published on TED (Tenders Electronic Daily).</li>
+          <li><strong>AfDB:</strong> Similar to World Bank rules. Published on AfDB website.</li>
+          <li><strong>UN Agencies:</strong> Each agency has its own rules (UNGM for UNDP/UNICEF/WHO).</li>
+        </ul>
+        <div class="mt-4 rounded border border-primary/30 bg-primary/10 p-4">
+          <p class="text-sm text-primary"><strong>Payment Advantage:</strong> Donor-funded contracts typically pay within 30-60 days vs 3-12 months for government-funded contracts. If cash flow matters, prioritize donor tenders.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="rounded-lg border border-primary bg-primary/10 p-8 text-center">
+      <h2 class="mb-4 text-2xl font-bold text-white">Ready to Find Tenders?</h2>
+      <p class="mb-6 text-muted">Browse current tenders from PPDA, MRA, ESCOM, and other sources. Use our search to filter by category, source, and status.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/search/" class="rounded-lg bg-primary px-6 py-3 font-semibold text-white transition-colors hover:bg-primary/80">Search Tenders</a>
+        <a href="/guides/tender-document-checklist/" class="rounded-lg border border-border px-6 py-3 font-semibold text-white transition-colors hover:bg-card">Document Checklist</a>
+      </div>
+    </section>
+  </article>
+</BaseLayout>

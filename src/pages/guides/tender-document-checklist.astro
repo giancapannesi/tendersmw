@@ -1,0 +1,401 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'Tender Document Checklist for Malawi Government Bids',
+  description: 'Complete checklist of documents required to submit a tender bid in Malawi. Covers PPDA requirements, financial documents, technical proposals, and compliance certificates.',
+  url: 'https://tendersmw.com/guides/tender-document-checklist/',
+  step: [
+    { '@type': 'HowToStep', position: 1, name: 'Company Registration Documents', text: 'Business registration certificate, certificate of incorporation, and Memorandum of Association.' },
+    { '@type': 'HowToStep', position: 2, name: 'Tax Compliance', text: 'Valid MRA Tax Clearance Certificate (TCC) — must be current and not expired.' },
+    { '@type': 'HowToStep', position: 3, name: 'PPDA Supplier Registration', text: 'PPDA supplier registration certificate for the relevant procurement category.' },
+    { '@type': 'HowToStep', position: 4, name: 'Financial Documents', text: 'Audited financial statements, bank statements, and evidence of financial capability.' },
+    { '@type': 'HowToStep', position: 5, name: 'Technical Proposal', text: 'Methodology, work plan, team CVs, and relevant project experience.' },
+    { '@type': 'HowToStep', position: 6, name: 'Financial Proposal', text: 'Detailed pricing breakdown in the format specified by the tender document.' },
+    { '@type': 'HowToStep', position: 7, name: 'Bid Security', text: 'Bank guarantee or bid bond as specified in the tender document (typically 1-5% of bid value).' },
+  ],
+  breadcrumb: {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://tendersmw.com/' },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: 'https://tendersmw.com/guides/' },
+      { '@type': 'ListItem', position: 3, name: 'Tender Document Checklist' },
+    ],
+  },
+};
+---
+
+<BaseLayout
+  title="Tender Document Checklist for Malawi Government Bids | TendersMW"
+  description="Complete checklist of documents needed to bid on Malawi government tenders. Covers PPDA registration, MRA tax clearance, financial statements, technical proposals, and bid security requirements."
+  jsonLd={jsonLd}
+>
+  <article class="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+    <!-- Breadcrumb -->
+    <nav class="mb-6 text-sm text-muted">
+      <a href="/" class="hover:text-primary transition-colors">Home</a>
+      <span class="mx-2">/</span>
+      <a href="/guides/" class="hover:text-primary transition-colors">Guides</a>
+      <span class="mx-2">/</span>
+      <span>Tender Document Checklist</span>
+    </nav>
+
+    <h1 class="mb-6 text-3xl font-bold text-white sm:text-4xl">Tender Document Checklist for Malawi Government Bids</h1>
+    <p class="mb-8 text-lg text-muted">The #1 reason Malawian businesses lose tenders is incomplete documentation. Use this checklist to make sure your bid package is complete before submission.</p>
+
+    <div class="mb-8 rounded-lg border border-border bg-card p-6">
+      <p class="text-sm text-muted"><strong class="text-accent">Last Updated:</strong> April 2026 | Based on PPDA Act 2003 (Amended 2025) requirements</p>
+    </div>
+
+    <!-- Section 1: Company Registration -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">1. Company Registration Documents</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Business Registration Certificate</strong>
+              <p class="text-sm text-muted">Issued by the Registrar General. Must be in the name of the bidding entity. Sole traders, partnerships, and companies all need this.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Certificate of Incorporation</strong>
+              <p class="text-sm text-muted">For limited companies only. Shows the company is legally registered under the Companies Act.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Memorandum and Articles of Association</strong>
+              <p class="text-sm text-muted">Shows company objects, powers, and governance structure. Required for limited companies.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Form 20 (Annual Return)</strong>
+              <p class="text-sm text-muted">Latest annual return filed with the Registrar General. Shows the company is active and compliant.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Directors' Details (Form 44)</strong>
+              <p class="text-sm text-muted">List of current directors with residential addresses and nationalities.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 2: Tax Compliance -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">2. Tax Compliance</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">MRA Tax Clearance Certificate (TCC)</strong>
+              <p class="text-sm text-muted">This is the single most important document. It must be valid (not expired) at the time of bid submission. Apply at any MRA office or online at <a href="https://www.mra.mw" class="text-primary hover:underline">mra.mw</a>. Processing takes 5-10 business days.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">TPIN Certificate</strong>
+              <p class="text-sm text-muted">Taxpayer Identification Number. Every registered business must have one. Free to obtain from MRA.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">VAT Registration Certificate (if applicable)</strong>
+              <p class="text-sm text-muted">Required if your annual turnover exceeds MK 25 million. Some tenders specifically require VAT-registered suppliers.</p>
+            </div>
+          </li>
+        </ul>
+        <div class="mt-4 rounded border border-accent/30 bg-accent/10 p-4">
+          <p class="text-sm text-accent"><strong>Important:</strong> An expired TCC is the most common reason for automatic disqualification. Check your TCC expiry date at least 2 weeks before any tender deadline and renew early.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: PPDA Registration -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">3. PPDA Supplier Registration</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">PPDA Supplier Registration Certificate</strong>
+              <p class="text-sm text-muted">Register at <a href="https://www.ppda.mw" class="text-primary hover:underline">ppda.mw</a> for the relevant procurement category (goods, works, consulting services, or non-consulting services). See our <a href="/guides/ppda-procurement-guide/" class="text-primary hover:underline">PPDA Procurement Guide</a> for details.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">MANEPS Registration (if required)</strong>
+              <p class="text-sm text-muted">Mandatory for e-procurement from April 2026. See our <a href="/guides/maneps-registration-guide/" class="text-primary hover:underline">MANEPS Registration Guide</a>. Not all tenders require this yet, but it's increasingly expected.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">NCA Registration (for construction/works tenders)</strong>
+              <p class="text-sm text-muted">National Construction Authority registration is mandatory for all construction-related tenders. Category depends on contract value.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 4: Financial Documents -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">4. Financial Documents</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Audited Financial Statements (3 years)</strong>
+              <p class="text-sm text-muted">Most government tenders require the last 3 years of audited accounts. Must be signed by a registered auditor.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Bank Reference Letter</strong>
+              <p class="text-sm text-muted">Letter from your bank confirming your account is in good standing. Must be recent (within 3 months).</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Bank Statements (6 months)</strong>
+              <p class="text-sm text-muted">Shows cash flow and available working capital. Some tenders specify a minimum average balance.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Evidence of Access to Credit (if required)</strong>
+              <p class="text-sm text-muted">Letter from a bank or financial institution confirming available credit facility. Required for large contracts where working capital needs exceed your bank balance.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 5: Technical Proposal -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">5. Technical Proposal</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Company Profile</strong>
+              <p class="text-sm text-muted">Overview of your company, history, organizational structure, key staff, and capabilities. Keep it relevant to the tender.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Methodology and Work Plan</strong>
+              <p class="text-sm text-muted">How you will execute the contract. Include timelines, milestones, quality assurance approach, and risk mitigation measures.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Key Personnel CVs</strong>
+              <p class="text-sm text-muted">Detailed CVs for the project manager and key technical staff. Include qualifications, certifications, and relevant experience.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Past Experience / Track Record</strong>
+              <p class="text-sm text-muted">List of similar contracts completed in the last 5 years with contract values, client names, and completion dates. Include reference letters if available.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Equipment and Facilities</strong>
+              <p class="text-sm text-muted">For works and supply tenders: list of owned/leased equipment, warehouses, vehicles, and facilities relevant to the contract.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 6: Financial Proposal -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">6. Financial Proposal</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Priced Bill of Quantities (BOQ)</strong>
+              <p class="text-sm text-muted">Use the exact format provided in the tender document. Fill in unit rates and totals. Do not alter the BOQ structure.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Price Schedule / Summary</strong>
+              <p class="text-sm text-muted">Summarize your total bid price including taxes, delivery costs, and any applicable duties. Clearly state whether prices are inclusive or exclusive of VAT.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Price Validity Period</strong>
+              <p class="text-sm text-muted">State how long your quoted prices remain valid (typically 90-120 days from bid closing date).</p>
+            </div>
+          </li>
+        </ul>
+        <div class="mt-4 rounded border border-accent/30 bg-accent/10 p-4">
+          <p class="text-sm text-accent"><strong>Critical:</strong> The financial and technical proposals must be in separate sealed envelopes for most government tenders. Mixing them can lead to disqualification.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Bid Security -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">7. Bid Security / Bid Bond</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Bid Security (Bank Guarantee or Bond)</strong>
+              <p class="text-sm text-muted">Typically 1-5% of the bid value. Must be from a recognized Malawian bank. Valid for the bid validity period plus 30 days. PPDA thresholds determine whether bid security is required.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Performance Security (post-award)</strong>
+              <p class="text-sm text-muted">Not submitted with the bid, but be prepared — typically 10% of the contract value. Your bank should confirm they can issue this if you win.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 8: Additional Documents -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">8. Additional Documents (Often Overlooked)</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Signed Tender Submission Form</strong>
+              <p class="text-sm text-muted">Usually included in the tender document. Must be signed by an authorized representative and stamped with company seal.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Power of Attorney (if not signed by director)</strong>
+              <p class="text-sm text-muted">If the bid is signed by someone other than a company director, a notarized Power of Attorney is required.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Integrity Pact / Anti-Corruption Declaration</strong>
+              <p class="text-sm text-muted">Standard form declaring no corrupt practices. Usually included in the tender document — sign and return it.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Joint Venture Agreement (if applicable)</strong>
+              <p class="text-sm text-muted">If bidding as a JV/consortium, include the signed JV agreement specifying roles, lead partner, and share arrangement.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Manufacturer's Authorization (for supply tenders)</strong>
+              <p class="text-sm text-muted">Letter from the manufacturer confirming you are authorized to supply their products. Required for equipment and specialized goods.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Insurance Certificates</strong>
+              <p class="text-sm text-muted">Professional indemnity, public liability, or workers' compensation as specified. Particularly important for construction and consulting tenders.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- MSME Section -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">9. MSME Preference Documents</h2>
+      <div class="rounded-lg border border-border bg-card p-6">
+        <p class="mb-4 text-muted">Under the Public Procurement (Preference and Reservation) Order 2020, Malawian MSMEs get preferential treatment in government procurement.</p>
+        <ul class="space-y-3">
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">SMEDI Registration Certificate</strong>
+              <p class="text-sm text-muted">Register with the Small and Medium Enterprise Development Institute to qualify for MSME preferences.</p>
+            </div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="mt-1 text-green">&#9744;</span>
+            <div>
+              <strong class="text-white">Proof of Malawian Ownership (51%+)</strong>
+              <p class="text-sm text-muted">Shareholder certificates or statutory declaration showing majority Malawian ownership.</p>
+            </div>
+          </li>
+        </ul>
+        <div class="mt-4 rounded border border-green/30 bg-green/10 p-4">
+          <p class="text-sm text-green"><strong>MSME Benefit:</strong> Qualifying MSMEs receive a 6% margin of preference on price evaluation, meaning your bid is compared as if it were 6% lower than the actual price you quoted.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Common Mistakes -->
+    <section class="mb-10">
+      <h2 class="mb-4 text-2xl font-bold text-white">10. Common Mistakes That Get Bids Rejected</h2>
+      <div class="rounded-lg border border-red/30 bg-red/10 p-6">
+        <ol class="list-decimal space-y-2 pl-5 text-muted">
+          <li><strong class="text-white">Expired Tax Clearance Certificate</strong> — most common reason for disqualification</li>
+          <li><strong class="text-white">Missing signatures or company stamps</strong> — every required form must be signed and stamped</li>
+          <li><strong class="text-white">Technical and financial proposals in the same envelope</strong> — leads to immediate rejection</li>
+          <li><strong class="text-white">Altered BOQ format</strong> — never change the structure of the Bill of Quantities</li>
+          <li><strong class="text-white">Late submission</strong> — even 1 minute late means automatic rejection, no exceptions</li>
+          <li><strong class="text-white">Wrong procurement category</strong> — your PPDA registration must match the tender category</li>
+          <li><strong class="text-white">Missing bid security</strong> — or bid security from an unrecognized institution</li>
+          <li><strong class="text-white">Photocopied documents instead of certified copies</strong> — use notarized copies where specified</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="rounded-lg border border-primary bg-primary/10 p-8 text-center">
+      <h2 class="mb-4 text-2xl font-bold text-white">Find Tenders Matching Your Business</h2>
+      <p class="mb-6 text-muted">Now that you know what documents to prepare, find the right tenders for your business. We aggregate tenders from PPDA, MRA, ESCOM, and other sources in one place.</p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/search/" class="rounded-lg bg-primary px-6 py-3 font-semibold text-white transition-colors hover:bg-primary/80">Search Tenders</a>
+        <a href="/guides/" class="rounded-lg border border-border px-6 py-3 font-semibold text-white transition-colors hover:bg-card">More Guides</a>
+      </div>
+    </section>
+  </article>
+</BaseLayout>
