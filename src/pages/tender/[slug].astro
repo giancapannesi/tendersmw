@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getAllTenders, getTenderBySlug, formatDate, formatCurrency } from '../../utils/data';
+import { getAllTenders, getTenderBySlug, getUniqueEntities, formatDate, formatCurrency } from '../../utils/data';
 
 export function getStaticPaths() {
   const tenders = getAllTenders();
@@ -33,11 +33,17 @@ const sourceNames: Record<string, string> = {
   mra: 'Malawi Revenue Authority',
 };
 
-const jsonLd = {
+// Resolve entity slug for internal linking
+const entities = getUniqueEntities();
+const entityMatch = entities.find(e => e.name === tender.procuring_entity);
+const entitySlug = entityMatch?.slug;
+
+const jsonLd = [{
   "@context": "https://schema.org",
   "@type": "GovernmentService",
   "name": tender.title,
   "description": tender.description_short,
+  "url": `https://tendersmw.com/tender/${tender.slug}/`,
   "provider": {
     "@type": "GovernmentOrganization",
     "name": tender.procuring_entity,
@@ -47,7 +53,15 @@ const jsonLd = {
     "name": "Malawi",
   },
   "datePublished": tender.published_date,
-};
+}, {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://tendersmw.com/" },
+    ...(tender.category ? [{ "@type": "ListItem", "position": 2, "name": tender.category.charAt(0).toUpperCase() + tender.category.slice(1), "item": `https://tendersmw.com/category/${tender.category}/` }] : []),
+    { "@type": "ListItem", "position": tender.category ? 3 : 2, "name": tender.title },
+  ],
+}];
 
 // Get similar tenders
 const allTenders = getAllTenders();
@@ -94,7 +108,11 @@ const similarTenders = tender.similar_tenders?.length
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
             <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a1 1 0 110 2h-3a1 1 0 01-1-1v-2a1 1 0 00-1-1H9a1 1 0 00-1 1v2a1 1 0 01-1 1H4a1 1 0 110-2V4z" clip-rule="evenodd"/>
           </svg>
-          {tender.procuring_entity}
+          {entitySlug ? (
+            <a href={`/entity/${entitySlug}/`} class="text-primary hover:text-primary-hover transition-colors">{tender.procuring_entity}</a>
+          ) : (
+            tender.procuring_entity
+          )}
         </span>
         {tender.reference_number && (
           <span>Ref: {tender.reference_number}</span>
@@ -258,5 +276,44 @@ const similarTenders = tender.similar_tenders?.length
         </div>
       </div>
     )}
+
+    <!-- Helpful Resources -->
+    <div class="mt-10 glass-card p-5 sm:p-6">
+      <h2 class="text-lg font-semibold text-text mb-4">Helpful Resources</h2>
+      <div class="grid gap-3 sm:grid-cols-2">
+        <a href="/guides/how-to-bid-on-tenders-in-malawi/" class="flex items-center gap-3 rounded-lg border border-border p-3 hover:border-primary transition-colors">
+          <span class="text-lg">📋</span>
+          <div>
+            <p class="text-sm font-medium text-text">How to Bid on Tenders</p>
+            <p class="text-xs text-muted">Step-by-step guide for Malawi tenders</p>
+          </div>
+        </a>
+        <a href="/guides/ppda-procurement-guide/" class="flex items-center gap-3 rounded-lg border border-border p-3 hover:border-primary transition-colors">
+          <span class="text-lg">🏛️</span>
+          <div>
+            <p class="text-sm font-medium text-text">PPDA Procurement Guide</p>
+            <p class="text-xs text-muted">Understanding PPDA regulations</p>
+          </div>
+        </a>
+        {tender.source && (
+          <a href={`/source/${tender.source}/`} class="flex items-center gap-3 rounded-lg border border-border p-3 hover:border-primary transition-colors">
+            <span class="text-lg">🔗</span>
+            <div>
+              <p class="text-sm font-medium text-text">More from {sourceNames[tender.source] || tender.source}</p>
+              <p class="text-xs text-muted">Browse all {sourceNames[tender.source] || tender.source} tenders</p>
+            </div>
+          </a>
+        )}
+        {tender.category && (
+          <a href={`/category/${tender.category}/`} class="flex items-center gap-3 rounded-lg border border-border p-3 hover:border-primary transition-colors">
+            <span class="text-lg">📂</span>
+            <div>
+              <p class="text-sm font-medium text-text capitalize">{tender.category} Tenders</p>
+              <p class="text-xs text-muted">Browse all {tender.category} tenders</p>
+            </div>
+          </a>
+        )}
+      </div>
+    </div>
   </article>
 </BaseLayout>

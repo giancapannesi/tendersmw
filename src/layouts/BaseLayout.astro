@@ -12,9 +12,11 @@ interface Props {
   noindex?: boolean;
 }
 
-const { title, description, canonical, ogImage, jsonLd, noindex } = Astro.props;
+const { title: rawTitle, description, canonical, ogImage, jsonLd, noindex } = Astro.props;
 const canonicalUrl = canonical || new URL(Astro.url.pathname, Astro.site).href;
 const ogImg = ogImage || 'https://tendersmw.com/og-default.png';
+// Cap title at 60 chars for SERP display (Google truncates longer titles)
+const title = rawTitle.length > 60 ? rawTitle.slice(0, 57) + '...' : rawTitle;
 ---
 
 <!doctype html>

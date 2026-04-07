@@ -1,0 +1,3146 @@
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+(Published 31th Janaury, 2025)
+Act
+No. 7 of 2025
+I assent
+DR. LAZARUS MCCARTHY CHAKWERA
+PRESIDENT
+24th January, 2025
+ARRANGEMENT OF SECTIONS
+SECTION
+
+PART I__PRELIMINARY
+1. Short title and commencement
+2. Interpretation
+3. Application of this Act
+PART II__PUBLIC PROCUREMENT AND DISPOSAL OF PUBLIC ASSETS
+AUTHORITY
+4. Establishment of the Public Procurement and Disposal of
+Public Assets Authority
+5. Functions of the Authority
+6. Powers of the Authority
+7. Composition of the Authority
+8. Tenure and vacancies
+9. Meetings of the Authority
+10. Committees of the Authority
+11. Personal attendance of meetings
+12. Allowances and expenses
+13. Delegation of powers and functions of the Authority
+PART III__ADMINISTRATION
+14. Secretariat of the Authority
+15. Director General of the Authority
+
+1
+
+2
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+SECTION
+
+16. Functions of the Director General
+17. Tenure and removal of the Director General
+18. Acting Director General
+19. Other staff of the Authority
+PART IV__FUNDS AND PROPERTY OF THE AUTHORITY
+20. Funds of the Authority
+21. Levies, fees, etc;
+22. Accounting and audit
+23. Financial year of the Authority
+PART V__RESPONSIBILITIES OF CONTROLLING OFFICERS, INTERNAL
+PROCUREMENT AND DISPOSAL COMMITTEES, PROCUREMENT AND
+DISPOSAL UNIT AND AD-HOC EVALUATION TEAMS
+24. Responsibilities of a Controlling Officer
+25. Establishment of Internal Procurement and Disposal
+Committees
+26. Composition of the Internal Procurement and Disposal
+Committees
+27. Ad-hoc evaluation teams and boards of survey
+28. Establishment of procurement and disposal units
+PART VI__PRINCIPLES OF PUBLIC PROCUREMENT AND DISPOSAL OF
+ASSETS
+29. Principles of public procurement
+30. Sustainable procurement and disposal
+31. Principles of disposal of assets
+32. Records of procurement and disposal proceedings
+33. Mode of communication
+34. Confidentiality
+35. Limitation on contracts with employees
+36. Disposal of goods to employees
+37. Participation by micro, small and medium enterprises
+PART VII__PROCUREMENT AND DISPOSAL METHODS
+38. Methods of procurement and disposal
+39. Two stage tendering
+40. National competitive bidding
+41. Restricted tendering
+42. International competitive bidding
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+SECTION
+
+43. Request for proposals
+44. Requests for quotations
+45. Single sourcing
+46. Force account
+47. Community participation
+48. Reverse auction
+49. Emergency procurement
+50. Procurement from other procuring and disposing entities
+51. Disposal of assets
+52. Forward auction
+53. Deviations
+54. Framework agreements
+PART VIII__PROCUREMENT AND DISPOSAL PLANNING AND PROCEEDINGS
+55. Planning of procurement and disposal activities
+56. Publication of invitation to bid
+57. Issuance of bidding document
+58. Submission of bids
+59. Bid validity periods
+60. Extension of deadline for submission of bids
+61. Opening of bids
+62. Evaluation of bids
+63. Unrealistically low bids
+64. Processing of unrealistically high bids
+65. Use of standard bidding documents
+66. Rejection of bids and cancellation of procurement and disposal
+proceedings
+67. Bids received after deadline for submission
+68. Unqualified bids
+69. Negotiations
+70. Intention to award a contract
+71. Use of information and communication technologies
+72. Procurement contract
+73. Amendment of a signed procurement contract
+74. Contract management
+PART IX__SUPPLIERS AND BIDDERS
+75. Eligibility of criteria of bidders
+76. Qualification of bidders
+
+3
+
+4
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+SECTION
+
+77. Supplier database or lists
+78. Conduct of bidders and suppliers
+79. Debarment of suppliers and contractors
+PART X__PROCUREMENT INTEGRITY
+80. Conduct of public officials
+81. Code of Conduct for public officials and suppliers
+PART XI__ADMINISTRATIVE REVIEW AND APPEAL
+82. Right to review
+83. Review procedures
+PART XII__INVENTORY CONTROL, ASSET AND STORES MANAGEMENT
+AND DISTRIBUTION
+84. Stores management
+85. Management of procured goods
+PART XIII__COMPLIANCE, MONITORING AND ENFORCEMENT
+86. Supply of information by procuring and disposing entity
+87. Investigations and inspections
+88. Appointment of inspectors
+89. Powers of inspectors
+90. Report of investigation and inspection
+91. Powers of the Authority in investigation and inspection
+PART XIV__MISCELLANEOUS
+92. Oath of secrecy
+93. Disclosure of interest
+94. Post engagement restrictions
+95. Protection from liability
+96. Offences
+97. Regulations
+98. Repeal and savings
+99. Transitional provisions
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+5
+
+An Act to maximize economy and efficiency in public
+procurement and disposal of public assets; to provide for the
+establishment of the Public Procurement and Disposal of Public
+Assets Authority; to provide for, and regulate, a decentralized
+institutional structure for the public procurement and disposal
+of public assets; to provide for inventory control, asset and stores
+management and distribution; and to provide for matters
+incidental thereto or connected with
+ENACTED by the Parliament of Malawi as follows__
+PART I__PRELIMINARY
+1. This Act may be cited as the Public Procurement and Disposal
+of Public Assets Act, 2024, and shall come into operation on such
+date as the Minister may appoint by notice published in the Gazette.
+
+Short title and
+commencement
+
+2. In this Act, unless the context otherwise requires__
+“Authority” means the Public Procurement and Disposal of
+Public Assets Authority established under section 4;
+“award” means the granting of a contract by a procuring and
+disposing entity to a bidder for purposes of entering into a
+procurement contract;
+
+Interpretation
+
+“bid” means__
+(a) in relation to procurement proceedings, an offer to provide
+goods, works and services submitted by a bidder in response to
+an invitation from a procuring and disposing entity; and
+(b) in relation to disposal proceedings, an offer submitted by
+a bidder to acquire assets in response to an invitation from a
+procuring and disposing entity;
+“bidder” means__
+(a) in relation to procurement proceedings, any person or
+entity expressing interest in procurement proceedings by
+submitting a bid; and
+(b) in relation to disposal proceedings, any person or entity
+expressing interest in disposal proceedings by submitting a bid;
+“bidding document” means a document used by a procuring and
+disposing entity for solicitation of offers, proposals or quotations;
+“bid security” means a security bond required for securing
+validity of a bid during the period stated in the bidding document;
+
+6
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+“Chairperson” means the Chairperson of the Authority;
+“close relative” in relation to a member of the Authority, or a
+public official, means a spouse, child, child of the spouse, sibling,
+parent or guardian of the member of the Authority, or of the public
+official;
+“Controlling Officer” means the head or principal person in
+charge of a procuring and disposing entity;
+“consultant” means a person under a procurement contract to
+provide consultancy services to a procuring and disposing entity;
+“consultancy services” means services of an intellectual or
+advisory nature;
+“contractor” means a person or entity registered with a relevant
+authority to perform construction works;
+Cap. 7:04
+
+“corrupt practice” has the meaning ascribed to the term by the
+Corrupt Practices Act;
+“Director General” means the Director General appointed under
+section 15;
+“disposal” means the divestiture of public assets, including
+intellectual and proprietary rights and goodwill, and any other
+rights of a procuring and disposing entity by any means of sale,
+auction or any combination of these;
+“disposal contract” means a contract between a procuring and
+disposing entity and a bidder resulting from disposal proceedings;
+“disposal process” means the successive stages in the disposal
+cycle;
+“disposal proceedings” means the whole cycle of public assets
+disposal, from initiation up to acceptance of the bidder's offer;
+“domestic bidder” means any bidder whose principal place of
+business is within Malawi;
+“donor organization” means an organization which provides, or
+joins in providing, grants, credits or loans to the Government or
+its agencies;
+“due diligence” means the assessment of a bidder's technical,
+financial and management capabilities and the bidder's governance
+record to effectively execute a procurement contract;
+“emergency” means a situation which poses an imminent threat
+to the physical safety of a population or damage to property;
+“e-procurement” means the process of procurement using
+information and communication technologies;
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+7
+
+“framework agreement” means an agreement between a
+procuring and disposing entity and a supplier or a contractor
+through which the supplier or contractor undertakes to supply
+goods, works or services on indefinite quantity basis at an agreed
+unit price for an agreed period of time;
+“fraudulent practice” means a misrepresentation of facts in order
+to influence a procurement or disposal process or the execution of
+a contract;
+“goods” means objects of every kind and description, including
+raw materials, products and equipment, and objects in solid, liquid
+or gaseous form, and electricity, as well as services incidental to
+the supply of the goods if the value of those incidental services
+does not exceed the value of the goods themselves;
+“highest evaluated bidder” in relation to disposal of public
+assets, means a bidder ranked as first, following the application of
+the specified evaluation methodology and criteria in the bidding
+document;
+“information” includes written, visual, oral and electronic
+information;
+“Internal Procurement and Disposal Committee” means a
+committee established under section 25;
+“local authority” has the meaning assigned to it in the Local
+Government Act;
+
+Cap. 22:01
+
+“local enterprise” means supplier, contractor or consulting firm
+registered and principally operating in Malawi and whose
+shareholding is held in majority by Malawian nationals;
+“lowest evaluated bidder” in relation to procurement, means a
+bidder ranked as first, following the application of the specified
+evaluation methodology and criteria in the bidding document;
+“micro, small, and medium enterprises” means enterprises,
+including their affiliates, that are independently owned and
+operated, not dominant in the field of operation in which they are
+bidding on Government contracts and qualified as such under the
+Micro, Small and Medium Enterprises Act, 2024;
+“national competitive bidding” means the open solicitation of
+bids from local enterprises;
+“No Objection” means permission to proceed with procurement
+or disposal proceedings;
+“officer” means a person who is assigned to, or employed by,
+the Authority;
+
+No. 30 of
+2024
+
+8
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+“procurement contract” means a contract between a procuring
+and disposing entity and a contractor , supplier, or consultant
+resulting from the procurement proceedings, including a
+framework agreement;
+“procurement professional” means a person having a
+procurement qualification recognized by, and registered as such
+with, a body responsible for regulating the procurement profession;
+“procurement and disposal unit” means a department, a division
+or section in each procuring and disposing entity responsible for
+procurement and disposal of goods, services or works established
+under section 28;
+“procuring and disposing entity” means a Government ministry,
+department, agency, any other public body or any sub division
+thereof engaging in procurement or disposal of public assets;
+“procurement proceedings” means the whole cycle of public
+procurement, from initiation up to signing the contract;
+“public asset” means any property, tangible or intangible, owned
+by the Government or by a procuring and disposing entity;
+“public procurement” means acquisition by a procuring and
+disposing entity, of goods, works, services or any combination
+thereof, funded in whole or in part by public funds;
+“public body” means any organ or agency of the Government,
+and includes__
+(a) a statutory body;
+(b) a local authority; and
+(c) such other body as may be prescribed;
+“public official” means a person employed by Government or a
+public body;
+“public funds” means__
+(a) monetary resources appropriated to a procuring and
+disposing entity through a national budget;
+(b) grants, donations, or credits, put at the disposal of a
+procuring and disposing entity; or
+(c) revenues of a procuring and disposing entity;
+“record” means any recorded information, in any format,
+including an electronic format;
+“regional bidder” means a bidder from countries in the region
+or regional block as prescribed in the regulations;
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+“responsive” means satisfying the minimum requirements of a
+bidding process as stipulated in the bidding document;
+“statutory body” has the meaning assigned to it in the Public
+Audit Act;
+“supplier” means a natural, or legal person, who has entered into
+a procurement contract with a procuring and disposing entity;
+“user department” means any department, division, branch or
+section of the procuring and disposing entity, including any project
+unit working under the authority of the procuring and disposing
+entity, which initiates procurement and disposal requirements, and
+is the user of the requirements; and
+“works” means works associated with the construction,
+re-construction, demolition, repair or renovation of a building,
+road, structure or works, such as site preparation, excavation,
+erection, building, installation of equipment or materials,
+decoration and finishing, as well as services incidental to
+construction such as drilling, mapping, satellite photography,
+seismic investigations, and related services provided pursuant to a
+procurement contract, if the value of those services does not exceed
+that of the works themselves.
+3.__(1) Subject to subsection (2), this Act applies to all procurement
+involving public funds and disposal of public assets.
+(2) This Act shall not apply to__
+(a) employment contracts;
+(b) disposal of assets pursuant to employment contracts;
+(c) leases or rentals, and purchase of real property;
+(d) procurement of financial services as prescribed in the
+Financial Services Act;
+(e) procurement of media services from media institutions;
+(f) procurement of hospitality services from a designated
+hospitality facility;
+(g) procurement contracts between the Government and a
+foreign State, province of a foreign State or their respective stateowned entities;
+(h) commodity exchange contracts;
+(i) procurement of investors and disposal of public assets under
+the Public-Private Partnership Act; and
+(j) procurement under donor-financed projects if–
+(i) this Act is in conflict with the procurement rules of the
+donor or the financing agency; and
+
+9
+
+Cap. 37:01
+
+Application
+of this Act
+
+Cap. 44:05
+
+Cap. 39:04
+
+10
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(ii) the application of the donor or the financing agency rule
+is mandatory in the financing agreement entered into by the
+Government and the donor or the financing agency.
+(3) The Authority may, where procurement or disposal proceedings
+involve or relate to national security, on application by the procuring
+and disposing entity and taking into account the nature of the
+procurement or disposal, modify the procurement and disposal
+procedure under this Act.
+(4) The Authority shall conduct a classified audit on a procurement
+that is subject to the modified rules and procedures of procurement
+and disposal under subsection (3).
+(5) The Authority may, for purposes of subsection (4), access any
+information, document, record or report, or, with prior notice to the
+procuring and disposing entity, enter any premises of the procuring
+and disposing entity.
+PART II__THE PUBLIC PROCUREMENT AND DISPOSAL OF PUBLIC ASSETS
+AUTHORITY
+4. There is hereby established the Public Procurement and
+Establishment
+of the Public
+Disposal of Public Assets Authority (in this Act otherwise referred to
+Procurement
+and Disposal of as the “Authority”), which shall be a body corporate with perpetual
+Public Assets succession and a common seal and shall be capable, by that name,
+Authority
+of __
+(a) doing or performing all such acts as may be necessary or
+expedient for the furtherance of the provisions of this Act; and
+(b) subject to this Act, doing or performing all acts as a body
+corporate may, by law, do or perform or such acts as are incidental
+or appertain to a body corporate.
+Functions of
+the Authority
+
+5.__(1) The Authority shall be responsible for the regulation,
+monitoring and oversight of public procurement and disposal of
+public assets in Malawi.
+(2) Without prejudice to the generality of subsection (1), the
+functions of the Authority shall be to__
+(a) develop and enhance the efficiency and effectiveness of
+public procurement and disposal of public assets operations;
+(b) develop standardized and unified procurement and disposal
+of public assets regulations, instructions, guidelines, and bidding
+documents which shall be binding on all procuring and disposing
+entities;
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+11
+
+(c) collect and establish data and information base on public
+procurement and disposal of public assets and monitor the
+performance of procuring and disposing entities and suppliers,
+contractors, consultants and other service providers so as to
+ascertain efficiency and compliance with applicable legislation;
+(d) maintain and circulate lists of debarred bidders, suppliers,
+contractors, consultants and other service providers;
+(e) provide an annual report of procurement and disposal
+activities carried out by procuring and disposing entities within
+three months of the close of the financial year to the Minister, who
+shall lay the report before the National Assembly, not less than six
+months from the date of report;
+(f) refer some violations of this Act and the regulations relating
+to public procurement and disposal of public assets to the relevant
+budgetary and law enforcement authorities for appropriate action;
+(g) conduct administrative review of bid protests in accordance
+with Part XI;
+(h) carry out economic studies on public procurement and
+disposal of public assets, comparisons, and future projections, so
+as to provide advice to the Government in respect of the mid-term
+and long-term policy it may formulate in matters of public
+procurement and disposal of public assets;
+(i) approve strategic plans, annual budgets and work plans of
+the Authority; and
+(j) facilitate the building of capacity of procuring and disposing
+entities to comply with this Act.
+(3) The Authority shall perform its functions and exercise its
+powers provided in this Act in a manner that is impartial, and
+independent of the direction, influence or interference of any person,
+entity or authority.
+6.—(1) The Authority may, in the discharge of its functions—
+(a) through a notice published in the Gazette, set and enforce
+monetary thresholds for regulating procurement and disposal
+functions;
+(b) issue a “No Objection” for procurements in accordance with
+the thresholds set under paragraph (a);
+(c) subject to paragraph (a), set a limit—
+(i) below which a :“No Objection” shall be considered or issued
+by the Director General; and
+
+Powers of the
+Authority
+
+12
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(ii) above which a “No Objection” shall be subject to the
+approval of the Authority;
+(d) issue a subpoena within a reasonable time requiring the
+production of procurement records, or other relevant financial
+records or objects necessary for the performance of its duties;
+(e) access, at any reasonable time and with notice, the premises
+of any procuring and disposing entity whose procurement or
+disposal is being monitored and request for any relevant
+information from any person, including a Controlling Officer and
+the head of procurement and disposal unit;
+(f) summon and examine witnesses regarding any procurement
+proceeding or disposal process;
+(g) suspend or debar any bidder, supplier, contractor, consultant
+and any other service provider that breaches any provision of this
+Act from participating in procurement and disposal proceedings;
+(h) carry out procurement or disposal audits annually for any
+procuring and disposing entity, as well as at any time before, during
+or after contract award;
+(i) declare mis-procurement where applicable and impose
+appropriate disciplinary and punitive measures;
+(j) investigate and impose sanctions on any procuring and
+disposing entity or individual involved or suspected to have been
+involved in mis-procurement and any other misconduct;
+(k) set special conditions for targeted procurement for purposes
+of enhancing capacity and performance of micro, small and
+medium enterprises, in consultation with other regulatory bodies;
+(l) develop policies and measures to enhance the use of
+information and communication technology in procurement,
+supply management and disposal activities;
+(m) issue guidelines for targeted procurement aimed at the
+promotion and facilitation of participation by micro, small and
+medium-sized enterprises in public procurement;
+(n) in consultation and co-operation with relevant Ministries,
+other organs of Government and representative bodies of micro,
+small and medium-sized enterprises, devise programs and
+measures to promote and to facilitate the participation of micro,
+small and medium-sized enterprises in public procurement;
+(o) promulgate rules for the eligibility of enterprises for
+designation as micro, small and medium-sized enterprises eligible
+for set-asides;
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+13
+
+(p) publish in the Gazette, thresholds for acceptable arithmetical
+error corrections for different procurement or disposal values; and
+(q) do all such acts and things as it may consider incidental or
+conducive to the exercise of its functions under this Act.
+(2) In exercising its powers and functions, the Authority may__
+(a) cooperate with other bodies exercising oversight functions
+over procuring and disposing entities and may, for that purpose,
+establish mechanisms for sharing information and working jointly
+with those bodies; and
+(b) establish and maintain institutional linkages with the institute
+responsible for regulating the profession of procurement and other
+professional bodies having interest in regulating standards of
+supply chain management.
+(3) The Authority shall provide strategic direction to ensure the
+attainment of its functions under this Act.
+(4) For the purposes of this section, “mis-procurement” means a
+procurement that has not followed the laid down procedures and
+guidelines.
+7.__(1) The Authority shall consist of nine members comprising__
+(a) six members appointed by the Minister as follows__
+(i) one person registered under the Malawi Institute of
+Procurement and Supply Act;
+(ii) one registered architect or quantity surveyor;
+(iii) one legal practitioner, possessing a valid practicing
+licence in accordance with the Legal Education and Legal
+Practitioners Act;
+(iv) one person who is a member of Malawi Confederation of
+Chambers of Commerce and Industry;
+(v) one engineer registered under the Malawi Engineering
+Institution Act; and
+(vi) one person who is a member of the Institute of Chartered
+Accountants in Malawi; and
+(b)the following ex-officio members or their designated
+representatives__
+(i) the Secretary to the President and Cabinet;
+(ii) the Secretary to the Treasury; and
+(iii) the Solicitor General.
+
+Composition
+of the
+Authority
+Cap. 30:15
+
+No. 31 of
+2018
+
+No. 13 of
+2019
+
+14
+
+Cap. 30:12
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(2) A member of the Authority, other than an ex-officio member,
+shall possess a minimum qualification of a bachelor's degree in their
+respective fields, obtained from a reputable institution accredited or
+recognized under the National Council for Higher Education Act, and
+the appointment shall be subject to the approval of the Public
+Appointments Committee of the National Assembly.
+(3) The Minister shall appoint the Chairperson and ViceChairperson of the Authority from amongst the members appointed
+under subsection (1) (a).
+
+Cap. 25:06
+
+(4) The Minister shall, in making appointments under subsection
+(1) (a), take into account the provisions of the Gender Equality Act;
+and
+(5) A person, other than an ex-officio member, shall not qualify for
+appointment as a member of the Authority, if that person__
+(a) holds a public office;
+(b) is a member of Parliament;
+(c) is an undischarged bankrupt;
+(d) is declared mentally or physically incapacitated by a suitably
+qualified medical practitioner;
+(e) is, within the period of seven years immediately preceding
+the date of his or her proposed appointment, convicted and
+sentenced to any term of imprisonment without the option of
+paying a fine; or
+(f) would for any other reason, be disqualified by law from
+serving as a trustee or director of a company.
+(6) A member of the Authority, other than an ex-officio member,
+shall not, by virtue only of his or her appointment to the Authority,
+be deemed to be an employee in the public service.
+(7) The Minister shall publish, in the Gazette, the names of all
+members of the Authority as first constituted, and every subsequent
+change in the membership of the Authority.
+
+Tenure and
+vacancies
+
+8.__(1) A member of the Authority, other than an ex-officio member,
+shall hold office for a period of three years and shall be eligible for
+re-appointment for one further term of three years.
+(2) The office of a member of the Authority, other than an ex-officio
+member, shall become vacant__
+(a) on the expiry of the term of office of the member;
+(b) upon death of the member;
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+(c) if the member resigns from office in accordance with
+subsection (3);
+(d) if a situation arises that if the member had not been
+appointed, the member would have been disqualified from
+appointment;
+(e) if the member has been absent, without valid excuse, from
+three consecutive meetings of the Board of which he or she has
+had notice;
+(f) upon the member becoming mentally or physically ill, where
+a suitably qualified medical practitioner certifies that the member
+is no longer, by reason of the illness, capable of performing duties
+of the office of member of the Board; or
+(g) upon the member being removed from office in accordance
+with subsection (4).
+(3) A member of the Authority, other than an ex-officio member,
+may at any time resign from office by giving written notice to the
+Minister.
+(4) The Minister may remove a member of the Authority, other
+than an ex-officio member, on any of the following grounds__
+(a) being compromised to the extent that his or her ability to
+impartially and effectively exercise the duties of his or her office
+is seriously in question;
+(b) incompetence in the execution of the functions of the office
+of member;
+(c) failure to declare a conflict of interest relating to any matter
+under consideration by the Authority;
+(d) disclosure or publication to any other person or entity, other
+than in the course of duty, any confidential information of the
+Authority obtained in the course of duty or otherwise; or
+(e) misconduct that brings the Authority into disrepute.
+(5) A vacancy in the membership of the Authority shall be filled,
+within sixty days of the occurrence of the vacancy, by the
+appointment of a new member by the Minister in accordance with
+section 7.
+(6) A person appointed to fill a vacancy under subsection (5) shall
+serve the remainder of the term of office, but no person shall be
+appointed to fill a vacancy of the remainder of a term of office where
+the remainder of the term is less than six months.
+(7) The period served by a person appointed under subsection (5)
+shall not be regarded as a term for the purposes of subsection (1)
+unless the period is two years or more.
+
+15
+
+16
+Meetings of
+the Authority
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+9.__(1) The Authority shall meet to conduct its business at least
+once every three months at such place and time, as the Chairperson
+shall determine after consulting the Director General.
+(2) The Chairperson shall convene ordinary meetings of the
+Authority by giving the members written notice of not less than
+fourteen days.
+(3) The Chairperson may, in consultation with the Director
+General, convene an extraordinary meeting of the Authority upon
+giving the members written notice of not less than three days.
+(4) The Chairperson shall convene an extraordinary meeting within
+seven days of receipt of a request in writing signed by not less than
+four members specifying the purpose for which the meeting is to be
+convened.
+(5) A quorum at every meeting of the Authority shall be constituted
+by five members.
+(6) The Chairperson, or in his or her absence, the ViceChairperson, shall preside over all meetings of the Authority, and in
+absence of both the Chairperson and Vice-Chairperson, the members
+present and forming a quorum shall elect one of their number to
+preside over such meeting, and the member so elected shall exercise
+all the powers and perform all the duties of the Chairperson.
+(7) A decision of the Authority at any meeting on any matter shall
+be that of the majority of the members present and voting, and at all
+meetings, the person presiding shall have, in the event of an equality
+of votes, a casting vote in addition to a deliberate vote.
+(8) The Authority may, where necessary taking into account the
+nature of the matter to be deliberated, invite any person to attend its
+meeting, or any of its committee meeting, and participate in the
+deliberations or make a presentation or be asked questions on any
+matter, but the person so invited shall not be entitled to vote.
+(9) The Director General or, in his or her absence, such other
+employee of the Authority as the Director General may designate,
+shall be the secretary of the Authority, and may address the meetings,
+but shall not vote on any matter transacted at the meeting.
+(10) Subject to the provisions of this section, the Authority shall
+regulate its meetings and proceedings in such a manner as it deems
+fit.
+(11) Subject to subsection (12), any decision of the Authority shall
+be evidenced by the signature of the Chairperson and the Director
+General, and under the seal of the Authority.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+17
+
+(12) Where a decision was made in the absence of the Chairperson,
+the decision shall be signed by the member who chaired the meeting
+as chairperson.
+(13) Where a decision was made in the absence of the Director
+General, the decision shall be signed by the member who was
+delegated by the Director General as the Secretariat of the meeting.
+(14) Where, at any meeting, the deliberations of the Authority, or
+any of its committee, concerns the Director General, or any member
+of staff of the Authority designated to attend the meeting, the
+Authority or the committee, as the case may be, may exclude the
+Director General, or the member of staff, from the meeting.
+10.__(1) The Authority may, for the better exercise of its functions
+and powers, establish committees of the Authority to perform any of
+its functions and carry out such other responsibilities as the Authority
+may specify.
+
+Committees
+of the
+Authority
+
+(2) The Authority shall appoint a chairperson for each committee
+of the Authority from amongst the members appointed under section
+7 (1) (a).
+(3) Notwithstanding subsection (1), the Authority may itself
+exercise the functions of a committee of the Authority, and may
+amend or rescind any decision of the committee.
+(4) The Chairperson of a committee of the Authority may at any
+reasonable time and place convene a meeting of that committee.
+(5) The Director General shall serve as secretary at meetings of
+each committee of the Authority, or may, with the approval of the
+Chairperson, delegate a senior member of staff to serve as secretary
+at meetings of a committee.
+(6) A committee of the Authority shall act in accordance with any
+directions given to it in writing by the Authority.
+11. A member of the Authority or a committee of the Authority,
+other than an ex-officio member, shall attend meetings of the
+Authority or a committee of the Authority in person, and where a
+member is unable to attend any meeting, the member may request
+that his or her apology for failure to attend the meeting be recorded.
+
+Personal
+attendance of
+meetings
+
+12.__(1) A member of the Authority and a member of a committee
+of the Authority shall be paid such allowances as the Minister shall
+determine, after consulting the Government department responsible
+for human resource development and management.
+
+Allowances
+and expenses
+
+18
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(2) The Authority may reimburse any reasonable expenses incurred
+in connection with the business of the Authority by a member of the
+Authority, a member of a committee of the Authority or a person
+invited to attend a meeting of the Authority under section 9(8), or a
+committee of the Authority.
+Delegation of
+powers and
+functions of
+the Authority
+
+13. The Authority may, subject to this Act and any terms and
+conditions it considers appropriate, delegate to the Director General
+any of its powers and functions under this Act.
+PART III__ADMINISTRATION
+
+Secretariat of
+the Authority
+
+14. There shall be a secretariat of the Authority which shall consist
+of the Director General and other members of staff of the Authority
+appointed in accordance with this Act.
+
+Director
+General of the
+Authority
+
+15.__(1) The Authority shall appoint the Director General through
+an open and competitive selection process on such terms and
+conditions as the Authority may determine, after consulting the
+Government department responsible for human resource management
+and development.
+(2) The Director General shall be the head of the secretariat and
+his or her office shall be a public office.
+
+Cap 30:12
+
+(3) A person shall not be eligible for appointment as Director
+General, unless the person__
+(a) possesses a minimum qualification of a master’s degree
+obtained from an education institution accredited or recognized
+under the National Council for Higher Education Act in the
+following areas__
+(i) supply chain management;
+(ii) finance;
+(iii) economics;
+(iv) engineering;
+(v) accountancy;
+(vi) commerce;
+(vii) law; or
+(viii) administration;
+(b) has proven demonstrable expertise and work experience in
+procurement;
+(c) has not less than ten years’ experience in executive
+management; and
+(d) does not hold a political office.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+16.__(1) The Director General shall be the Chief Executive Officer
+of the Authority and shall, subject to the general supervision and
+control of the Authority, be in overall in charge of__
+(a) day to day operations of the Authority;
+(b) management of the funds, property and business of the
+Authority; and
+(c) effective administration and implementation of the
+provisions of this Act.
+(2) Subject to the general and special direction of the Authority,
+the Director General shall__
+(a) ensure the availability of this Act and any subsidiary
+legislation made thereunder to the general public and all other
+stakeholders;
+(b) collect information and require reports from procuring and
+disposing entities concerning the conduct of procurement, supply
+management and disposal activities in prescribed format, and
+advise procuring and disposing entities on any improvements
+required;
+(c) establish procedures and mechanisms to ensure the effective
+and timely solicitation of views of interested parties in the
+development of procurement and disposal policies, regulations,
+procedures and forms;
+(d) publish periodic bulletins containing information about the
+procurement systems and proceedings including supply
+management and asset disposal procedures;
+(e) conduct civic education on the legal, procedural and
+organizational framework for procurement and disposal of public
+assets;
+(f) appoint ad-hoc technical committees comprising technical
+officers of the Authority, for purposes of implementing the
+provisions of this Act;
+(g) in consultation with relevant stakeholders, devise and
+facilitate the implementation of strategies and programmes for the
+promotion of professional standards and development in public
+procurement and disposal of public assets; and
+(h) promote the development of a professional supply chain
+work force, including organizing and conducting training
+programmes relating to public procurement and disposal of public
+assets.
+
+19
+Functions of
+the Director
+General
+
+20
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(3) The Director General shall devote his or her full time to the
+duties of his or her office and shall provide the Authority with all the
+information, data, statistics, documents and other materials pertinent
+to the efficient performance by the Authority of its functions and
+responsibilities under this Act or any other written law.
+(4) The Director General may, with the approval of the Authority,
+delegate any duty or responsibility assigned to him or to her under
+this Act to a member of staff of the Authority.
+Tenure and
+removal of the
+Director
+General
+
+17.__(1) The Director General shall hold office for a term of three
+years and shall be eligible for re-appointment for one further term of
+three years.
+(2) The Authority may terminate the appointment of the Director
+General before expiry of his or her employment contract where the
+Director General—
+(a) is incompetent in the execution of the functions of the office;
+(b) is not able to perform the functions of his or her office by
+reason of physical or mental infirmity;
+(c) is declared or adjudged bankrupt by a competent court of
+law;
+(d) is convicted of an offence and sentenced to a term of
+imprisonment without the option of paying a fine;
+(e) commits a misconduct that brings the office of Director
+General or the Authority into disrepute;
+(f) fails to declare a conflict of interest relating to any matter
+under consideration by his or her office or the Authority; or
+(g) is found guilty of a misconduct punishable by dismissal
+under his or her employment contract.
+(3) The Authority, if it considers desirable in the public interest so
+to do, may suspend the Director General from exercising the duties
+of the office for up to sixty days, pending investigations to determine
+whether or not the Director General may be removed from the office
+under subsection (2).
+(4) The Director General shall not be removed from office unless
+the Director General has been given an opportunity to be heard.
+
+Acting
+Director
+General
+
+18.__(1) Where the office of the Director General is vacant, or the
+Director General is temporarily absent from duty or unable for any
+other reason to perform the functions of that office, the Authority
+shall appoint another duly qualified person within the Authority to
+act as Director General during the vacancy or temporary absence.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+21
+
+(2) Where the period of the vacancy or temporary absence in
+subsection (1) has exceeded twenty-one days, the Authority shall,
+within fourteen days thereafter, furnish the Minister the reasons why
+the vacancy in the office cannot be substantively filled with
+immediate effect and an estimate of the time within which the
+vacancy shall be filled, which shall not be longer than six months
+from the expiry of the twenty-one days.
+19.__(1) The Authority shall employ other members of staff,
+subordinate to the Director General, for the performance of the
+functions of the Authority, on such terms and conditions determined
+by the Authority, and the appointment shall only be based on
+qualifications, experience and capacity in matters relating to the
+operational requirements of the Authority.
+
+Other staff of
+the Authority
+
+(2) The Authority may, by directions in writing, delegate to the
+Director General the appointment, discipline and dismissal of
+members of staff in specified junior ranks and the Director General
+shall report to the Authority, at its next meeting, every appointment,
+disciplinary decision or dismissal made pursuant to this subsection.
+(3) The members of staff appointed under this section shall be
+appointed on such terms and conditions as the Authority shall
+determine after consulting the Government department responsible
+for human resource management and development.
+(4) Section 17 shall apply, with the necessary modifications, to
+termination of employment contracts of members of staff employed
+under this section.
+PART IV— FUNDS AND PROPERTY OF THE AUTHORITY
+20.__(1) The funds and property of the Authority shall consist of—
+(a) such sums as shall be appropriated annually by Parliament
+for the purposes of the Authority from; fees, fines, levies,
+subscriptions and other moneys payable to the Authority;
+(b) such moneys or other assets as may accrue to or vest in the
+Authority by way of grants, donations, gifts, subscriptions, rents,
+interest or royalties, from any other person; and
+(c) proceeds from sale by the Authority, of any of its assets or
+property.
+(2) All the moneys of the Authority which, at the end of each
+financial year, are in excess of the budgetary requirements of the
+Authority for that year shall be paid into the Consolidated Fund.
+
+Funds of the
+Authority
+
+22
+
+Cap. 37:01
+4 of 2022
+Cap. 37:03
+Levies, fees;
+etc.
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(3) The Authority shall, at all times, comply with the provisions of
+the Public Audit Act, the Public Finance Management Act and the
+Public Procurement and Disposal of Public Assets Act.
+21.__(1) The Authority may, from time to time, impose and collect
+levies on public procurement or disposal proceedings.
+(2) The Authority may not impose and collect any levy on the
+procurement of utilities and groceries.
+(3) The levy referred to in subsection (1) shall be equal to one per
+cent of the procurement or disposal contract emanating from such
+proceedings less Value Added Tax to the amount.
+(4) A procuring and disposing entity shall remit the levy referred
+to in subsection (1) to the Authority within fourteen days from the
+date of effecting the payment to the supplier, contractor or consultant,
+as the case may be.
+(5) Where a procuring and disposing entity fails to comply with
+subsection (4), the Controlling Officer of the entity shall personally
+be liable to a penalty as may be prescribed.
+(6) In addition to the penalty provided in subsection (5), the
+Authority shall report the procuring and disposing entity to the
+Secretary to the Treasury who may instruct the Controlling Officer
+to pay, within thirty days, the amount that is due to the Authority plus
+ten percent.
+(7) A procuring and disposing entity that fails to make a payment
+in accordance with subsection (6) shall be liable to such further
+penalty as may be prescribed.
+(8) The Authority may charge fees to cover the costs of performing
+its functions, including__
+(a) registration of suppliers and other service providers;
+(b) training or capacity development;
+(c) publications and use of the website for commercial purposes;
+(d) processing applications for review of procurement decisions;
+and
+(e) any other consultancy services offered by the Authority.
+(9) The Authority shall determine the manner in which levies, fees
+and other monies payable to the Authority for its service under this
+Act may be paid before performance of the service.
+(10) The Authority shall, by notice published the Gazette, prescribe
+the levies, fees and other monies payable to the Authority under this
+Act.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+22.__(1) The Authority shall cause to be kept proper books of
+accounts and other records relating to its accounts in accordance with
+the Public Finance Management Act.
+(2) The accounts of the Authority shall be audited at the end of
+each financial year in accordance with the Public Audit Act.
+23.__(1) Subject to subsection (2) the financial year of the Authority
+shall be same as the financial year of the Government.
+(2) The Authority may, for good reasons, determine a shorter or
+longer financial year than the Government financial year but being
+not less than six months and not more than eighteen months.
+
+23
+Accounting
+and audit
+4 of 2022
+
+Cap.37:01
+Financial year
+of the
+Authority
+
+PART V__RESPONSIBILITIES OF CONTROLLING OFFICERS, INTERNAL
+PROCUREMENT AND DISPOSAL COMMITTEES, PROCUREMENT AND
+DISPOSAL UNITS AND AD-HOC EVALUATION TEAMS
+24.__(1) A Controlling Officer shall ensure that the procuring and
+disposing entity complies with this Act.
+(2) Without prejudice to the generality of subsection (1), a
+Controlling Officer shall be responsible for__
+(a) appointing members of the Internal Procurement and
+Disposal Committee;
+(b) submitting annual procurement and disposal plans, quarterly
+reports and other statutory reports as may be prescribed from time
+to time;
+(c) providing corrective measures to prevent misconducts
+throughout the procurement and disposal processes;
+(d) managing bidders' protests and grievances;
+(e) reporting misconducts by bidders, suppliers or public
+officials, to the Authority and other relevant bodies;
+(f) implementing disciplinary measures against public
+officials;
+(g) ensuring that procurement and disposal documentation is
+made available to the Authority and other oversight institutions
+whenever required; and
+(h) providing leadership and oversight role of the procuring and
+disposing entity.
+(3) Where a Controlling Officer fails to comply with his or her
+responsibilities as provided in subsection (2), the Authority shall
+recommend to the relevant authorities the imposition of any of the
+following sanctions—
+
+Responsibilities of a
+Controlling
+Officer
+
+24
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(a) the withholding of the annual budget for procurement of the
+procuring and disposing entity from Treasury;
+(b) a reprimand by the appointing authority; and
+(c) the bearing of any loss suffered by the procuring and
+disposing entity or part thereof by the Controlling Officer.
+Establishment
+of Internal
+Procurement
+and Disposal
+Committees
+
+25.__(1) There shall be established in all procuring and disposing
+entities, an Internal Procurement and Disposal Committee.
+(2) The functions of the Internal Procurement and Disposal
+Committee shall include__
+(a) ascertaining the availability of funds to pay for each
+procurement;
+(b) approving the methods of procurement and disposal to be
+used in each case;
+(c) approving the procurement and disposal plans for the
+procuring and disposing entity;
+(d) appointing the chairperson of the bid opening committee
+from amongst its membership;
+(e) appointing ad-hoc evaluation teams for the examination,
+evaluation and comparison of bids;
+(f) reviewing and approving bid evaluation reports;
+(g) reviewing and approving any contract amendments;
+(h) approving advertisements and bidding documents before
+their issuance to prospective bidders;
+(i) approving recommendations for the award of contracts from
+ad-hoc evaluation teams, including terms and conditions of contract
+where appropriate;
+(j) assessing performance of suppliers in relation to terms and
+conditions of contracts;
+(k) approving recommendations for contract termination;
+(l) constituting negotiating teams;
+(m) appointing boards of survey for the assessment and
+valuation of the public assets to be disposed;
+(n) reviewing and approving reports of boards of survey;
+(o) approving recommendations for award of contract from
+boards of survey, including terms and conditions of contract where
+applicable; and
+(p) setting procurement thresholds for procurement proceedings
+that a Procurement and Disposal Unit may process.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+26.__(1) An Internal Procurement and Disposal Committee shall
+comprise senior personnel appointed by the Controlling Officer who
+shall be well informed of public procurement and disposal of public
+assets matters, and shall meet the minimum qualifications as
+prescribed in Regulations.
+(2) Without derogating from the generality of subsection (1),
+membership of the Internal Procurement and Disposal Committee
+shall at a minimum comprise__
+(a) a senior officer designated by the Controlling Officer as the
+chairperson of the Internal Procurement and Disposal Committee;
+(b) head of the procurement and disposal unit or his
+representative;
+(c) an accountant or other budget professional; and
+(d) other senior officers.
+(3) Except as the Authority may otherwise approve, an Internal
+Procurement and Disposal Committee shall comprise a maximum of
+seven members, and a Controlling Officer shall provide justification
+in writing to the Authority for the appointment of any additional
+member of the Committee.
+(4) The quorum at a meeting of an Internal Procurement and
+Disposal Committee shall be made of the chairperson of the
+Committee, the head of the procurement and disposal unit, and an
+accountant or budget professional.
+(5) A member of an Internal Procurement and Disposal Committee
+shall serve for two years and shall be eligible to be re-appointed for
+another term of two years.
+(6) The head of the procurement and disposal unit, or his or her
+representative, shall attend all meetings of the Internal Procurement
+and Disposal Committee, and shall provide technical guidance to the
+Committee, and the procurement and disposal unit shall act as the
+secretariat of the Committee.
+(7) A Controlling Officer shall ensure that persons appointed as
+members of the Internal Procurement and Disposal Committee
+undergo appropriate training by the Authority, in public procurement
+and disposal of public assets, within three months of their
+appointment.
+(8) A Controlling Officer shall rotate membership of the Internal
+Procurement and Disposal Committee as the Controlling Officer
+determines appropriate.
+(9) A Controlling Officer may remove a member of Internal
+Procurement and Disposal Committee for the following reasons__
+
+25
+Composition
+of Internal
+Procurement
+and Disposal
+Committees
+
+26
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(a) incapacity, or other inability, to perform functions of the
+Committee;
+(b) abuse of office;
+(c) corrupt or fraudulent practices;
+(d) failure to attend three consecutive scheduled meetings
+without justifiable reasons; or
+(e) incompetence.
+Ad-hoc
+evaluation
+teams and
+boards of
+survey
+
+27.__(1) Whenever there is a procurement or disposal proceeding,
+the Internal Procurement and Disposal Committee shall appoint an
+ad-hoc evaluation team or a board of survey, to evaluate bids and
+carry out due diligence, as the case may be.
+(2) An ad-hoc evaluation team shall have a minimum of three and
+a maximum of nine members, including__
+(a) the head of the procurement and disposal unit or his or her
+representative, who shall be the secretary of the ad-hoc evaluation
+team;
+(b) member from the user or disposing department; and
+(c) three non-Internal Procurement and Disposal Committee
+members, who have technical knowledge of the procurement or
+disposal bids to be evaluated.
+(3) A quorum for an ad-hoc evaluation team shall be made up of
+the head of the procurement and disposal unit or his or her
+representative representative of the user department, two members
+non-Internal Procurement and Disposal Committee members, who
+have technical knowledge of the evaluation of procurement bids.
+(4) The head of procurement and disposal unit, or his or her
+representative, shall attend meetings of the ad-hoc evaluation team
+and shall provide technical guidance to the evaluation team, and take
+part in decision making and the procurement and disposal unit shall
+be the secretariat of the ad-hoc evaluation team.
+(5) A board of survey shall have a minimum of three and a
+maximum of nine members, including__
+(a) member from the user or disposing department;
+(b) up to three non-Internal Procurement and Disposal
+Committee members who have technical knowledge of the
+disposal bids to be evaluated; and
+(c) the head of the procurement and disposal unit, or his or her
+representative.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+27
+
+(6) A quorum for a board of survey shall be comprised of the head
+of procurement and disposal unit, or his or her representative, a
+representative of the user department, and two non-Internal
+Procurement and Disposal Committee members, who have technical
+knowledge of the public assets to be disposed.
+(7) The head of procurement and disposal unit, or his or her
+representative, shall provide technical advice to the board of survey,
+and take part in decision making, and the procurement and disposal
+unit shall be the secretariat of the board of survey.
+(8) An ad-hoc evaluation team or a board of survey, as the case
+may be, shall commence an evaluation within seven days of its
+appointment.
+(9) The use of expertise from outside the public sector as members
+of ad-hoc evaluation teams, boards of survey or consultants shall only
+be resorted to in exceptional circumstances and only upon the prior
+approval of the Authority.
+28.__(1) Procuring and disposing entities shall establish
+procurement and disposal units which shall comprise qualified
+procurement and disposal professionals registered under the Malawi
+Institute of Procurement and Supply Act, and assign to such units
+authority to conduct procurement and disposal activities in
+accordance with this Act.
+(2) Without derogating from the generality of subsection (1), the
+functions of the procurement and disposal units shall include__
+(a) providing technical guidance on procurement and disposal
+matters to the procuring and disposing entity;
+(b) receiving duly authorized procurement requisition for
+analysis in relation to the annual procurement plan;
+(c) preparing procurement and disposal plans and reports for the
+procuring and disposing entity;
+(d) preparing bidding documents;
+(e) publishing invitations to bid notices and distribution of
+bidding documents;
+(f) receiving and safeguarding bids;
+(g) facilitating meetings of the Internal Procurement and
+Disposal Committee;
+(h) keeping records of all procurement and disposal activities
+carried out by the procuring and disposing entity;
+(i) acting as the secretariat to the meetings of the Internal
+Procurement and Disposal Committee, ad-hoc evaluation team and
+board of survey;
+
+Establishment
+of
+procurement
+and disposal
+units
+
+28
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(j) facilitating the evaluation of simple low value procurements
+as prescribed by the Internal Procurement and Disposal
+Committee; and
+(k) preparing contract documentation and managing the resultant
+contracts in conjunction with user departments.
+(3) A procuring and disposing entity shall, if it does not have a
+procurement and disposal unit seek guidance from the Authority on
+how to execute its procurement and disposal activities.
+(4) For the purposes of this section, “bid notice” means any
+advertisement by which eligible bidders are invited to submit written
+offers to provide or acquire works, services and goods or any
+combination of them in case of procurement and disposal
+respectively.
+PART VI__PRINCIPLES OF PUBLIC PROCUREMENT AND DISPOSAL OF
+PUBLIC ASSETS
+Principles of
+public
+procurement
+
+29.__(l) A procuring and disposing entity shall__
+(a) conduct public procurement proceedings in a manner that
+promotes transparency, accountability, non-discrimination,
+fairness, open competition, economy, procurement efficiency and
+responsiveness to modern information and communications
+technology; and
+(b) ensure that public procurement proceedings maximize value
+for money.
+(2) A bidder shall not be excluded from participating in
+procurement on the basis of nationality, race, religion, gender or any
+other criterion not related to qualification, except to the extent
+provided for in this Act.
+(3) A procuring and disposing entity shall, in all procurement
+proceedings, choose appropriate procedures and cause the
+procurement to be carried out diligently and efficiently, so that the
+prices received by the procuring and disposing entity represent the
+best value or net outcome that can reasonably be obtained from the
+procurement.
+(4) A procuring and disposing entity shall plan procurement
+activities with a view to achieving maximum value from any
+procurement and other objectives set forth in this Act.
+
+Sustainable
+procurement
+and disposal
+
+30. A procuring and disposing entity shall, when conducting
+procurement or disposal proceedings, consider__
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+29
+
+(a) all aspects of sustainable procurement and disposal including
+environmental protection and social and economic inclusion; and
+(b) procurement and disposal that stimulates innovation.
+31.__(l) A procuring and disposing entity shall__
+(a) conduct disposal proceedings in a manner that promotes
+transparency, accountability, non- discrimination, fairness, open
+competition, efficiency and responsiveness to modern information
+and communications technology; and
+(b) ensure that disposal proceedings maximize value for money.
+
+Principles of
+disposal of
+assets
+
+(2) A bidder shall not be excluded from participating in disposal
+on the basis of nationality, race, religion, gender or any other criterion
+not related to qualification, except to the extent provided for in this
+Act.
+(3) A procuring and disposing entity shall, in all disposal
+proceedings, choose appropriate procedures and cause the disposal
+of assets to be carried out diligently and efficiently, so that the prices
+received by the procuring and disposing entity represent the best
+value or net outcome that can reasonably be obtained for the assets
+disposed of.
+(4) Procuring and disposing entity shall plan disposal activities
+with a view to achieving maximum value from any such disposals
+and other objectives set forth in this Act.
+(5) A procuring and disposing entity shall, take due care of all
+assets earmarked for disposal until such time the actual disposal is
+concluded as prescribed in this Act.
+32.__(1) A procuring and disposing entity shall maintain records of
+all procurement and disposal proceedings for a period of seven years
+from the date of__
+(a) contract completion or termination;
+(b) the decision to cancel the procurement or disposal
+proceedings;
+(c) the settlement of any dispute under a procurement or disposal
+contract; or
+(d) the resolution of any complaint, challenge or appeal made
+under this Act.
+(2) Where the period referred to in subsection (1) has expired, but
+the documentation has not been subjected to an audit, the records of
+procurement and disposal proceedings shall still be maintained by
+the procuring and disposing entity until the records are audited.
+
+Records of
+procurement
+and disposal
+proceedings
+
+30
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+Mode of
+communication
+
+33. All communication, including electronic communication,
+between a procuring and disposing entity and a bidder, supplier or
+contractor shall be in English and in writing.
+
+Confidentiality
+
+34.__(1) A public official shall keep confidential, the information
+that comes into his or her possession relating to the procurement and
+disposal proceedings and bids, including any bidder's proprietary
+information.
+(2) The procuring and disposing entity may, upon request from an
+unsuccessful bidder, communicate to a bidder the grounds for the
+rejection of its bid.
+(3) A person who contravenes subsection (1) commits an offence,
+and shall, upon conviction, be liable to__
+(a) a fine of K1,000,000, and to imprisonment for twelve
+months; and
+(b) disciplinary action.
+
+Limitation on
+contracts with
+employees
+
+35. A procuring and disposing entity shall not enter__
+(a) into a procurement contract; or
+(b) subject to section 36, into a disposal contract,
+with a member of the procuring and disposing entity, or a close
+relative of a member of the procuring and disposing entity.
+
+Disposal of
+goods to
+
+36. The Authority may, on application by a Controlling Officer,
+and stating the reasons therefor, authorize the disposal to employees
+of goods and items used by employees and no longer required by a
+procuring and disposing entity, on such terms and conditions as the
+Authority may deem fit.
+
+Participation
+by micro,
+small and
+medium
+
+37.__(1) A procuring and disposing entity may, in the prescribed
+manner__
+(a) grant a margin of preference for the benefit of a bid by a
+micro small and medium enterprise offering goods, works,
+consultancy services or other services manufactured, grown or
+performed by a local enterprise; and
+(b) reserve or set aside certain procurement requirements for
+micro, small and medium enterprises by restricting bidding to those
+enterprises as prescribed in the Act.
+(2) Notwithstanding the provisions of subsection (1), the Authority,
+in consultation with the Minister responsible for micro, small and
+medium enterprises, may, by notice published in the Gazette,
+prescribe any preference or reservation for micro, small and medium
+enterprises.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+31
+
+PART VII__PROCUREMENT AND DISPOSAL METHODS
+38.__(1) A procuring and disposing entity shall undertake public
+procurement and disposal proceedings by means of open methods of
+tender proceedings, subject to the exceptions provided in this Act.
+
+Methods of
+procurement
+and disposal
+
+(2) A procuring and disposing entity shall submit an application to
+the Authority for the use of a method of procurement, other than open
+tender or, in the case of procurement of consultancy services, a
+method other than request for proposals.
+(3) The procuring and disposing entity shall note in the record of
+the procurement proceedings, the grounds for the choice of the
+procurement method.
+(4) When seeking approval from the Authority to use the method
+other than open tender or in the case of procurement of consultancy
+services, a method other than request of proposal, the procuring and
+disposing entity shall provide written reasons with sufficient clarity
+to the Authority for the choice of the procurement method
+(5) A procuring and disposing entity shall undertake procurement
+and disposal proceedings through electronic government procurement
+system as prescribed in section 71.
+39. A procuring and disposing entity may hold a tender in two
+stages in the following cases if__
+(a) it is not feasible at the outset of the procurement proceedings
+to define fully the technical or contractual aspects of the
+procurement; or
+(b) due to the complex nature of the goods, works and services
+to be procured, the procuring and disposing entity wishes to
+consider various technical or contractual solutions, and to negotiate
+with bidders about the relative merits of those variants, before
+deciding on the final technical or contractual specifications.
+
+Two stage
+tendering
+
+40. A procuring and disposing entity shall use national
+competitive bidding where__
+(a) the procurement targets local enterprises;
+(b) the estimated value of the procurement does not exceed an
+amount prescribed by the Authority;
+(c) the goods, works or services are available under competitive
+price and other conditions, and there are more than two suppliers
+in Malawi; or
+(d) a supplier was not identified by a request for quotation
+proceeding.
+
+National
+competitive
+bidding
+
+32
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+Restricted
+tendering
+
+41. A procuring and disposing entity may use restricted tendering
+where__
+(a) the goods, works or services are available from a limited
+number of suppliers, all of whom are known to the procuring and
+disposing entity; and
+(b) the time and cost of considering a large number of bids is
+disproportionate to the value of the procurement.
+
+International
+competitive
+bidding
+
+42. A procuring and disposing entity shall use international
+competitive bidding where__
+(a) the estimated value of the stated procurement exceeds the
+amount prescribed by the Authority;
+(b) the goods, works or services are not available under
+competitive price and other conditions from more than two
+suppliers in Malawi; or
+(c) a supplier was not identified by a national competitive
+bidding proceeding.
+
+Request for
+proposals
+
+43. A procuring and disposing entity shall use the method
+of request for proposals for the procurement of consultancy
+services.
+
+Request for
+quotations
+
+44. A procuring and disposing entity may use the method of
+request for quotations for the procurement of goods, works and
+routine services when the estimated value of the procurement does
+not exceed the amount prescribed by the Authority.
+
+Single
+sourcing
+
+45.__(1) A procuring and disposing entity may use single sourcing
+procurement method where__
+(a) the estimated value of the procurement does not exceed the
+amount prescribed by the Authority;
+(b) only one supplier has the technical capability or capacity to
+fulfill the procurement requirement, or only one supplier has the
+exclusive right to manufacture the goods, carry out the works, or
+perform the services to be procured;
+(c) there is an emergency need for the goods, works and
+services; or
+(d) the procuring and disposing entity, having procured goods,
+works and services from a supplier; determines that additional
+goods, works or services need to procured from the same source
+for reasons of standardization or because of the need for
+compatibility with existing goods, equipment, technology, or
+services, taking into account the effectiveness of the original
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+33
+
+procurement in meeting the needs of the procuring and disposing
+entity, the limited size of the proposed procurement in relation to
+the original procurement, the reasonableness of the price and the
+unsuitability of alternatives to the goods or services in question.
+(2) A procuring and disposing entity shall obtain clearance issued
+by the Anti-Corruption Bureau pursuant to the powers conferred on
+the Bureau under section 10 of the Corrupt Practices Act, before a
+single sourcing procurement contract is signed.
+
+Cap.7:04
+
+(3) A procuring and disposing entity may submit a request for
+clearance of single sourcing procurement method under subsection
+(2) to Anti-Corruption Bureau concurrently with its submission to the
+Authority.
+(4) The Authority shall, through a notice in the Gazette, prescribe
+a threshold for single sourcing procurement requiring clearance under
+subsection (2).
+46.__(1) Subject to subsection 2, a public body may, where the
+public body or another public body, has capacity, use the method of
+force account in undertaking construction works.
+(2) The Authority shall, by notice pushed in the gazette, prescribe
+a threshold value of construction works requiring its approval before
+the force account method is used by a public body.
+(3) A public body shall, where the value of the construction works
+to be undertaken through the force account method exceed a threshold
+prescribed by the Authority under subsection 2, seek approval of the
+Authority before undertaking the construction works.
+(4) The Authority shall, when considering the submission under
+subsection 3, consider if__
+(a) the public body proposed to undertake the force account
+method, has capacity to undertake the construction works;
+(b) the force account method is the only practical method of
+undertaking the construction works;
+(c) the construction works required to be carried out shall not
+disrupt on-going operations of the public body;
+(d) the quantities of the construction works may not be defined
+in advance for purposes of procuring proceedings under this Act;
+(e) the construction works are scattered or in remote locations
+for which qualified contractor may not bid at a reasonable price;
+(f) the public body is in a better position to manage the
+construction risks than an independent contractor; and
+
+Force account
+
+34
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(g) there is an emergency that requires immediate construction
+works
+(5) The public body shall, when procuring or disposing materials
+for construction works implemented through the force account
+method procure or dispose of such materials in accordance with
+procuring and disposal procedures under this Act.
+(6) For purposes of this section, “force account” means
+construction method in which a public body uses its resources,
+equipment and personnel or resources, equipment and personnel of
+another public body, to undertake construction works.
+Community
+participation
+
+47.__(1) A procuring and disposing entity may use the method of
+public procurement by means of community participation where
+the__
+(a) participation of the beneficiary community of a project may
+result in enhancing the economy, or the quality or sustainability of
+the service to be procured; or
+(b) objective of the project is to create employment in the
+community.
+(2) Where a procuring and disposing entity uses community
+participation, the beneficiary community, shall participate in the
+procurement in accordance with guidelines prescribed by the
+Authority.
+
+Reverse
+auction
+
+48.__(1) A procuring and disposing entity may use a reverse auction
+procurement method for purposes of seeking competitive pricing
+(2) A procuring and disposing entity may use reverse auction, if__
+(a) it is feasible for the procuring and disposing entity to
+formulate a detailed description of the subject matter of the
+procurement;
+(b) there is a competitive market of bidders anticipated to be
+qualified to participate in the electronic reverse auction, to ensure
+effective competition; and
+(c) the criteria to be used by the procuring and disposing entity
+in determining the successful bid are quantifiable and can be
+expressed in monetary terms.
+(3) A procuring and disposing entity shall use the reverse auction
+method if it is using the electronic government procurement and
+disposal system.
+(4) The procedure for reverse auction shall include__
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+35
+
+(a) solicitation of bids through an invitation to the reverse
+auction published or communicated in accordance with this Act;
+and
+(b) details relating to__
+(i) access to, and registration for, the reverse auction;
+(ii) the opening and closing of the reverse auction;
+(iii) norms for conduct of the reverse auction; and
+(iv) any other information that may be relevant to the reverse
+auction.
+(5) Notwithstanding subsection (3), the Authority may prescribe
+other procedures relating to a reverse auction.
+(6) For the purposes of this section, “reverse auction” means an
+online real-time procurement method used to select a successful bid,
+which involves presentation by pre-qualified bidders.
+49.__(1) A procuring and disposing entity, may, in emergency
+procurement, use any of the following approaches__
+(a) request for quotations;
+(b) restricted tender;
+(c) open tender; or
+(d) single source.
+
+Emergency
+procurement
+
+(2) The Authority shall conduct a post procurement audit on an
+emergency procurement.
+50. A procuring and disposing entity may procure from another
+public body if the procurement is competitive and brings value for
+money compared to procurement from another entity without
+application of any method of procurement under this Act, except that
+the public body must be able to meet the requirements of the
+procuring and disposing entity as specified in the statement of
+requirements.
+
+Procurement
+from other
+procuring and
+disposing
+entities
+
+51.__(1) A procuring and disposing entity shall dispose public assets
+by open means such as public auction and tendering with sealed bids.
+
+Disposal of
+assets
+
+(2) Notwithstanding subsection (l), a procuring and disposing
+entity may, with the prior approval of the Authority, use alternative
+means of disposing public assets, including__
+(a) transfer the asset to another procuring and disposing entity;
+(b) destruction of the asset;
+(c) trade-in;
+(d) conversion or classification of asset into another form;
+
+36
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(e) subject to section 36, sale to employees of the procuring and
+disposal entity; or
+(f) forward auction.
+Forward
+auction
+
+52.__(1) A procuring and disposing entity may use forward auction
+disposal method.
+(2) A procuring and disposing entity may use forward auction
+disposal method, if__
+(a) it is feasible for the procuring and disposing entity to
+formulate a detailed description of the subject matter of the
+disposal;
+(b) there is a competitive market of bidders anticipated to be
+qualified to participate in the forward auction; and
+(c) the criteria to be used by the procuring and disposing entity
+in determining the successful bid is quantifiable and capable of
+being expressed in monetary terms.
+(3) A procuring and disposing entity shall only use the forward
+auction method if it is using the electronic government procurement
+and disposal system.
+(4) The procedure for forward auction shall include__
+(a) solicitation of bids through an invitation to the forward
+auction published or communicated in accordance with this Act;
+and
+(b) details relating to__
+(i) access to, and registration for, the auction;
+(ii) the opening and closing of the auction;
+(iii) norms for conduct of the auction; and
+(iv) any other information that may be relevant to this method
+of disposal.
+(5) Notwithstanding subsection (4), the Authority may prescribe
+other procedures relating to a forward auction disposal method.
+(6) For the purposes of this section, “forward auction” means an
+on-line real-time disposal method utilized by a procuring and
+disposing entity to select a successful bidder.
+
+Deviations
+
+53. The Authority may, in a prescribed manner and form,
+authorize a procuring and disposing entity to deviate from the use of
+a public procurement or disposal method, rules, process, or document
+where__
+(a) exceptional requirements make it impossible, impractical, or
+uneconomical to comply with the provisions of this Act;
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+37
+
+(b) market conditions or behaviour do not allow the effective
+application of the procurement or disposal methods, rules,
+processes, or documents; or
+(c) specialized or particular requirements are regulated or
+governed by international standards or practices.
+54. A procuring and disposing entity may undertake procurement
+proceedings through a framework agreement as prescribed under
+regulations.
+
+Framework
+agreements
+
+PART VIII__PROCUREMENT AND DISPOSAL PLANNING AND PROCEEDINGS
+55.__(1) A procuring and disposing entity shall plan procurement
+and disposal activities with a view to achieving maximum value from
+both public expenditures and disposal proceedings, including other
+objectives set forth in this Act.
+
+Planning of
+procurement
+and disposal
+activities
+
+(2) A procuring and disposing entity shall not split procurement
+requirements with a view to circumventing the use of competitive
+methods of procurement as prescribed in this Act.
+(3) A person who contravenes subsection (1) or (2) commits an
+offence and shall, upon conviction, be liable to a fine of K5,000,000,
+and to imprisonment for two years.
+(4) A procuring and disposing entity shall submit the procurement
+and disposal plans to the Authority by the last date of the first month
+of each financial year.
+(5) A Controlling Officer who fails to comply with subsection (4)
+shall be liable to an administrative penalty of K500,000.
+(6) The Authority shall report the Controlling Officer to relevant
+authorities for disciplinary sanctions in case of non-compliance with
+the penalty imposed pursuant to subsection (5).
+56.__(1) A procuring and disposing entity shall publish an invitation
+to tender, or an invitation to prequalify, in–
+(a) the Gazette;
+(b) at least one national widely circulated newspaper;
+(c) in the electronic media;
+(d) on the websites of the procurement and disposing entity and
+the Authority; and
+(e) in the case of international tendering, shall also be published
+in internationally recognized business portals and other media of
+wide international circulation.
+
+Publication of
+invitation to
+bid
+
+38
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(2) Without derogating from the generality of subsection (1), the
+procuring and disposing entity shall publish in the Gazette all
+procurements of values and nature as may be prescribed from time
+to time by the Authority.
+(3) In addition to the publication referred to in subsection (1), the
+procuring and disposing entity shall display the invitation to tender,
+or an invitation to prequalify, in the head office of the procuring and
+disposing entity in a publicly accessible place.
+Issuance of
+bidding
+documents
+
+57.__(1) A procuring and disposing entity shall ensure that a bidding
+document__
+(a) is provided to all bidders responding to the invitation to
+tender or, in the event of pre-qualification proceedings, to all
+bidders that have been pre-qualified;
+(b) provides bidders with the information that they require in
+order to submit bids that are responsive to the needs of the
+procuring and disposing entity;
+(c) includes the terms and conditions of the resultant contract;
+and
+(d) includes technical specifications that promote the broadest
+possible competition, while ensuring performance or other
+requirements for the procurement are based on relevant technical
+characteristics and performance requirements.
+(2) Where a fee is charged for the bidding documents, the fee shall
+only reflect the cost of printing and distributing the documents.
+(3) All bidders shall be provided with the same information.
+(4) A bidder may request a clarification of the bidding documents
+from the procuring and disposing entity, and the procuring and
+disposing entity shall respond to the request before the deadline for
+submission of bids, but a procuring and disposing entity may not
+respond to the request if the request is submitted seven days before
+the deadline.
+(5) The procuring and disposing entity shall respond to a request
+under subsection (4) so as to enable the bidder to make a timely
+submission of its bid and shall, without identifying the source of the
+request, communicate the clarification to all bidders to which the
+procuring and disposing entity has provided the bidding documents.
+(6) The procuring and disposing entity may, at any time prior to
+the deadline for submission of bids, for any reason, whether on its
+own initiative or as a result of a request for clarification by a bidder,
+modify the bidding documents by issuing an addendum, and the
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+39
+
+addendum shall be communicated promptly to all bidders to which
+the procuring and disposing entity has provided the bidding
+documents and the addendum shall be binding on those bidders.
+58.__(1) A bid shall be submitted in written form as instructed in
+the bidding document.
+
+Submission
+of bids
+
+(2) A bidding document may provide for submission of bids
+electronically where a procuring and disposing entity puts in place
+measures to protect the confidentiality of bidders' bids, and to ensure
+their authenticity and integrity.
+(3) A procuring and disposing entity shall, upon request, provide
+to a bidder a receipt showing the date and time when its tender was
+received.
+(4) The deadline for submission of bids shall be set taking into
+account the nature of the procurement or disposal process and the
+time required for the preparation of bids.
+(5) The minimum bidding periods for the various procurements
+shall be as follows__
+(a) for international competitive bidding, thirty days;
+(b) for national competitive bidding, twenty days;
+(c) for restricted tender, fifteen days;
+(d) for request for proposals, fifteen days;
+(e) for request for quotations method, five days;
+(f) for single sourcing, five days; and
+(g) emergency procurement, twenty-four hours.
+(6) A procuring and disposing entity shall seek prior approval from
+the Authority to carry out specific procurement for a shorter bidding
+period than provided in subsection (5).
+59.__(1) A procuring and disposing entity shall set a validity period
+for a bid that is of sufficient length to enable the procuring and
+disposing entity to complete the procurement processes up to signing
+of the procurement contract.
+(2) If, prior to the expiry of the validity period of a bid, the
+procuring and disposing entity requests a bidder to extend the validity
+period of a bid, it shall address such a request to all the bidders.
+(3) A refusal to extend the bid validity period shall not result in
+forfeiture of the bid security, if a bid security was required in the first
+place.
+
+Bid validity
+periods
+
+40
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(4) The extension of a bid validity period shall be subject to
+extension of the bid security, if security was required in the first place
+and without such an extension of the bid security, a bid shall be
+deemed not extended.
+Extension of
+deadline for
+submission
+
+60.__(1) A procuring and disposing entity may extend the deadline
+for submission of bids through a written notice which shall be issued
+promptly to all those that obtained the bidding document.
+(2) Subject to subsection (1), where a bid was invited through an
+open tender, the procuring and disposing entity shall also publish the
+notice of extension in the media in which the invitation to bid was
+published.
+(3) The extension of the deadline for submission of bids mentioned
+in subsection (1), may be allowed on the following grounds—
+(a) clarification or modification of the bidding documents;
+(b) late issuance of minutes of a pre-bid conference or a site
+visit; or
+(c) force majeure.
+
+Opening of
+bids
+
+61.__(1) A procuring and disposing entity shall open bids at the time
+and place indicated in the bidding document, and the time of opening
+of the bids shall coincide with the deadline for submission of bids.
+(2) Bidders or their respective representatives may attend the
+opening of bids at which the names and addresses of the bidders
+submitting bids, and their prices, shall be read out and recorded.
+(3) The attendance of the opening of bids under subsection (2) by
+a bidder or a respective representative of the bidder may be virtual.
+
+Evaluation of
+bids
+
+62.__(1) The procurement and disposing entity shall determine the
+evaluation method of the procurement and disposal proceedings after
+considering–
+(a) the type and value of the goods, services, or work to be
+procured or the assets to be disposed of; and
+(b) the complexity of the procurement proceedings or disposal
+requirements, in accordance with this Act and as may be prescribed
+in regulations.
+(2) The procuring and disposing entity shall carry out a bid
+evaluation, in accordance with the criteria set in the bidding
+document, and shall commence the evaluation within seven days
+from the bid opening date.
+(3) A procuring and disposing entity may evaluate bids containing
+non-material deviations, with the deviations being quantified in the
+manner indicated in the bidding document.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+41
+
+(4) Subject to section 69, a procuring and disposing entity shall not
+negotiate with bidders as to the substance or prices of their bids.
+(5) A procuring and disposing entity may only seek clarifications
+of bids, and may not solicit or accept changes in the substance or
+prices of bids.
+(6) In the evaluation of bids, a procuring and disposing entity may
+apply a margin of price preference in favour of domestic or regional
+bidders in accordance with the regulations, provided that such
+application has been disclosed in the bidding documents.
+(7) A successful bid shall__
+(a) in the case of a procurement, be the lowest evaluated bid,
+subject to any margin of preference provided in this Act; and
+(b) in the case of disposal of assets, be the highest evaluated bid.
+(8) A procurement and disposing entity shall, for purposes of
+determining the lowest evaluated bid under subsection (7) (a) have
+regard to the relevant feasibility study and indicative market price,
+as the case maybe.
+(9) A procurement and disposing entity shall ensure that non-price
+criteria is, to the extent practicable, objective and quantifiable, and
+given a relative weight in the evaluation procedure or be expressed
+in monetary terms, wherever practicable.
+(10) A successful bidder shall, prior to the entry into force of the
+procurement or disposal contract and, if so required, provide security
+for the performance of the contract.
+(11) A procuring and disposing entity shall ensure that sixty per
+cent of the value of procurements carried out in a financial year under
+national competitive bidding is reserved for Malawian micro, small
+and medium sized enterprises and forty per cent is reserved for other
+bidders.
+63.__(1) If upon evaluation, a procuring and disposing entity
+considers a bid to be unrealistically low, the procuring and disposing
+entity shall, before rejecting the bid, request in writing, details of the
+constituent elements of the bid which it considers relevant and shall
+verify, after due hearing of the party, those constituent elements
+taking account of the explanations received
+(2) The procuring and disposing entity shall take into consideration
+explanations relating to__
+(a) the economics of the manufacturing process, of the services
+provided or of the construction methods;
+
+Unrealistically low bids
+
+42
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(b) the technical solutions chosen and the exceptionally
+favourable conditions available to the bidder for the supply of the
+goods or services, or the execution of the work; and
+(c) the originality of the goods, services or works proposed by
+the bidder.
+Processing of
+unrealistically
+high bids
+
+64.__(1) A person undertaking procurement proceedings shall not
+process, or abet the processing of, an unrealistically high bid.
+(2) A person undertaking disposal proceedings of public assets
+shall not, process, or abet the processing of an unrealistically high
+bid.
+(3) A person who contravenes this section, commits an offence,
+and shall, on conviction, be liable to a fine of K5,000,000, and to
+imprisonment for two years.
+
+Use of
+standard
+bidding
+documents
+
+65.__(1) The Authority shall issue standard bidding documents
+which shall be used by procuring and disposing entities for use in
+procurement and disposal proceedings.
+(2) The following sections of the standard bidding documents shall
+form part of the subsequent procurement contract—
+(a) Price Schedule;
+(b) Priced Bill Quantities or Schedule of Works;
+(c) General and Special Conditions of Contract; and
+(d) Technical Specifications, Terms of Reference and Contract
+Forms.
+
+Rejection of
+bids and
+cancellation
+of
+procurement
+and disposal
+proceedingse
+ntity
+
+66.__(1) A procuring and disposing entity may reject all bids at any
+time prior to the acceptance of the bids, without incurring any liability
+to the bidders.
+(2) A procuring and disposing entity may cancel the procurement
+or disposal proceedings without incurring any liability to the bidders,
+at any time before completion of the procurement and disposal
+proceedings , if the__
+(a) need for procurement or disposal has ceased to exist;
+(b) bidding documents require substantial modification; and
+(c) procuring and disposing entity establishes that proceeding
+with the procurement and disposal may not realize the initial
+objective.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+43
+
+(3) The cancellation of procurement or disposal proceedings after
+opening of bids shall be subject to approval by the Internal
+Procurement and Disposal Committee, and may be authorized if__
+(a) the object of the procurement or disposal is no longer
+required;
+(b) there is need to substantially modify the bidding documents;
+(c) there is evidence of collusion among bidders in setting bid
+prices;
+(d) there is no substantially responsive bid;
+(e) all the substantial responsive bids exceed the budget; and
+(f) it is deemed by the procuring and disposing entity that
+proceeding with the process would compromise achievement of
+the intended objectives.
+67.__(1) A procuring and disposing entity shall not open a bid
+received after the deadline for the submission of bids, and the bid
+shall be collected by the bidder that submitted it within five days at
+its own cost.
+
+Bids received
+after deadline
+for
+submission
+
+(2) A procuring and disposing entity shall note in the record of the
+procurement and disposal proceedings, the date and time of arrival
+of a late bid.
+68.__(1) A procuring and disposing entity shall not accept a bid—
+(a) if the bidder__
+(i) is not qualified;
+(ii) is debarred or suspended;
+(iii) submits an alternative bid contrary to the provisions of
+the bidding document; or
+(iv) does not accept a correction of an arithmetical error made
+in accordance with regulations;
+(b) if the bid is not substantially responsive to the requirements
+of the bidding documents;
+(c) for which a bid security or bid securing declaration was not
+provided, if such form of security was required by the bidding
+documents; or
+(d) in the circumstances referred to in section 78.
+(2) For the purposes of this section, “bid securing declaration”
+means an undertaking by a bidder, committing to be suspended for a
+period of time from being qualified to participate in any public
+procurement activity in the event the bidder violates any of the
+conditions stated therein.
+
+Unqualified
+bids
+
+44
+Negotiations
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+69.__(1) A procuring and disposing entity may—
+(a) in the case of a procurement proceeding, invite the lowest
+evaluated bidder; and
+(b) in the case of a disposal proceeding, invite the highest
+evaluated bidder,
+for negotiations aimed at finalizing the award of the contract.
+(2) The Internal Procurement and Disposal Committee shall
+appoint a negotiation team, and shall include the user department and
+procurement and disposal unit as members.
+(3) A procuring and disposing entity shall not negotiate with a
+bidder as to the substance or price of the bid; except in the case of
+single sourcing or where the price of the bid has not been taken into
+account in the evaluation methodology.
+(4) If__
+(a) in the case of a procurement proceeding, the negotiations
+with the lowest evaluated bidder; or
+(b) in the case of a disposal proceeding, the negotiations with
+the highest evaluated bidder,
+fail to result in an acceptable contract, the procuring and disposing
+entity may, by letter addressed to that bidder, terminate the
+negotiations and invite the next ranked bidder for negotiations, or
+cancel the procurement or disposal proceeding.
+
+Intention to
+award a
+contract
+
+Use of
+information
+and
+communication
+technologies
+
+70.__(1) The procuring and disposing entity shall publish the notice
+of intention to award contract in the Gazette, in at least one widely
+circulated national newspaper, on the website of the Authority and
+on the website of the procuring and disposing entity for a period of
+fourteen days for any procurement or disposal contract above a
+threshold set by the Authority, before signing the contract
+(2) For purposes of subsection (1) the Authority shall, by notice
+published in the Gazette, set the threshold .
+(3) Notwithstanding subsection (1), the Authority may, on an
+application by the procuring and disposing entity, and stating reasons
+therefor, authorize a shorter period of publication of the intention to
+award contract, as the Authority deems fit.
+71.__(1) A procuring and disposing entity shall use the electronic
+government procurement and disposal system or any other electronic
+procurement and disposal system that the Authority may prescribe.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+45
+
+(2) Subject to subsection (1), the electronic government
+procurement and disposal system or any other electronic procurement
+and disposal system that the Minister may prescribe shall provide
+for__
+(a) annual procurement and disposal plan preparation planning;
+(b) publication of bidding documents, notices and invitations to
+bid;
+(c) publication of amendment in bidding documents and
+explanations for those changes, if any;
+(d) submission and opening of bids;
+(e) bid evaluation;
+(f) requests for information on the bid process;
+(g) publication of procurement contracts subject to the
+confidentiality provisions under section 34;
+(h) publication of notices of amendments to procurement or
+disposal contracts subject to the confidentiality provisions under
+section 34;
+(i) reporting on the status of the procurement or disposal
+contracts; and
+(j) dissemination of laws, regulations and directives on public
+procurement and disposal of public assets.
+(3) The Authority shall prescribe the manner of procurement or
+disposal proceedings relating to the matters under subsection (2).
+(4) The Authority shall ensure that the electronic government
+procurement and disposal system or any other electronic procurement
+is safe and secure in compliance with the Electronic Transactions and
+Cyber Security Act.
+72.__(l) Subject to a No Objection issued by the Authority in
+accordance with this Act, a procuring and disposing entity shall
+prepare and sign the contract with the successful bidder.
+
+Cap. 74:02
+Procurement
+contract
+
+(2) All contracts shall be prepared in the manner prescribed in the
+appropriate standard bidding document issued by the Authority or
+any other document approved by the Authority.
+73.__(1) Unless otherwise provided in the procurement contract,
+the contract price stated in a signed procurement contract is
+considered to be fixed, and shall not be modified in response to
+changes in economic or commercial conditions, unless inflation
+changes significantly.
+(2) All amendments to a signed procurement contract shall—
+
+Amendment
+of a signed
+procurement
+contract
+
+46
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(a) include a maximum extension period of twelve months;
+(b) be approved by the Internal Procurement and Disposal
+Committee;
+(c) if the amendment relates to price adjustment which is above
+the price adjustment permitted by the procurement contract, be
+approved by the Authority; and
+(d) be effected, as prescribed in regulations.
+(3) All amendments to a signed procurement contract which
+include an extension period of more than twelve months shall be
+submitted to the Authority for no objection.
+Contract
+management
+
+74.__(1) A procuring and disposing entity shall be responsible for
+the administration of procurement contracts into which they enter,
+and to that end, they shall establish procedures for contract
+administration and provide the necessary material and human
+resources for their implementation.
+(2) A procuring and disposing entity may appoint a contract
+manager, depending on the nature and complexity of the contract,
+whose main responsibility shall be to ensure that the supplier,
+contractor or consultant performs the contract in accordance with the
+terms and conditions specified therein.
+(3) A procuring and disposing entity may terminate a procurement
+or disposal contract on the grounds and terms stipulated in the
+procurement or disposal contract.
+(4) Notwithstanding subsection 3, a procuring and disposing entity
+may terminate a procurement contract for convenience if it is
+determined to be in the public interest and subject to payment for
+works satisfactorily completed or services satisfactorily performed
+prior to the effective date of termination and for reimbursable
+expenses actually incurred or for any goods specially manufactured
+under the procurement contract and reasonable termination costs, but
+excluding lost profit.
+PART IX__SUPPLIERS AND BIDDERS
+
+Eligibility
+criteria for
+bidders
+
+75.__(1) A bidder shall, in order to be eligible to be awarded a
+procurement contract__
+(a) be registered with the Registrar of Companies or the
+Registrar of Business Names, and if applicable, with any
+professional regulatory, or other entity as may be prescribed;
+(b) be tax compliant;
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+47
+
+(c) disclose beneficial ownership in accordance with the
+Companies Act; and
+(d) not be debarred from participating in procurement
+proceedings under this Act.
+(2) In addition to the eligibility criteria contained in subsection (1),
+a procuring and disposing entity shall not enter into a contract with a
+bidder if the__
+(a) bidder is bankrupt or insolvent;
+(b) bidder is in receivership;
+(c) the bidder is being wound up;
+(d) the affairs of the bidder are being administered by a court or
+a judicial officer;
+(e) business activity of the bidder is suspended; or
+(f) the bidder is the subject of legal proceedings .
+(3) Subject to the right of bidders to protect their intellectual
+property or trade secrets, a procuring and disposing entity may require
+bidders participating in procurement proceedings to provide such
+appropriate documentary evidence or other information as it may
+consider necessary to satisfy itself that bidders are qualified in
+accordance with the criteria referred to in subsection (1).
+(4) In handling the information provided under subsection (1), the
+procuring and disposing entity shall take into consideration the
+legitimate interests of bidders as regards the protection of their
+technical or trade secrets.
+(5) A procuring and disposing entity shall indicate in bidding
+documents, the type of documentation, if any, to be provided by
+bidders to attest to their conformity with the qualification
+requirements set forth in the bidding documents.
+76.__(1) In order to enter into a procurement contract, a bidder shall
+qualify by meeting the criteria the procuring and disposing entity
+considers appropriate.
+(2) The criteria referred to in subsection (1) may concern—
+(a) the legal capacity;
+(b) professional and technical qualifications;
+(c) financial resources and condition;
+(d) equipment and other physical facilities;
+(e) personnel and managerial capability; and
+
+Qualifications
+of bidders
+
+48
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(f) past performance, including history of legal disputes,
+conviction of a bidder, or its directors or officers, of any criminal
+offence related to their professional conduct or the making of false
+statements or misrepresentations as to its qualifications to enter
+into a procurement contract within a period of three years
+preceding the commencement of the procurement proceedings.
+Suppliers data
+bases or lists
+
+77.__(1) The Authority shall organize and maintain a centralized
+system, in the form of a database or list, to provide centralized
+information on potential suppliers of goods, works or services.
+(2) A procuring and disposing entity may organize and maintain
+its own system or database of potential suppliers, and shall submit
+such list to the Authority for approval prior to its use.
+(3) The Authority shall open database or list of potential suppliers,
+shall register a qualified supplier into the database or list within
+Thirty days from receipt of request, at a prescribed fee.
+(4) The Minister shall, in consultation with the Authority, prescribe
+fees and procedures for compilation and maintenance of the
+databases and the lists.
+
+Conduct of
+bidders and
+suppliers
+
+78.__(1)A bidder and a supplier shall not engage in or abet__
+(a) corrupt practices, such as the offering of improper
+inducements;
+(b) fraudulent practices, including misrepresentation of facts in
+order to influence a procurement process or the execution of a
+contract; and
+(c) collusion among bidders, prior to or after bid submission,
+designed to establish bid prices at artificial, and non-competitive
+levels, to deprive the procuring and disposing entity of the benefits
+of free and open competition.
+(2) Any information concerning the occurrence or attempt of
+malpractices in subsection (1) shall be reported immediately to the
+head of the procuring and disposing entity, to the Authority and to
+the relevant law-enforcement authorities.
+
+Debarment of
+suppliers and
+contractors
+
+79.__(1) The Authority may exclude a supplier, contractor,
+consultant or any bidder from participation in public procurement for
+any misconduct prescribed in this Act in accordance with procedures
+set out in regulations.
+(2) A supplier or a bidder may be excluded from participation in
+public procurement and disposal proceedings on the following
+grounds__
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+(a) supplying false information in the process of submitting a
+bid or prequalification application;
+(b) collusion between the bidders or a bidder and a public
+official concerning the formulation of any bidding documents or
+any part of bidding documents;
+(c) interference by the supplier or bidder with the participation
+of competing bidders;
+(d) misconduct relating to the submission of bids, including
+corruption, price fixing, a pattern of under-pricing bids, breach of
+confidentiality, misconduct relating to execution of procurement
+contracts, or any other misconduct relating to the responsibilities
+of the bidder or supplier;
+(e) conviction for an offence relating to obtaining or attempting
+to obtain a procurement contract;
+(f) conviction for an offence related to dishonesty or fraud in a
+professional activity;
+(g) submitting a bid which contains inaccurate or inadequate
+information with a view to misleading a procuring and disposing
+entity or the Authority regarding the eligibility or responsiveness
+of its bid;
+(h) refusing, where no bid security is required, to accept an
+award made to it, within the bid validity period, and to enter into
+a contract with a procuring and disposing entity, except in a
+situation of force majeure;
+(i) repeated failure, in the performance of one or more contracts,
+to comply with the terms and conditions, or the specifications, of
+the contract, as the case may be;
+(j) committing a material breach of contract; or
+(k) without the prior written approval of the procuring and
+disposing entity, unlawfully assigning or subcontracting any of its
+obligations under a contract.
+(3) A bidder or supplier who has been found liable for the
+misconduct after the hearing shall be excluded from public
+procurement for a period commensurate with the gravity of the
+misconduct as prescribed in the regulations.
+(4) The owners and the directors of a bidder or supplier that has
+been found liable for the misconduct under subsection (3) shall be
+excluded from public procurement and disposal of public assets for
+a period commensurate with the gravity of the misconduct as
+prescribed in the regulations.
+
+49
+
+50
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(5) A bidder or supplier aggrieved by a decision of the Authority
+may make an application to High Court for judicial review.
+PART X__PROCUREMENT INTEGRITY
+Conduct
+of public
+officials
+
+80.__(1) A public official involved in requisitioning, planning,
+preparing and conducting procurement proceedings, disposal
+processes, and implementation of procurement and disposal contracts,
+shall__
+(a) discharge his or her duties impartially so as to ensure fair and
+competitive access to procurement opportunities by suppliers;
+(b) always act in the public interest, and in accordance with the
+objectives and procedures set out in this Act;
+(c) at all times, avoid conflicts of interest, and the appearance of
+impropriety in carrying out his or her duties and conducting
+themselves, and shall not interfere in the work of the Internal
+Procurement and Disposal Committee;
+(d) not commit or abet any corrupt or fraudulent practice, including
+the solicitation or acceptance of improper inducements;
+(e) not interfere with or exert undue influence on any person to
+effect a procurement or disposal activity or decision;
+(f) keep confidential any information that comes into his or her
+possession relating to procurement proceedings or disposal processes,
+including bidders' proprietary information; and
+(g) not, for a period of two years after leaving the public service,
+get involved in the implementation of a procurement contract on
+behalf of a private organization with his or her previous employer.
+(2) A procuring and disposing entity shall disclose to any party
+with an interest in the procurement or, disposal process, during and
+after the procurement or disposal proceedings, all the information
+which may materially affect the implementation of the procurement
+or disposal process as prescribed in the regulations.
+(3) A procuring entity carrying out procurement for works or
+consultancy services in the construction industry shall disclose all
+material project information and shall comply with the principles of
+transparency and accountability at all stages of the project life cycle
+inclusive of pre-contract and post-contract process as prescribed in
+the regulations.
+(4) For purposes of this section, “undue influence” means pressure
+or influence exerted on a public official to make a decision in favour
+of the person exerting such pressure or influence or anyone connected
+to him or her.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+81. The Authority may promulgate codes of conduct to guide the
+behaviour of public officials and bidders and suppliers conduct for
+involved in public procurement or disposal processes.
+
+51
+Codes of
+conduct for
+public
+officials and
+suppliers
+
+PART XI__ADMINSTRATIVE REVIEW AND APPEAL
+82.__(1) A bidder that claims to have suffered, or that may suffer
+loss or injury due to breach of a duty imposed on the procuring and
+disposing entity, or the Authority may seek a review in accordance
+with this Part.
+
+Right to
+review
+
+(2) The following shall not constitute grounds for the review under
+subsection (1)__
+(a) the choice of a selection procedure in request for proposals
+for services, in accordance with the regulations;
+(b) a decision by the procuring and disposing entity under
+section 66 to reject all bids, proposals, offers or quotations; and
+(c) a refusal by the procuring and disposing entity to respond to
+an expression of interest in requests for proposals for consultancy
+services under section 43.
+83.__(1) A bidder shall submit an application for a review under to
+section 82__
+(a) during the period of intention to award a contract; or
+(b) within fourteen days of the bidder submitting the application
+and becoming aware of the circumstances giving rise to the
+application or when that bidder should have become aware of those
+circumstances, whichever is earlier.
+(2) An application in subsection (1) shall be made, in writing, to
+the Controlling Officer .
+(3) A bidder who is not satisfied with a response from the
+Controlling Officer may make an application in writing to the
+Authority.
+(4) An application made to the Authority under subsection (3) shall
+be accompanied by the prescribed fees.
+(5) The Authority or a Controlling Officer shall not entertain the
+application for review unless__
+(a) it was submitted within the period of the publication of an
+intention to award a contract for procurement or disposal
+proceedings whose estimated values are above a set threshold; or
+(b) for all procurement and disposal processes below the set
+threshold, it was submitted within fourteen days of the bidder
+
+Review
+procedures
+
+52
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+submitting the application becoming aware of the circumstances
+rise to the application, or when the bidder should have become
+aware of those circumstances, whichever is earlier.
+(6) Where an application for review is made to the Authority in
+accordance with subsection (3), the Authority shall convene threemember technical committee from the technical officers which shall
+hear the application for review brought to the Authority, and make
+recommendations to the Authority.
+(7) Upon receipt of the application for review under this section,
+the procurement or disposal proceedings shall be suspended for ten
+days.
+(8) The suspension period in subsection (7) may be extended to
+thirty days in cases where the dispute has not been resolved.
+(9) A Controlling Officer, as the case may be, shall render a
+decision on the application within fourteen days of the submission of
+such application.
+(10) Unless the application is dismissed, the Authority may, in
+respect of an application under this section—
+(a) prohibit the procuring and disposing entity from acting or
+deciding unlawfully or from following an unlawful procedure;
+(b) annul, in whole or in part, an unlawful act or decision of the
+procuring and disposing entity, other than any decision bringing
+the procurement contract into force;
+(c) revise an unlawful decision by the procuring and disposing
+entity or substituting its own decision for such decision, other than
+any decision bringing the procurement contract into force;
+(d) compel the procuring and disposing entity to pay the
+successful applicant its costs of preparing and submitting a bid and
+application for the review;
+(e) compel applicant to pay the costs of the review; and
+(f) report the public official who committed the misconduct to
+relevant oversight bodies for disciplinary action and prosecution.
+(11) Any decision of the Authority shall be subject to review by
+the High Court.
+PART XII__INVENTORY CONTROL, ASSET AND STORES MANAGEMENT
+AND DISTRIBUTION
+Stores
+management
+
+84.__(1) Subject to the Public Finance Management Act, a
+procuring and disposing entity shall use a stores management and
+control system to assist the procuring and disposing entity meet the
+objectives of sound supply chain management.
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+(2) A procuring and disposing entity shall establish a Stores or
+Supplies Unit, which shall be staffed by qualified supply chain
+professionals registered under the Malawi Institute of Procurement
+and Supply Act, and assign to such a Unit authority to conduct stores
+and supplies activities in accordance with this Act.
+
+53
+
+Cap 30:15
+
+(3) A person who manages stores shall not be involved in
+procurement within the procuring and disposing entity.
+85.__(1) A procuring and disposing entity shall__
+(a) ensure that goods procured are received;
+(b) not use the goods until they are recorded in the inventory;
+and
+(c) use the goods for the intended purpose.
+
+Management
+of procured
+goods
+
+(2) The head of the stores unit shall, submit the following reports
+to the Controlling Officer__
+(a) quarterly inventory management report;
+(b) quarterly stores inspection report;
+(c) quarterly stock taking reports;
+(d) annual stock taking report; and
+(e) any other reports as directed and requested
+(3) A Controlling Officer shall__
+(a) submit the reports referred to in subsection (2) to the
+Authority;
+(b) ensure the inspection of the stores at least quarterly in each
+calendar year; and
+(c) conduct quarterly and annual inventory analysis and stock
+taking.
+(4) A procuring and disposing entity shall__
+(a) put measures in place to ensure that stores do not deteriorate
+from any preventable cause; and
+(b) avoid overstocking of any particular item.
+(5) A procured item assigned for use by an office holder shall be
+requisitioned from stores and issued by a stores officer of a procuring
+and disposing entity.
+PART VIII__COMPLIANCE, MONITORING AND ENFORCEMENT
+86.__(1) The Authority may, by notice in writing, require a
+procuring and disposing entity, or any other person the Authority
+
+Supply of
+information
+by procuring
+and disposal
+entity
+
+54
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+considers has relevant information, to furnish it with information that
+it may require for the performance of its functions and exercise of its
+powers in terms of this Act.
+(2) A procuring and disposing entity or person with information
+sought by the Authority shall furnish the Authority with the
+information within ten working days of receipt of the notice for a
+request of information under subsection (1).
+(3) A procuring and disposing entity or person who fails to furnish
+the information required by the Authority under subsection (2),
+commits an offence.
+Investigations
+and
+inspections
+
+87.__(1) The Authority may, where the Authority has reasonable
+grounds to believe, either on its own motion or at the request, in
+writing, by any person, that there is a contravention of this Act, direct,
+in writing, an inspector to investigate the breach and report the
+findings of the investigation to the Authority.
+(2) The Authority may, at any reasonable time, inspect the records
+and accounts of a procuring and disposing entity, supplier or bidder
+relating to the procurement and disposal proceedings or contract and
+the procuring and disposing entity and supplier or bidder shall cooperate with, and assist the inspector.
+(3) Where the Authority is satisfied that an investigation should be
+conducted under subsection (1), the Authority may conduct audits__
+(a) during the tender preparation;
+(b) in the course of execution of an awarded contract; and
+(c) of the performance of a contract in respect of any
+procurement as may be required.
+(4) The Authority shall, on the commencement of an investigation
+under subsection (1)__
+(a) suspend the procurement proceedings until the conclusion
+of the investigation; and
+(b) issue a written decision, within ten working days of the
+commencement of the investigation.
+
+Appointment
+of inspectors
+
+88.__(1) The Authority shall appoint suitably qualified persons as
+inspectors for the purpose of ensuring compliance with this Act.
+(2) The Authority shall provide an inspector with a certificate of
+appointment, in the prescribed form, which shall be prima facie
+evidence of the inspector’s appointment.
+(3) An inspector shall, in performing a function under this Act—
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+55
+
+(a) be in possession of the certificate of appointment; and
+(b) show the certificate of appointment to a person who requests
+to see it or who is subject to an investigation under this Act.
+89.__(1) An inspector may, with a warrant, enter premises where
+information, documents or articles which may be relevant to an
+investigation may be kept and__
+(a) search the premises;
+(b) search a person on the premises if there are reasonable
+grounds for believing that the person has personal possession of a
+document or article that has a bearing on the investigation, except
+that a person shall only be searched by a person of the same sex;
+(c) examine a document or article found on the premises that
+has a bearing on the investigation;
+(d) take extracts from or make copies of any book or document
+found on the premises that has bearing on the investigation;
+(e) use a computer system on the premises, or require the
+assistance of a person on the premises to use that computer system,
+to—
+(i) search any data contained in, or available from, the
+computer system;
+(ii) reproduce any record from the data; or
+(iii) obtain information from the computer for examination
+and copying; or
+(f) attach and, if necessary, remove from the premises, for
+examination and safeguarding, any document or article that
+appears to have a bearing on the investigation.
+
+Powers of
+inspectors
+
+(2) An inspector who removes a document or article from any
+premises in accordance with subsection (1) shall—
+(a) issue a receipt for the document or article to the owner, or
+person in charge or in control, of the premises; and
+(b) return the document or article as soon as practicable after
+achieving the purpose for which it was removed.
+90. An inspector shall, after completing an investigation or
+inspection under section 87, submit a written report relating to the
+investigation or inspection to the Authority within a period the
+Authority may specify.
+
+Report of
+investigation
+and
+inspection
+
+91.__(1) The Authority may, after considering the report of an
+Inspector made under section 90 and on being satisfied that there is
+a breach of this Act__
+
+Powers of the
+Authority in
+investigation
+and
+inspection
+
+56
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+(a) direct the procuring and disposing entity to take actions that
+are necessary to rectify the contravention;
+(b) terminate the procurement and disposal proceedings;
+(c) prepare and submit a summary of the inspector’s findings
+and recommendations to the relevant authorities for action; or
+(d) require the procuring and disposing entity to transfer
+procuring or disposal responsibilities of the subject procurement
+or disposalto another procuring and disposing entity.
+(2) The Authority shall, before making an order under subsection
+(1), give the procuring and disposing entity and any other person
+whose legal rights the Authority believes may be adversely affected
+by the order, an opportunity to be heard.
+PART IV__MISCELLANEOUS
+Oath of
+secrecy
+
+92. Every__
+(a) member of the Authority;
+(b) member of a committee of the Authority;
+(c) member of staff of the Authority;
+(d) members of the Internal Procurement and Disposal
+Committee, procurement and disposal unit, ad-hoc evaluation
+team, and board of survey; or
+(e) person invited to attend a meeting of the Authority pursuant
+to section 9(8),
+shall, upon assumption of his or her office or before attending the
+first meeting, take an oath of secrecy in the form set out in the
+Schedule.
+
+Disclosure of
+interest
+
+93.__(1) A member of the Authority or a committee of the Authority
+and a person invited to attend a meeting of the Authority or any of its
+committees who has a direct or indirect interest in any matter before
+the Authority or any of its committees, shall disclose the interest as
+soon as is practicable before or soon after the commencement of the
+meeting and shall not take part in any consideration or discussion of,
+or vote on, any question on such matter at that meeting or any
+subsequent meeting.
+(2) A disclosure of interest made under this subsection (1) shall be
+recorded in the minutes of the meeting of the Authority, or a
+committee as the case may be.
+(3) Where a person fails to disclose interest in accordance with
+subsection (1) and the Authority or committee of the Authority makes
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+57
+
+a decision which benefits that person, a close relative, or a
+professional or business partner of that person, the decision shall, to
+the extent that it benefits that person, the close relative, professional
+or business partner, be null and void.
+(4) A member of the Internal Procurement and Disposal
+Committee, ad-hoc evaluation team, board of survey, and
+procurement and disposal unit who has a direct or indirect interest in
+any matter before the procuring and disposal unit, shall disclose the
+interest as soon as is practicable before or soon after the
+commencement of the meeting and shall not take part in any
+consideration or discussion of, or vote on, any question on such
+matter at that meeting or any subsequent meeting.
+(5) A disclosure of interest made under subsection 4 shall be
+recorded in the minutes of the meeting of the Internal Procurement
+and Disposal Committee, ad-hoc evaluation team, board of survey,
+procurement and disposal unit as the case may be.
+(6) Where a person fails to disclose interest in accordance with
+subsection (5) and the Internal Procurement and Disposal Committee,
+ad-hoc evaluation team, board of survey, and the procurement and
+disposal unit makes a decision which benefits that person, a close
+relative, or a professional or business partner of that person, the
+decision shall, to the extent that it benefits that person, the close
+relative, professional or business partner, be null and void
+94.__(1) Every member of the Authority or committee of the
+Authority, shall maintain, during or twenty-four months after the
+member’s relationship with the Authority, or the committee the
+confidentiality of any matter relating to this Act which comes to that
+person's knowledge in the course of duty.
+
+Postengagement
+restrictions
+
+(2) Every member of the Internal Procurement and Disposal
+Committee, procurement and disposal unit, ad-hoc evaluation team,
+and board of survey, shall maintain, during or twenty-four months
+after the member’s relationship with the procuring and disposing
+entity, the confidentiality of any matter relating to this Act which
+comes to that person's knowledge in the course of duty.
+(3) A person who, without lawful excuse, contravenes subsection
+(1) commits an offence and shall, upon conviction, be liable to a fine
+of K1,000,000, and to imprisonment for twelve months.
+95. A member, and every member of staff or employee, of the
+Authority shall not, in his or her personal capacity, be liable in civil
+or criminal proceedings in respect of any act or omission done in
+good faith in the performance of duties or functions under this Act.
+
+Protection
+from liability
+
+58
+Offences
+
+Public Procurement and Disposal of Public Assets
+
+No. 7
+
+96.__(1) A person who contravenes the provisions of this Act
+commits an offence.
+(2) A person who commits an offence under this Act for which no
+penalty has not been prescribed, shall, on conviction, be liable to—
+(a) in the case of an individual, a fine of K1,000,000, to
+imprisonment for twelve months; and
+(b) in the case of a body corporate, a fine of K5,000,000.
+
+Regulations
+
+97.__(1) The Minister may, on the recommendation of the
+Authority, make regulations for implementing the provisions of this
+Act and prescribing all matters which are necessary or contingent to
+be prescribed for better carrying out or giving effect to the provisions
+of this Act.
+(2) Without prejudice to the generality of subsection (1), the
+regulations may make provision for__
+(a) registration of suppliers;
+(b) procedures on framework agreement;
+(c) preferences, reservations and set-asides;
+(d) administrative reviews;
+(e) debarment of suppliers and bidders;
+(f) community participation;
+(g) procedures for disposal of public assets;
+(h) procurement of national security services;
+(i) design context;
+(j) guidelines for prequalification;
+(k) procurement thresholds;
+(l) electronic Government procurement;
+(m) electronic Government market;
+(n) sustainable procurement;
+(o) procedures for procurement of works, consultancy services,
+medicines, medical supplies and information and communication
+technology equipment and services;
+(p) micro, small and medium enterprises;
+(q) levy, fees and charges payable under the Act;
+(r) force account; and
+(s) anything required to be prescribed under this Act
+
+Cap. 1:01
+
+(3) Notwithstanding section 21 (e) of the General Interpretation
+Act, the regulations made under this Act may create offences in
+
+No. 7
+
+Public Procurement and Disposal of Public Assets
+
+59
+
+respect of any contravention to the regulations, and may for any such
+contravention impose a fine of up to K2,000,000, and imprisonment
+for twelve months.
+98.__(1) Subject to section 99, the Public Procurement and Disposal
+of Assets Act, is hereby repealed.
+
+Repeal and
+savings
+Cap. 37:03
+
+(2) All subsidiary legislation made under the Public Procurement
+and Disposal of Assets Act, repealed by subsection (1), and in force
+immediately before the commencement of this Act, shall so far as it
+is not inconsistent with the provisions of this Act, continue in force
+as if made under this Act.
+(3) Notwithstanding subsection (1), every prior review,
+investigation, inquiry, administrative review, debarment proceedings,
+procurement contract, post procurement review, order, direction or
+appointment issued, given or made pursuant to the Public
+Procurement and Disposal of Assets Act, repealed by subsection (1),
+shall be valid until otherwise cancelled, revoked or varied under the
+provisions of this Act.
+99.__(1) The person holding the office of Director General of the
+Authority immediately before the commencement of this Act shall
+assume the office of the Director General in accordance with the
+provisions of this Act.
+
+Transitional
+provisions
+
+(2) Every person holding office as an employee of the Public
+Procurement and Disposal of Assets Authority immediately before
+the commencement of this Act shall continue to hold such office in
+the Authority on no less favourable terms and conditions of
+employment than those under the employment with Public
+Procurement and Disposal of Assets Act, repealed by subsection (1).
+(3) Every undertaking by the Public Procurement and Disposal of
+Assets Authority under the Public Procurement and Disposal of
+Assets Act, repealed by subsection (1), shall continue to have effect
+or be undertaken by the Authority in accordance with the provisions
+of this Act.
+SCHEDULE
+
+(s.92)
+
+OATH OF SECRECY
+I,............................................................, being a member of the Board/member
+of a committee of the Board /member of staff of the Board / having been invited
+to attend a meeting of the Board or committee of the Board, do hereby
+swear/affirm that I will freely without fear or favour, affection, or ill-will,
+discharge the functions of a member/member of staff /invitee of the Board and
+
+60
+
+Public Procurement and Disposal of Public Assets
+
+that I will not directly, or indirectly reveal any matter related to such functions to
+any unauthorized person or otherwise than in the course of duty. So, help me
+God/Allah.
+SWORN at ..............................................this .... day of............................,20....
+Deponent
+Before me: ………………………………………
+Commissioner for Oaths
+Passed in Parliament this seventeeth day of December, two thousand and
+twenty-four.
+FIONA KALEMBA
+Clerk of Parliament
+
+
