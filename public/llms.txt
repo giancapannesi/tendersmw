@@ -1,0 +1,33 @@
+# TendersMW — Malawi Government & NGO Tender Directory
+
+> TendersMW is the most comprehensive directory of government and NGO tenders in Malawi. We aggregate procurement opportunities from PPDA, MANEPS, government ministries, NGOs, and international organizations operating in Malawi.
+
+## About
+- [About TendersMW](https://tendersmw.com/about/): Who we are and how we source tenders
+- [Methodology](https://tendersmw.com/methodology/): How we verify and categorize tenders
+- [Privacy Policy](https://tendersmw.com/privacy/)
+- [Terms of Service](https://tendersmw.com/terms/)
+- [Disclaimer](https://tendersmw.com/disclaimer/)
+
+## Guides
+Practical guides for businesses looking to bid on tenders in Malawi:
+
+- [How to Bid on Tenders in Malawi](https://tendersmw.com/guides/how-to-bid-on-tenders-in-malawi/): Step-by-step guide for first-time bidders
+- [PPDA Procurement Guide](https://tendersmw.com/guides/ppda-procurement-guide/): Understanding the Public Procurement and Disposal of Assets Act
+- [MANEPS Registration Guide](https://tendersmw.com/guides/maneps-registration-guide/): How to register with the Malawi National Electronic Procurement System
+- [Tender Document Checklist](https://tendersmw.com/guides/tender-document-checklist/): Documents you need to submit a compliant bid
+- [Procurement Methods in Malawi](https://tendersmw.com/guides/procurement-methods-malawi/): Open, restricted, and direct procurement explained
+
+## Procurement Law
+- [Malawi Procurement Law Reference](https://tendersmw.com/procurement-law/): Key legislation governing public procurement in Malawi
+
+## Browse Tenders
+- [Browse by Category](https://tendersmw.com/category/): Filter tenders by sector (Goods, Construction, Consulting, IT, Services, Health, Agriculture, Education, Energy, Transport)
+- [Browse by Entity](https://tendersmw.com/entity/): Browse by procuring organization
+- [Browse by Source](https://tendersmw.com/source/): Browse by tender publication source
+
+## Data Coverage
+- 170+ active and recent tenders tracked
+- Government ministries, parastatals, NGOs, and international organizations
+- 10 procurement categories
+- Updated regularly from official Malawi procurement sources
