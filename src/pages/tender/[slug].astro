@@ -183,6 +183,17 @@ const similarTenders = tender.similar_tenders?.length
       </div>
     </div>
 
+    <!-- Disclaimer Notice -->
+    <div class="mt-6 bg-amber-900/20 border border-amber-500/30 rounded-lg p-4">
+      <p class="text-xs text-amber-200/80">
+        <strong class="text-amber-200">Notice:</strong> TendersMW is not affiliated with {tender.procuring_entity} or the Government of Malawi.
+        This listing was collected from public sources and may contain errors.
+        Although we do our best to verify all information, mistakes can occur.
+        Always confirm tender details directly with the procuring entity before taking any action.
+        <a href="/disclaimer/" class="text-accent hover:underline ml-1">Full disclaimer</a>
+      </p>
+    </div>
+
     <!-- Description -->
     {tender.description_long && (
       <div class="mt-6 glass-card p-5 sm:p-6">
