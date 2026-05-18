@@ -119,6 +119,7 @@ def verify_tender(tender_path):
         "https://www.escom.mw/tenders/",
         "https://www.mra.mw/tenders",
         "https://ted.europa.eu",
+        "https://projects.worldbank.org/",
     ]
     url_ok = any(source_url.startswith(s) for s in legitimate_sources)
     if not url_ok:
@@ -140,6 +141,7 @@ def verify_tender(tender_path):
                 "ESCOM",
                 "Malawi Revenue Authority",
                 "MRA",
+                "World Bank",
             ]
             if any(k.lower() in entity.lower() for k in known_entities):
                 return True, f"Known entity ({entity}), source unreachable but trusted scraper"

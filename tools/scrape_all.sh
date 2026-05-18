@@ -8,8 +8,9 @@ source /srv/BusinessOps/.venv/bin/activate
 
 echo "$(date) — TendersMW scrape starting"
 
-# Count before
-BEFORE=$(ls src/content/tenders/*.json 2>/dev/null | wc -l)
+# Snapshot existing slugs BEFORE scraping (so verifier skips them)
+ls src/content/tenders/*.json 2>/dev/null | xargs -I{} basename {} .json > /tmp/tendersmw_existing_slugs.txt 2>/dev/null || true
+BEFORE=$(wc -l < /tmp/tendersmw_existing_slugs.txt)
 
 # Run scrapers
 echo "Running PPDA scraper..."
@@ -21,6 +22,9 @@ python3 tools/escom_scraper.py 2>&1 || echo "ESCOM scraper failed"
 echo "Running MRA scraper..."
 python3 tools/mra_scraper.py 2>&1 || echo "MRA scraper failed"
 
+echo "Running World Bank scraper..."
+python3 tools/worldbank_scraper.py 2>&1 || echo "World Bank scraper failed"
+
 # Count after scraping
 AFTER=$(ls src/content/tenders/*.json 2>/dev/null | wc -l)
 NEW=$((AFTER - BEFORE))
@@ -30,8 +34,6 @@ echo "Tenders: $BEFORE -> $AFTER ($NEW new)"
 # AI VERIFICATION GATE — every new tender must be confirmed real
 if [ "$NEW" -gt 0 ]; then
     echo "Running AI verification on $NEW new tenders..."
-    # Save list of existing slugs (before scrape) to skip them
-    ls src/content/tenders/*.json 2>/dev/null | xargs -I{} basename {} .json > /tmp/tendersmw_existing_slugs.txt 2>/dev/null || true
     python3 tools/verify_tender.py --batch src/content/tenders/ --existing-slugs-file /tmp/tendersmw_existing_slugs.txt 2>&1
 
     # Recount after verification (rejected tenders are deleted)
