@@ -8,8 +8,10 @@ source /srv/BusinessOps/.venv/bin/activate
 
 echo "$(date) — TendersMW scrape starting"
 
-# Snapshot existing slugs BEFORE scraping (so verifier skips them)
-ls src/content/tenders/*.json 2>/dev/null | xargs -I{} basename {} .json > /tmp/tendersmw_existing_slugs.txt 2>/dev/null || true
+# Snapshot git-tracked slugs BEFORE scraping (so verifier skips only already-published content).
+# Do not use a raw filesystem listing here: untracked scanner output must still pass
+# verification before it can be built, committed, or pushed.
+git ls-files 'src/content/tenders/*.json' | xargs -I{} basename {} .json > /tmp/tendersmw_existing_slugs.txt || true
 BEFORE=$(wc -l < /tmp/tendersmw_existing_slugs.txt)
 
 # Run scrapers
@@ -24,6 +26,15 @@ python3 tools/mra_scraper.py 2>&1 || echo "MRA scraper failed"
 
 echo "Running World Bank scraper..."
 python3 tools/worldbank_scraper.py 2>&1 || echo "World Bank scraper failed"
+
+echo "Running EU TED scraper..."
+python3 tools/eu_ted_scraper.py 2>&1 || echo "EU TED scraper failed"
+
+echo "Running AfDB scraper..."
+python3 tools/afdb_scraper.py 2>&1 || echo "AfDB scraper failed"
+
+echo "Running UNGM scraper..."
+python3 tools/ungm_scraper.py 2>&1 || echo "UNGM scraper failed"
 
 # Count after scraping
 AFTER=$(ls src/content/tenders/*.json 2>/dev/null | wc -l)

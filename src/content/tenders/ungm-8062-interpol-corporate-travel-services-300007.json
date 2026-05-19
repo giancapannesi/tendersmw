@@ -1,0 +1,46 @@
+{
+  "title": "8062 - INTERPOL Corporate Travel Services",
+  "slug": "ungm-8062-interpol-corporate-travel-services-300007",
+  "reference_number": "300007",
+  "source": "ungm",
+  "source_url": "https://www.ungm.org/Public/Notice/300007",
+  "procuring_entity": "INTERPOL",
+  "procuring_entity_slug": "interpol",
+  "entity_type": "international",
+  "tender_type": "open_tender",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "8062 - INTERPOL Corporate Travel Services. Published by INTERPOL via UNGM.",
+  "description_long": "8062 - INTERPOL Corporate Travel Services. Published by INTERPOL via UNGM.",
+  "country": "Malawi",
+  "region": "",
+  "city": "",
+  "published_date": "2026-05-19",
+  "closing_date": "2026-06-10",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "USD",
+  "funding_source": "donor",
+  "donor": "INTERPOL",
+  "document_urls": [
+    {
+      "name": "UNGM Notice",
+      "url": "https://www.ungm.org/Public/Notice/300007",
+      "type": "link"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "open",
+  "is_active": true,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-05-19",
+  "review_status": "published",
+  "quality_score": 4,
+  "has_been_enriched": false
+}

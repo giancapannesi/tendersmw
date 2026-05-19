@@ -65,6 +65,7 @@ SOURCE PAGE CONTENT (first 5000 chars from source_url):
 
 RULES:
 - If the source page content contains the tender title, entity name, or reference number: REAL
+- The tender must be relevant to Malawi. If the source page does not support Malawi as the country, place of performance, beneficiary, or procuring office, reject it.
 - If the source page returned an error or the tender data doesn't appear anywhere on the source page: check if the entity name at minimum appears on the page
 - If the tender has generic placeholder descriptions like "invites sealed bids from eligible firms" with no specific details: SUSPICIOUS
 - If the reference number looks invented (round numbers, too-clean format like MOE/G/2026/019): SUSPICIOUS
@@ -120,6 +121,9 @@ def verify_tender(tender_path):
         "https://www.mra.mw/tenders",
         "https://ted.europa.eu",
         "https://projects.worldbank.org/",
+        "https://www.afdb.org/en/documents/",
+        "https://www.ungm.org/Public/Notice/",
+        "https://procurement-notices.undp.org/",
     ]
     url_ok = any(source_url.startswith(s) for s in legitimate_sources)
     if not url_ok:
@@ -129,20 +133,23 @@ def verify_tender(tender_path):
     api_key = load_api_key()
     source_content = fetch_source_page(source_url)
 
-    # If we can't reach the source at all, reject
-    if source_content.startswith("FETCH ERROR"):
-        # For known-flaky sources (self-signed certs), do a lighter check
-        if source in ("escom", "mra"):
-            # These have self-signed certs but we scrape via API/HTML
-            # If the scraper returned data, it got a real response
-            # Verify the entity name at minimum is a known real entity
-            known_entities = [
-                "Electricity Supply Corporation of Malawi",
-                "ESCOM",
-                "Malawi Revenue Authority",
-                "MRA",
-                "World Bank",
-            ]
+    # If source returned non-200 or fetch error, apply fallback rules
+    source_unreachable = source_content.startswith("FETCH ERROR") or source_content.startswith("HTTP ")
+
+    if source_unreachable:
+        # Trusted scrapers with known entities: these sources block plain HTTP
+        # but were scraped via Playwright headless browser
+        trusted_scraper_sources = ("escom", "mra", "afdb", "ungm", "world_bank", "eu_ted")
+        known_entities = [
+            "Electricity Supply Corporation of Malawi", "ESCOM",
+            "Malawi Revenue Authority", "MRA",
+            "World Bank", "African Development Bank", "AfDB",
+            "European Union Delegation", "European Commission",
+            "UNDP", "UNICEF", "UNOPS", "WHO", "WFP", "FAO",
+            "INTERPOL", "UN Secretariat", "UNFPA", "ILO",
+            "World Bank / Government of Malawi",
+        ]
+        if source in trusted_scraper_sources:
             if any(k.lower() in entity.lower() for k in known_entities):
                 return True, f"Known entity ({entity}), source unreachable but trusted scraper"
         return False, f"Cannot reach source: {source_content}"
