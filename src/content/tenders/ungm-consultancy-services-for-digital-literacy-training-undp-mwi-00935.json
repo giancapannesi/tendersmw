@@ -37,7 +37,7 @@
   "contact_phone": "",
   "status": "open",
   "is_active": true,
-  "days_remaining": 0,
+  "days_remaining": 5,
   "similar_tenders": [],
   "last_updated": "2026-05-19",
   "review_status": "published",
