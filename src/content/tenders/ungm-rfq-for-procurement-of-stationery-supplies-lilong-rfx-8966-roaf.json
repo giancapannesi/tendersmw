@@ -1,0 +1,46 @@
+{
+  "title": "RfQ for Procurement of Stationery Supplies (Lilongwe, Malawi)",
+  "slug": "ungm-rfq-for-procurement-of-stationery-supplies-lilong-rfx-8966-roaf",
+  "reference_number": "rfx_8966_ROAF",
+  "source": "ungm",
+  "source_url": "https://www.ungm.org/Public/Notice/309184",
+  "procuring_entity": "ILO",
+  "procuring_entity_slug": "ilo",
+  "entity_type": "international",
+  "tender_type": "request_for_quotation",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "RfQ for Procurement of Stationery Supplies (Lilongwe, Malawi). Published by ILO via UNGM. Reference: rfx_8966_ROAF.",
+  "description_long": "RfQ for Procurement of Stationery Supplies (Lilongwe, Malawi). Published by ILO via UNGM. Reference: rfx_8966_ROAF.",
+  "country": "Malawi",
+  "region": "",
+  "city": "",
+  "published_date": "2026-07-30",
+  "closing_date": "2026-08-02",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "USD",
+  "funding_source": "donor",
+  "donor": "ILO",
+  "document_urls": [
+    {
+      "name": "UNGM Notice",
+      "url": "https://www.ungm.org/Public/Notice/309184",
+      "type": "link"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "open",
+  "is_active": true,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-07-30",
+  "review_status": "published",
+  "quality_score": 4,
+  "has_been_enriched": false
+}
