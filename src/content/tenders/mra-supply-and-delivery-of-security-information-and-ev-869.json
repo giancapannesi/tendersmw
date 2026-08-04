@@ -1,0 +1,46 @@
+{
+  "title": "SUPPLY AND DELIVERY OF SECURITY INFORMATION AND EVENT MANAGEMENT (SIEM) SYSTEM",
+  "slug": "mra-supply-and-delivery-of-security-information-and-ev-869",
+  "reference_number": "MRA-869",
+  "source": "mra",
+  "source_url": "https://www.mra.mw/tenders",
+  "procuring_entity": "Malawi Revenue Authority (MRA)",
+  "procuring_entity_slug": "malawi-revenue-authority-mra",
+  "entity_type": "government",
+  "tender_type": "open",
+  "procurement_method": "open_competitive_bidding",
+  "category": "technology",
+  "subcategories": [],
+  "sectors": [
+    "technology"
+  ],
+  "description_short": "SUPPLY AND DELIVERY OF SECURITY INFORMATION AND EVENT MANAGEMENT (SIEM) SYSTEM",
+  "description_long": "Procurement notice from Malawi Revenue Authority: SUPPLY AND DELIVERY OF SECURITY INFORMATION AND EVENT MANAGEMENT (SIEM) SYSTEM",
+  "country": "Malawi",
+  "region": "",
+  "city": "Blantyre",
+  "published_date": "2026-07-08",
+  "closing_date": "2026-08-07",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "MWK",
+  "funding_source": "government",
+  "donor": "",
+  "document_urls": [
+    {
+      "name": "Tender Document",
+      "url": "https://www.mra.mw/admin/storage/download_files/1783498101_SUPPLY AND DELIVERY OF SECURITY INFORMATION AND EVENT MANAGEMENT (SIEM) SYSTEM.pdf",
+      "type": "pdf"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "open",
+  "is_active": true,
+  "days_remaining": 2,
+  "similar_tenders": [],
+  "last_updated": "2026-08-04",
+  "review_status": "published",
+  "quality_score": 3,
+  "has_been_enriched": false
+}
