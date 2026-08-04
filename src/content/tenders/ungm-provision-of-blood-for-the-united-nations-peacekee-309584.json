@@ -1,0 +1,46 @@
+{
+  "title": "Provision of Blood for the United Nations Peacekeeping Missions",
+  "slug": "ungm-provision-of-blood-for-the-united-nations-peacekee-309584",
+  "reference_number": "309584",
+  "source": "ungm",
+  "source_url": "https://www.ungm.org/Public/Notice/309584",
+  "procuring_entity": "UN Secretariat",
+  "procuring_entity_slug": "un-secretariat",
+  "entity_type": "international",
+  "tender_type": "open_tender",
+  "procurement_method": "open_competitive_bidding",
+  "category": "goods",
+  "subcategories": [],
+  "sectors": [
+    "goods"
+  ],
+  "description_short": "Provision of Blood for the United Nations Peacekeeping Missions. Published by UN Secretariat via UNGM.",
+  "description_long": "Provision of Blood for the United Nations Peacekeeping Missions. Published by UN Secretariat via UNGM.",
+  "country": "Malawi",
+  "region": "",
+  "city": "",
+  "published_date": "2026-08-04",
+  "closing_date": "2026-08-31",
+  "closing_time": "",
+  "estimated_value": null,
+  "currency": "USD",
+  "funding_source": "donor",
+  "donor": "UN Secretariat",
+  "document_urls": [
+    {
+      "name": "UNGM Notice",
+      "url": "https://www.ungm.org/Public/Notice/309584",
+      "type": "link"
+    }
+  ],
+  "contact_email": "",
+  "contact_phone": "",
+  "status": "open",
+  "is_active": true,
+  "days_remaining": 0,
+  "similar_tenders": [],
+  "last_updated": "2026-08-04",
+  "review_status": "published",
+  "quality_score": 4,
+  "has_been_enriched": false
+}
